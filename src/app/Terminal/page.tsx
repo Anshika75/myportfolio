@@ -176,8 +176,8 @@ const Terminal: React.FC = () => {
                 {`${command.command}`}
               </span> <br />
               <span
-                style={{ whiteSpace: 'pre-line' }}
-                dangerouslySetInnerHTML={{ __html: `${command.description}` }}
+                style={{ whiteSpace: 'pre-line', color: currentTheme.textColor }}
+                dangerouslySetInnerHTML={{ __html: ` ${command.description}` }}
               />
             </p>
           ))}
