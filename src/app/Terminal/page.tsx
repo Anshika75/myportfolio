@@ -126,7 +126,8 @@ const Terminal: React.FC = () => {
     >
       <div className="py-6 p-2 min-h-screen">
         <div className="h-full">
-          <p>
+
+          <div>
             <span className="font-medium" style={{ color: currentTheme.visitorTextColor }}>
               visitor
             </span>
@@ -159,10 +160,10 @@ const Terminal: React.FC = () => {
 
             Ready to code, navigate, and explore. Let the terminal adventure begin! 🖥️💡  <br /> <br />
 
-          </p>
+          </div>
           {/* Display command history */}
           {commandHistory.map((command, index) => (
-            <p key={index}>
+            <div key={index}>
               <span>
                 <span className="font-medium" style={{ color: currentTheme.visitorTextColor }}>
                   visitor
@@ -179,7 +180,7 @@ const Terminal: React.FC = () => {
                 style={{ whiteSpace: 'pre-line', color: currentTheme.textColor }}
                 dangerouslySetInnerHTML={{ __html: ` ${command.description}` }}
               />
-            </p>
+            </div>
           ))}
         </div>
         <div className="mt-4">
