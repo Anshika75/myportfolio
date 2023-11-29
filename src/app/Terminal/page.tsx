@@ -113,7 +113,10 @@ const Terminal: React.FC = () => {
       inputRef.current.focus();
     }
   }, []);
- 
+  useEffect(() => {
+    localStorage.setItem('authorTextColor', currentTheme.authorTextColor);  
+
+  },[]);
 
   return (
     <div className={`min-h-screen ${styles.font}`} style={{ backgroundColor: currentTheme.backgroundColor, color: currentTheme.textColor }}
