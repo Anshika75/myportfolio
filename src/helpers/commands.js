@@ -1,4 +1,7 @@
 // commands.js
+
+
+
 const commands = {
   "commands": [
     {
@@ -17,7 +20,7 @@ const commands = {
     {
       "id": 2,
       "command": "about",
-      "description": `\n<b>User_Profile</b> = {
+      "description": `\n<b class="font-medium" style="color: ${typeof window !== 'undefined'&&localStorage?.getItem('authorTextColor')};" }}">about</b> <b>User_Profile</b> = {
           <b>"name":</b> "Anshika",
           <b>"role":</b> "Front-End Developer",
           <b>"experience":</b> "4+ years",

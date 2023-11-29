@@ -1,123 +1,14 @@
-// components/Terminal.tsx
-"use client"
+"use client";
 import React, { useState, useEffect, useRef } from 'react';
 import commandsData from '../../helpers/commands.js';
 import styles from '../../styles/Terminal/styles.module.css';
+import { themes, Theme } from '../../helpers/utils';
 
 interface Command {
   command: string;
   description: string;
 }
 
-interface Theme {
-  name: string;
-  backgroundColor: string;
-  textColor: string;
-  visitorTextColor: string;
-  authorTextColor: string;
-  commandTextColor: string;
-}
-
-const themes: { [key: string]: Theme } = {
-  default: {
-    name: 'Default',
-    backgroundColor: '#000000',
-    textColor: '#ffffff',
-    visitorTextColor: '#60fdff',
-    authorTextColor: '#00ff9c',
-    commandTextColor: '#ffffff',
-  },
-  dark: {
-    name: 'Dark',
-    backgroundColor: '#000000',
-    textColor: '#ffffff',
-    visitorTextColor: '##60fdff',
-    authorTextColor: '#00ff9c',
-    commandTextColor: '#ffffff',
-  },
-  light: {
-    name: 'Light',
-    backgroundColor: '#D3D7CF',
-    textColor: '#000000',
-    visitorTextColor: '#3465A4',
-    authorTextColor: '#4E9A06',
-    commandTextColor: '#000000',
-  },
-  coffee: {
-    name: 'Coffee',
-    backgroundColor: '#3E2723',
-    textColor: '#D7CCC8',
-    visitorTextColor: '#FF8A80',
-    authorTextColor: '#D32F2F',
-    commandTextColor: '#D7CCC8',
-  },
-  mint: {
-    name: 'Mint',
-    backgroundColor: '#263238',
-    textColor: '#B0BEC5',
-    visitorTextColor: '#66BB6A',
-    authorTextColor: '#26A69A',
-    commandTextColor: '#B0BEC5',
-  },
-  forest: {
-    name: 'Forest',
-    backgroundColor: '#1B3C2D',
-    textColor: '#D9E5D6',
-    visitorTextColor: '#9BC53D',
-    authorTextColor: '#57A773',
-    commandTextColor: '#D9E5D6',
-  },
-  rainbow: {
-    name: 'Rainbow',
-    backgroundColor: '#1A1B34',
-    textColor: '#ADD8E6',
-    visitorTextColor: '#FF00FF',
-    authorTextColor: '#800080',
-    commandTextColor: '#008000',
-  },
-  ocean: {
-    name: 'Ocean',
-    backgroundColor: '#002A32',
-    textColor: '#B0C4DE',
-    visitorTextColor: '#00BFFF',
-    authorTextColor: '#20B2AA',
-    commandTextColor: '#87CEEB',
-
-  },
-  sunset: {
-    name: 'Sunset',
-    backgroundColor: '#1A1C1E',
-    textColor: '#faf0b9',
-    visitorTextColor: '#FF0000',
-    authorTextColor: '#FFA500',
-    commandTextColor: '#FFFF00',
-  },
-  charcoal: {
-    name: 'Charcoal',
-    backgroundColor: '#2F2F2F',
-    textColor: '#D3D3D3',
-    visitorTextColor: '#6495ED',
-    authorTextColor: '#F08080',
-    commandTextColor: '#98FB98',
-  },
-  nebula: {
-    name: 'Nebula',
-    backgroundColor: '#0B0C10',
-    textColor: '#C5C6C7',
-    visitorTextColor: '#00BFFF',
-    authorTextColor: '#FFD700',
-    commandTextColor: '#FF6347',
-  },
-  moonlit: {
-    name: 'Moonlit',
-    backgroundColor: '#0C0E16', 
-    textColor: '#A5B1C2',
-    visitorTextColor: '#678FE1', 
-    authorTextColor: '#F9D71C', 
-    commandTextColor: '#F76D57',
-  }
-
-};
 const asciiArt = `
     _           _    _ _        
    /_\\  _ _  __| |_ (_) |____ _ 
@@ -151,15 +42,7 @@ const Terminal: React.FC = () => {
       } else {
         const matchedCommand = commands.find((cmd) => cmd.command === enteredCommand);
         if (matchedCommand) {
-          typeDescription(matchedCommand.description).then((typedDescription) => {
-            setCommandHistory((prevHistory) => [
-              ...prevHistory,
-              {
-                command: enteredCommand,
-                description: typedDescription,
-              },
-            ]);
-          });
+          typeDescription(matchedCommand.description);
         } else {
           setCommandHistory((prevHistory) => [
             ...prevHistory,
@@ -180,15 +63,14 @@ const Terminal: React.FC = () => {
   };
   const typeDescription = async (description: string): Promise<string> => {
     const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
-  
+    const prevCommand = commandHistory;
     let typedDescription = '';
-  
     for (let i = 0; i < description.length; i++) {
-      typedDescription += description[i   ];
+      typedDescription += description[i];
       setCommandHistory((prevHistory) => [
-        ...prevHistory.slice(0, 1),
+        ...prevCommand,
         {
-          command: prevHistory[prevHistory.length - 1]?.command || '',
+          command: inputValue || '',
           description: typedDescription,
         },
       ]);
@@ -231,6 +113,7 @@ const Terminal: React.FC = () => {
       inputRef.current.focus();
     }
   }, []);
+ 
 
   return (
     <div className={`min-h-screen ${styles.font}`} style={{ backgroundColor: currentTheme.backgroundColor, color: currentTheme.textColor }}
@@ -291,6 +174,9 @@ const Terminal: React.FC = () => {
                 style={{ whiteSpace: 'pre-line', color: currentTheme.textColor }}
                 dangerouslySetInnerHTML={{ __html: ` ${command.description}` }}
               />
+              <span>
+                
+              </span>
             </div>
           ))}
         </div>
