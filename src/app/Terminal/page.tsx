@@ -116,7 +116,7 @@ const Terminal: React.FC = () => {
   useEffect(() => {
     localStorage.setItem('authorTextColor', currentTheme.authorTextColor);  
 
-  },[]);
+  },[currentTheme]);
 
   return (
     <div className={`min-h-screen ${styles.font}`} style={{ backgroundColor: currentTheme.backgroundColor, color: currentTheme.textColor }}

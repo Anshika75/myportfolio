@@ -8,6 +8,28 @@ const commands = {
       "id": 1,
       "command": 'help',
       "description": `\nGet assistance on navigating through my digital space.\n
+- <b> theme</b>: Customize your coding space with a variety of visually stunning themes. Choose from a range of options to personalize your environment and enhance your coding experience.
+
+&nbsp;&nbsp; <b>Usage</b>:
+&nbsp;&nbsp; theme &lt;theme-name&gt;
+
+  &nbsp;&nbsp; <b>Available Themes</b>:
+     &nbsp;&nbsp;&nbsp;&nbsp; - <b>default</b>: Set the default theme to match your system appearance.
+     &nbsp;&nbsp;&nbsp;&nbsp; - <b>dark</b>: Immerse yourself in the elegance of a dark-themed interface.
+     &nbsp;&nbsp;&nbsp;&nbsp; - <b>light</b>: Bask in the soothing glow of a light-themed ambiance.
+     &nbsp;&nbsp;&nbsp;&nbsp; - <b>coffee</b>: Awaken your senses with a warm and rich coffee-inspired theme.
+     &nbsp;&nbsp;&nbsp;&nbsp; - <b>mint</b>: Experience a refreshing and cool mint-themed visual environment.
+     &nbsp;&nbsp;&nbsp;&nbsp; - <b>forest</b>: Surround yourself with the lush greens of a forest-inspired theme.
+     &nbsp;&nbsp;&nbsp;&nbsp; - <b>rainbow</b>: Indulge in the vibrant and colorful hues of a rainbow-themed display.
+     &nbsp;&nbsp;&nbsp;&nbsp; - <b>ocean</b>: Dive into the deep blues of an ocean-inspired theme.
+     &nbsp;&nbsp;&nbsp;&nbsp; - <b>sunset</b>: Witness the warm and calming tones of a sunset-themed interface.
+     &nbsp;&nbsp;&nbsp;&nbsp; - <b>charcoal</b>: Embrace the sophisticated darkness with a charcoal-themed backdrop.
+     &nbsp;&nbsp;&nbsp;&nbsp; - <b>nebula</b>: Explore the cosmic wonders with a nebula-themed visual experience.
+     &nbsp;&nbsp;&nbsp;&nbsp; - <b>moonlit</b>: Illuminate your screen with the gentle glow of a moonlit-themed ambiance.
+
+     &nbsp;&nbsp;<b>Example</b>:
+     &nbsp;&nbsp; theme dark
+
 - <b>about:</b> Delve into the coding chronicles of my digital DNA
 - <b>skills:</b> Witness the prowess encoded in my skillset
 - <b>projects:</b> Navigate through the command lines of my digital masterpieces
@@ -16,6 +38,7 @@ const commands = {
     &nbsp;&nbsp;&nbsp;&nbsp; - <b>projects-intermediate</b>: Immerse yourself in projects that strike a balance between complexity and creativity.
     &nbsp;&nbsp;&nbsp;&nbsp; - <b>projects-advance</b>: Dive into advanced projects pushing the boundaries of technology and innovation.
 - <b>social:</b> Establish a data connection and dive into the network of possibilities`
+
     },
     {
       "id": 2,
@@ -125,6 +148,7 @@ Dive into the artistry and code behind each creation! 💻🎨`,
 
     },
     {
+      "id": 5,
       "command": 'projects-basics',
       "description": `\nWelcome to my coding showcase! Immerse yourself in the world of creativity and technology as you explore the diverse projects I've crafted:\n
 <b>Roll-The-Dice</b> <a href="https://github.com/Anshika75/Roll-The-Dice" target="_blank" style="text-decoration: none; color: #3498db;"><i class="fa-solid fa-up-right-from-square" style="font-size: 12px; color: #3498db;"></i></a>:
@@ -210,6 +234,7 @@ Dive into the artistry and code behind each creation! 💻🎨`,
 Explore the ingenuity and code behind each project! 💻🎨`,
     },
     {
+      "id": 6,
       "command": 'projects-intermediate',
       "description": `\nEmbrace the boundless possibilities of code and witness the transformative power of creativity.
 
@@ -297,6 +322,7 @@ Welcome to a showcase of creative wonders! ✨🎨
   `,
     },
     {
+      "id": 7,
       "command": 'projects-advance',
       "description": `\nWelcome to the advanced corner of my coding world! 🚀 Uncover the sophistication and innovation behind these projects:\n
 <b>Maggi Album</b> <a href="https://github.com/Anshika75/Maggi-Album" target="_blank" style="text-decoration: none; color: #3498db;"><i class="fa-solid fa-up-right-from-square" style="font-size: 12px; color: #3498db;"></i></a>:
@@ -314,6 +340,7 @@ Welcome to a showcase of creative wonders! ✨🎨
 Embark on a voyage through cutting-edge projects that combine technology and creativity seamlessly! 💻✨`,
     },
     {
+      "id": 8,
       "command": 'experience',
       "description": `\nProfessional Chronicles Unveiled ⚡️
        ------------------------------\n
@@ -359,6 +386,7 @@ Exit Code: Journey Completed.
 Let's connect the dots and script the next adventure.`,
     },
     {
+      "id": 9,
       "command": 'social',
       "description": `\nWelcome to the Nexus of Connectivity! 🚀🌐
       ------------------------------

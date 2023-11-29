@@ -21,7 +21,7 @@ export interface Theme {
       name: 'Dark',
       backgroundColor: '#000000',
       textColor: '#ffffff',
-      visitorTextColor: '##60fdff',
+      visitorTextColor: '#60fdff',
       authorTextColor: '#00ff9c',
       commandTextColor: '#ffffff',
     },
