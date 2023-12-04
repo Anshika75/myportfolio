@@ -1,0 +1,30 @@
+/* styles/ComingSoonPage.module.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000; /* Set your preferred background color */
+    color: #ffffff; /* Set your preferred text color */
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 3rem;
+  }
+  
+  .message {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  @keyframes rainbowGlow {
+    0% { stroke: #00ffcc; } /* Neon green */
+    25% { stroke: #ff0000; } /* Red */
+    50% { stroke: #ff9900; } /* Orange */
+    75% { stroke: #ffff00; } /* Yellow */
+    100% { stroke: #00ffcc; } /* Back to Neon green */
+}
+  
