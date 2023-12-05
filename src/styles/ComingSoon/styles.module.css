@@ -1,30 +1,25 @@
-/* styles/ComingSoonPage.module.css */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #000000; /* Set your preferred background color */
-    color: #ffffff; /* Set your preferred text color */
-  }
-  
-  .content {
-    text-align: center;
-  }
-  
-  .title {
-    font-size: 3rem;
-  }
-  
-  .message {
-    font-size: 1.5rem;
-    margin-top: 20px;
-  }
-  @keyframes rainbowGlow {
-    0% { stroke: #00ffcc; } /* Neon green */
-    25% { stroke: #ff0000; } /* Red */
-    50% { stroke: #ff9900; } /* Orange */
-    75% { stroke: #ffff00; } /* Yellow */
-    100% { stroke: #00ffcc; } /* Back to Neon green */
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=EB+Garamond:wght@400;500;600;700;800&family=Graduate&display=swap');
+.bg{
+    background-image: url("https://i.pinimg.com/originals/93/c6/aa/93c6aaa4424c468db1c9f7904eb400d8.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
 }
-  
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.grad{
+    font-family: 'Graduate', cursive;      
+}
+.eb{
+    font-family: 'EB Garamond', serif;
+}
+.black{
+    font-family: 'Black Ops One', cursive;
+}

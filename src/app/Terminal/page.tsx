@@ -25,7 +25,6 @@ const Terminal: React.FC = () => {
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    // Fetch commands data from commands.json
     setCommands(commandsData.commands);
   }, []);
 
@@ -61,6 +60,11 @@ const Terminal: React.FC = () => {
       setInputValue('');
     }
   };
+  
+  const scrollToBottom = () => {
+    const scrollHere = document.getElementById("scrollHere");
+    scrollHere?.scrollIntoView({ behavior: "smooth" });
+  };
   const typeDescription = async (description: string): Promise<string> => {
     const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
     const prevCommand = commandHistory;
@@ -74,17 +78,17 @@ const Terminal: React.FC = () => {
           description: typedDescription,
         },
       ]);
-  
-      await delay(5); // Adjust the delay as needed
+      scrollToBottom();
+      await delay(1);
     }
-  
+
     return typedDescription;
   };
-  
+
   const handleThemeCommand = (command: string) => {
     const themeName = command.split(' ')[1];
     const selectedTheme = themes[themeName];
-  
+
     if (selectedTheme) {
       setCurrentTheme(selectedTheme);
       setCommandHistory((prevHistory) => [
@@ -104,11 +108,8 @@ const Terminal: React.FC = () => {
       ]);
     }
   };
- 
-  
 
   useEffect(() => {
-    // Focus on the input when the component mounts
     if (inputRef.current) {
       inputRef.current.focus();
     }
@@ -118,6 +119,15 @@ const Terminal: React.FC = () => {
     document.documentElement.style.setProperty('--primary-text-color', currentTheme.primaryTextColor);
     document.documentElement.style.setProperty('--secondary-text-color', currentTheme.secondaryTextColor);
   }, [currentTheme]);
+
+
+  useEffect(() => {
+    scrollToBottom();
+  }, [commandHistory]);
+
+  useEffect(() => {
+    scrollToBottom();
+  }, [commandHistory]);
 
   return (
     <div className={`min-h-screen ${styles.font}`} style={{ backgroundColor: currentTheme.backgroundColor, color: currentTheme.textColor }}
@@ -179,10 +189,11 @@ const Terminal: React.FC = () => {
                 dangerouslySetInnerHTML={{ __html: ` ${command.description}` }}
               />
               <span>
-                
+
               </span>
             </div>
           ))}
+          <div id="scrollHere"></div>
         </div>
         <div className="mt-4">
           <span>

@@ -1,6 +1,7 @@
 // ComingSoonPage.tsx
 "use client"
 import React, { useState, useEffect } from 'react';
+import styles from '../../styles/ComingSoon/styles.module.css';
 
 const ComingSoonPage: React.FC = () => {
     const launchDate = new Date('2024-01-01T00:00:00');
@@ -52,27 +53,17 @@ const ComingSoonPage: React.FC = () => {
     }, [timeRemaining]);
 
     const formatNumber = (num: number) => (num < 10 ? `0${num}` : num);
-    const styles = `
-  @keyframes rainbowGlow {
-    0% { stroke: #00ffcc; } /* Neon green */
-    25% { stroke: #ff0000; } /* Red */
-    50% { stroke: #ff9900; } /* Orange */
-    75% { stroke: #ffff00; } /* Yellow */
-    100% { stroke: #00ffcc; } /* Back to Neon green */
-  }
-`;
 
     return (
-        <div className="bg-[#212428] text-white min-h-screen flex justify-center items-center">
-            <style>{styles}</style>
-            <div className="text-center">
-                <h1 className="text-4xl font-bold">Coming Soon</h1>
-                <div className="text-lg">We're launching on January 1, 2024</div>
+        <div className={`bg-[#212428] text-white min-h-screen flex justify-center items-center ${styles.bg}`}>
+            <div className={`${styles.overlay}`}></div>
+            <div className="text-center z-20 opacity-80">
+                <h1 className={`text-[90px] font-bold text-[#FD4766] ${styles.black}`}>Coming Soon</h1>
                 <div className="w-[900px] grid grid-cols-4 gap-0 mt-8">
                     {['days', 'hours', 'minutes', 'seconds'].map((unit, index) => (
                         <div key={index} className="relative grid mt-10 place-items-center">
                             <svg className="absolute transform -rotate-90">
-                                <circle cx="50%" cy="50%" r="60" stroke="#181a1d" strokeWidth="8" fill="transparent"  />
+                                <circle cx="50%" cy="50%" r="60" stroke="#3B3251" strokeWidth="8" fill="transparent"  />
                                 <circle
                                     cx="50%"
                                     cy="50%"
@@ -96,8 +87,8 @@ const ComingSoonPage: React.FC = () => {
                                 />
                             </svg>
                             <div className="text-center">
-                                <span className="text-3xl font-bold">{formatNumber(timeRemaining[unit as keyof typeof timeRemaining])}</span>
-                                <div className="text-sm capitalize">{unit}</div>
+                                <div className={`text-3xl font-bold text-[#FD4766] ${styles.grad}`}>{formatNumber(timeRemaining[unit as keyof typeof timeRemaining])}</div>
+                                <div className={`text-sm capitalize text-[#ffd1d8] ${styles.grad}`}>{unit}</div>
                             </div>
                         </div>
                     ))}
