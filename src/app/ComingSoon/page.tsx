@@ -1,17 +1,11 @@
-// ComingSoonPage.tsx
-"use client"
-import React, { useState, useEffect } from 'react';
+"use client";
+import React, { useState, useEffect, useCallback } from 'react';
 import styles from '../../styles/ComingSoon/styles.module.css';
 
 const ComingSoonPage: React.FC = () => {
     const launchDate = new Date('2024-01-01T00:00:00');
-    const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
-    const [progressDays, setProgressDays] = useState(calculateProgress('days'));
-    const [progressHours, setProgressHours] = useState(calculateProgress('hours'));
-    const [progressMinutes, setProgressMinutes] = useState(calculateProgress('minutes'));
-    const [progressSeconds, setProgressSeconds] = useState(calculateProgress('seconds'));
-
-    function calculateTimeRemaining() {
+    
+    const calculateTimeRemaining = useCallback(() => {
         const now = new Date();
         const timeRemaining = launchDate.getTime() - now.getTime();
         return {
@@ -20,9 +14,9 @@ const ComingSoonPage: React.FC = () => {
             minutes: Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60)),
             seconds: Math.floor((timeRemaining % (1000 * 60)) / 1000),
         };
-    }
+    }, [launchDate]);
 
-    function calculateProgress(unit: 'days' | 'hours' | 'minutes' | 'seconds') {
+    const calculateProgress = useCallback((unit: 'days' | 'hours' | 'minutes' | 'seconds', timeRemaining: any) => {
         const totalUnits = {
             days: 365,
             hours: 24,
@@ -32,15 +26,21 @@ const ComingSoonPage: React.FC = () => {
 
         const remainingTime = timeRemaining[unit];
         return ((totalUnits - remainingTime) / totalUnits) * 100;
-    }
+    }, []);
+
+    const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
+    const [progressDays, setProgressDays] = useState(calculateProgress('days', timeRemaining));
+    const [progressHours, setProgressHours] = useState(calculateProgress('hours', timeRemaining));
+    const [progressMinutes, setProgressMinutes] = useState(calculateProgress('minutes', timeRemaining));
+    const [progressSeconds, setProgressSeconds] = useState(calculateProgress('seconds', timeRemaining));
 
     useEffect(() => {
         const interval = setInterval(() => {
             const newTimeRemaining = calculateTimeRemaining();
-            const newProgressDays = calculateProgress('days');
-            const newProgressHours = calculateProgress('hours');
-            const newProgressMinutes = calculateProgress('minutes');
-            const newProgressSeconds = calculateProgress('seconds');
+            const newProgressDays = calculateProgress('days', newTimeRemaining);
+            const newProgressHours = calculateProgress('hours', newTimeRemaining);
+            const newProgressMinutes = calculateProgress('minutes', newTimeRemaining);
+            const newProgressSeconds = calculateProgress('seconds', newTimeRemaining);
 
             setTimeRemaining(newTimeRemaining);
             setProgressDays(newProgressDays);
@@ -50,9 +50,10 @@ const ComingSoonPage: React.FC = () => {
         }, 1000);
 
         return () => clearInterval(interval);
-    }, [calculateTimeRemaining, calculateProgress]); // Include functions in the dependency array
+    }, [calculateTimeRemaining, calculateProgress]);
 
     const formatNumber = (num: number) => (num < 10 ? `0${num}` : num);
+
 
 
     return (
