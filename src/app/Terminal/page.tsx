@@ -95,7 +95,7 @@ const Terminal: React.FC = () => {
         ...prevHistory,
         {
           command,
-          description: `Switched to theme "${themeName}"\n`,
+          description: `Switched to theme &#39;${themeName}&#39;\n`,
         },
       ]);
     } else {
@@ -103,7 +103,7 @@ const Terminal: React.FC = () => {
         ...prevHistory,
         {
           command,
-          description: `Theme "${themeName}" not found\n`,
+          description: `Theme &#39;${themeName}&#39; not found\n`,
         },
       ]);
     }
