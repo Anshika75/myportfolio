@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import React, { useState, useEffect, useRef } from 'react';
 import commandsData from '../../helpers/commands.js';
 import styles from '../../styles/Terminal/styles.module.css';
@@ -132,17 +132,17 @@ const Terminal: React.FC = () => {
   return (
     <div className={`min-h-screen ${styles.font}`} style={{ backgroundColor: currentTheme.backgroundColor, color: currentTheme.textColor }}
     >
-      <div className="py-6 p-2 min-h-screen">
-        <div className="h-full">
+      <div className='py-6 p-2 min-h-screen'>
+        <div className='h-full'>
 
           <div>
-            <span className="font-semibold" style={{ color: currentTheme.visitorTextColor }}>
+            <span className='font-semibold' style={{ color: currentTheme.visitorTextColor }}>
               visitor
             </span>
-            <span className="font-semibold" style={{ color: currentTheme.authorTextColor }}>
+            <span className='font-semibold' style={{ color: currentTheme.authorTextColor }}>
               @terminalanshika
             </span>
-            <span className="font-semibold" style={{ color: currentTheme.commandTextColor }}>
+            <span className='font-semibold' style={{ color: currentTheme.commandTextColor }}>
               :~$ welcome <br />
             </span>
             <pre>
@@ -173,13 +173,13 @@ const Terminal: React.FC = () => {
           {commandHistory.map((command, index) => (
             <div key={index}>
               <span>
-                <span className="font-semibold" style={{ color: currentTheme.visitorTextColor }}>
+                <span className='font-semibold' style={{ color: currentTheme.visitorTextColor }}>
                   visitor
                 </span>
-                <span className="font-semibold" style={{ color: currentTheme.authorTextColor }}>
+                <span className='font-semibold' style={{ color: currentTheme.authorTextColor }}>
                   @terminalanshika
                 </span>
-                <span className="font-semibold" style={{ color: currentTheme.commandTextColor }}>
+                <span className='font-semibold' style={{ color: currentTheme.commandTextColor }}>
                   :~$&nbsp;
                 </span>
                 {`${command.command}`}
@@ -193,23 +193,23 @@ const Terminal: React.FC = () => {
               </span>
             </div>
           ))}
-          <div id="scrollHere"></div>
+          <div id='scrollHere'></div>
         </div>
-        <div className="mt-4">
+        <div className='mt-4'>
           <span>
-            <span className="font-semibold" style={{ color: currentTheme.visitorTextColor }}>
+            <span className='font-semibold' style={{ color: currentTheme.visitorTextColor }}>
               visitor
             </span>
-            <span className="font-semibold" style={{ color: currentTheme.authorTextColor }}>
+            <span className='font-semibold' style={{ color: currentTheme.authorTextColor }}>
               @terminalanshika
             </span>
-            <span className="font-semibold" style={{ color: currentTheme.commandTextColor }}>
+            <span className='font-semibold' style={{ color: currentTheme.commandTextColor }}>
               :~$&nbsp;
             </span>
           </span>
           <input
             ref={inputRef}
-            type="text"
+            type='text'
             value={inputValue}
             onChange={handleInputChange}
             onKeyPress={handleKeyPress}
