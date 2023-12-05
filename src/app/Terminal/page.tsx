@@ -62,8 +62,8 @@ const Terminal: React.FC = () => {
   };
   
   const scrollToBottom = () => {
-    const scrollHere = document.getElementById("scrollHere");
-    scrollHere?.scrollIntoView({ behavior: "smooth" });
+    const scrollHere = document.getElementById('scrollHere');
+    scrollHere?.scrollIntoView({ behavior: 'smooth' });
   };
   const typeDescription = async (description: string): Promise<string> => {
     const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
