@@ -48,10 +48,10 @@ const ThemeSelector: React.FC = () => {
             <Link key={theme.id} href={theme.url} className='text-center'>
               <div className="box transition-all hover:scale-110 flex flex-col items-center pb-5 px-5 bg-[#3335] shadow-[0_0px_60px_-10px_rgba(51,51,51,1)] border-[2px] border-[#3335] rounded-xl">
                 <img src={theme.imgSrc} className='h-36 w-36' alt="" />
-                <p className={`flex flex-col opacity-75 items-center ${styles.sub} text-[20px]`}>
+                <p className={`flex flex-col opacity-75 items-center ${styles.sub} text-[20px] text-white`}>
                   {theme.name}
                 </p>
-                <p className={`text-[14px] mt-4 opacity-75 text-justify ${styles.text}`}>{theme.description}</p>
+                <p className={`text-[14px] mt-4 opacity-75 text-justify ${styles.text} text-white`}>{theme.description}</p>
               </div>
             </Link>
           ))}
