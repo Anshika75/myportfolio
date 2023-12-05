@@ -13,12 +13,12 @@ const ComingSoonPage: React.FC = () => {
 
     function calculateTimeRemaining() {
         const now = new Date();
-        const timeleft = launchDate.getTime() - now.getTime();
+        const timeRemaining = launchDate.getTime() - now.getTime();
         return {
-            days: Math.floor(timeleft / (1000 * 60 * 60 * 24)),
-            hours: Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
-            minutes: Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60)),
-            seconds: Math.floor((timeleft % (1000 * 60)) / 1000),
+            days: Math.floor(timeRemaining / (1000 * 60 * 60 * 24)),
+            hours: Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+            minutes: Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60)),
+            seconds: Math.floor((timeRemaining % (1000 * 60)) / 1000),
         };
     }
 
