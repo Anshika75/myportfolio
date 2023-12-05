@@ -50,9 +50,10 @@ const ComingSoonPage: React.FC = () => {
         }, 1000);
 
         return () => clearInterval(interval);
-    }, [timeRemaining]);
+    }, [calculateTimeRemaining, calculateProgress]); // Include functions in the dependency array
 
     const formatNumber = (num: number) => (num < 10 ? `0${num}` : num);
+
 
     return (
         <div className={`bg-[#212428] text-white min-h-screen flex justify-center items-center ${styles.bg}`}>
