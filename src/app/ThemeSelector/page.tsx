@@ -29,9 +29,9 @@ const ThemeSelector: React.FC = () => {
       <div className="flex flex-col items-center z-20">
         {showAlert && (
           <CustomAlert
-            message="Only Terminal Mode Available for Now"
-            onClose={closeAlert}
-          />
+          message="Only Terminal Mode Available for Now"
+          onClose={closeAlert}
+      /> as React.ReactElement<any>
         )}
         <div className={styles.head}>
           <p className='text-[25px] lg:text-[90px] opacity-75'>Enter the Enclave</p>
