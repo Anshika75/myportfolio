@@ -57,14 +57,14 @@ const ComingSoonPage: React.FC = () => {
 
 
     return (
-        <div className={`bg-[#212428] text-white min-h-screen w-full flex justify-center items-center ${styles.bg}`}>
+        <div className={`bg-[#212428] text-white min-h-screen h-full w-full flex justify-center items-center ${styles.bg}`}>
             <div className={`${styles.overlay}`}></div>
             <div className="text-center z-20 opacity-80">
                 <h1 className={`text-5xl lg:text-[90px] font-bold text-[#FD4766] ${styles.black}`}>Coming Soon</h1>
                 <div className="lg:w-[900px] grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-16 md:gap-[105px] lg:gap-0 mt-8">
                     {['days', 'hours', 'minutes', 'seconds'].map((unit, index) => (
                         <div key={index} className="relative grid mt-10 place-items-center">
-                            <svg className="absolute transform -rotate-90">
+                            <svg className="absolute w-[150px] transform -rotate-90">
                                 <circle cx="50%" cy="50%" r="60" stroke="#3B3251" strokeWidth="8" fill="transparent"  />
                                 <circle
                                     cx="50%"
