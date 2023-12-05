@@ -27,7 +27,7 @@ const commands = {
      &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>nebula</b>: Explore the cosmic wonders with a nebula-themed visual experience.
      &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>moonlit</b>: Illuminate your screen with the gentle glow of a moonlit-themed ambiance.
 
-     &nbsp;&nbsp;<Example> style='color:var(--primary-text-color);'>Example</b>:
+     &nbsp;&nbsp;<b style='color:var(--primary-text-color);'>Example</b>:
      &nbsp;&nbsp; theme dark
 
 - <b style='color:var(--primary-text-color);'>about:</b> Delve into the coding chronicles of my digital DNA
