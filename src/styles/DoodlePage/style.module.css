@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Indie+Flower&family=Londrina+Shadow&family=Pangolin&family=Permanent+Marker&display=swap');
+
+.fred {
+    font-family: 'Fredericka the Great', serif;
+}
+
+.indi {
+    font-family: 'Indie Flower', cursive;
+}
+
+.pang {
+    font-family: 'Pangolin', cursive;
+}
+
+.perm {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.lond {
+    font-family: 'Londrina Shadow', cursive;
+}
+
+.anim7 {
+    animation: bg5 3s ease-in-out infinite alternate-reverse;
+}
+
+.anim6 {
+    animation: bg4 3s ease-in-out infinite alternate-reverse;
+}
+
+.anim5 {
+    animation: bg3 2s ease-in-out infinite alternate-reverse;
+}
+
+.anim4 {
+    animation: bg2 2s ease-in-out infinite alternate-reverse;
+
+}
+
+.anim3 {
+    animation: bg 2s ease-in-out infinite alternate-reverse;
+
+}
+
+.anim2 {
+    animation: coolTextAnimation 2s ease-in-out infinite;
+}
+
+.anim1 {
+    animation: fadeInOutAnimation 1.75s ease-in-out infinite;
+}
+
+.skillGrid {
+    display: grid;
+    grid-template-columns: 1fr 0.1fr 1fr 0.1fr 1fr 0.1fr 1fr;
+    grid-template-rows: 1fr 0.1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        ". . . . . . ."
+        ". . . . . . ."
+        ". . . . . . .";
+}
+
+.skillGridMob {
+    display: none;
+}
+
+@keyframes bg5 {
+
+    0%,
+    100% {
+        opacity: 0.75;
+        transform: scale(0.85);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes bg4 {
+    0% {
+        margin-left: 10%;
+        /* transform: scale(1.05); */
+    }
+
+    100% {
+        margin-left: -10%;
+        /* transform: scale(0.99); */
+    }
+}
+
+@keyframes bg3 {
+    0% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(0.99);
+    }
+}
+
+@keyframes bg2 {
+    0% {
+        margin-top: -130px;
+        /* transform: scale(1.05); */
+    }
+
+    100% {
+        margin-top: -110px;
+        /* transform: scale(0.99); */
+    }
+}
+
+@keyframes bg {
+    0% {
+        left: -20px;
+        transform: rotate(1deg) scale(1.05);
+    }
+
+    100% {
+        left: 0px;
+        transform: rotate(-1deg) scale(0.99);
+    }
+}
+
+@keyframes coolTextAnimation {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    15% {
+        transform: translateX(-5px) rotate(-5deg);
+    }
+
+    30% {
+        transform: translateX(5px) rotate(5deg);
+    }
+
+    45% {
+        transform: translateX(-5px) rotate(-3deg);
+    }
+
+    60% {
+        transform: translateX(5px) rotate(3deg);
+    }
+
+    75% {
+        transform: translateX(-5px) rotate(2deg);
+    }
+
+    90% {
+        transform: translateX(5px) rotate(-2deg);
+    }
+
+}
+
+@keyframes fadeInOutAnimation {
+
+    0%,
+    100% {
+        opacity: 0.75;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skillGrid{
+        display: none;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 25px;
+        grid-template-areas:
+            ". ."
+            ". ."
+            ". .";
+    }
+    .skillGridMob{
+        display: grid;
+        grid-template-columns: 1fr 0.1fr 1fr;
+        grid-template-rows: 1fr 0.1fr;
+        gap: 25px;
+        grid-template-areas:
+            ". . ."
+            ". . ."
+            ". . .";
+    }
+}

@@ -11,7 +11,7 @@ const theme = [
         'name': 'Doodle Delight',
         'imgSrc': 'https://cdn3d.iconscout.com/3d/premium/thumb/pen-tool-6362445-5251830.png?f=webp',
         'description': 'Embark on an imaginative adventure with Doodle Delight. Each section is a canvas of playful surprises and artistic expression, inviting you to explore enchanting tales brought to life through whimsical doodles.',
-        'url': '/ComingSoon'
+        'url': '/DoodlePage'
     },
     {
         'id': 3,
