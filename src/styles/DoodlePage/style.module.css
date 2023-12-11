@@ -169,7 +169,33 @@
         opacity: 1;
     }
 }
+/* Add these styles to your style.module.css file */
 
+/* ... (your existing styles) */
+
+/* Add new styles for the slider container */
+.sliderContainer {
+    width: 100%; /* Set the width of the container as needed */
+    overflow: hidden; /* Hide overflow in x-direction */
+  }
+  
+  /* Style for each slide item */
+  .slick-slide {
+    padding: 0 10px; /* Adjust padding as needed */
+  }
+  
+  /* Style for the company logo inside each slide */
+  .slick-slide img {
+    width: 100%; /* Make the image fill its container */
+    height: auto;
+  }
+  
+  /* Style for the text content inside each slide */
+  .slick-slide p {
+    margin: 10px 0;
+    color: #333; /* Adjust text color as needed */
+  }
+  
 @media screen and (max-width: 768px) {
     .skillGrid{
         display: none;
