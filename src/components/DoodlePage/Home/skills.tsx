@@ -10,7 +10,7 @@ const Skills: React.FC = () => {
                     <img src="https://www.dropbox.com/scl/fi/jtt76wbmdsdp5tekwuoep/Group.png?rlkey=bn0nvhih0n4gkugd9zfennda1&dl=1" className="absolute top-[70%] left-[50%] h-[7rem] w-[10rem] -translate-x-1/2 -translate-y-1/2" />
                     <p className={`text-white text-5xl z-20 mt-12 ${styles.pang}`}>Skills</p>
                 </div>
-                <h1 className={`text-6xl lg:text-[120px] lg:-mt-4 text-black ${styles.lond} ${styles.anim2} font-black`}>Extravaganza</h1>
+                <h1 className={`text-5xl lg:text-[120px] lg:-mt-4 text-black ${styles.lond} ${styles.anim2} font-black`}>Extravaganza</h1>
                 <div className="flex flex-col lg:flex-row w-full justify-around items-center mt-20 text-justify">
                     <div className={`text-black text-3xl w-[98%] text-justify flex flex-col items-center lg:w-[45%] px-12 ${styles.indi}`}>
                         <div className="flex flex-row">

@@ -1,10 +1,10 @@
 "use client";
 import React from 'react';
-import styles from '../../styles/DoodlePage/styles.module.css';
 import Landing from '@/components/DoodlePage/Home/landing';
 import About from '@/components/DoodlePage/Home/aboutme';
 import Skills from '@/components/DoodlePage/Home/skills';
 import Experience from '@/components/DoodlePage/Home/experience';
+import Projects from '@/components/DoodlePage/Home/projects';
 
 
 const DoodlePage: React.FC = () => {
@@ -15,6 +15,7 @@ const DoodlePage: React.FC = () => {
                 <About/>
                 <Skills/>
                 <Experience/>
+                <Projects/>
             </div>
             </>
     );

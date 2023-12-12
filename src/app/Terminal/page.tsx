@@ -7,7 +7,7 @@ import { themes, Theme } from '../../helpers/utils';
 interface Command {
   command: string;
   description: string;
-}
+} 
 
 const asciiArt = `
     _           _    _ _        
