@@ -175,10 +175,10 @@ const Experience: React.FC = () => {
                     <div ref={sliderRef} className="keen-slider mt-12">
                         {experiences.map((experience, index) => (
                             <div key={index} className={`keen-slider__slide border-black rounded-lg border-4 p-4`}>
-                                <div className={`${styles.indi} text-3xl text-black`}><b className={`${styles.pang} mr-2`}>Company:</b>{experience.company}</div>
-                                <div className={`${styles.indi} text-3xl text-black`}><b className={`${styles.pang} mr-2`}>Role:</b>{experience.role}</div>
-                                <div className={`${styles.indi} text-3xl text-black`}><b className={`${styles.pang} mr-2`}>Duration:</b>{experience.timePeriod}</div>
-                                <div className={`${styles.indi} text-3xl text-black`}><b className={`${styles.pang} mr-2`}>Responsibilities:</b>{experience.responsibilities}</div>
+                                <div className={`${styles.indi} text-lg lg:text-3xl text-black`}><b className={`${styles.pang} mr-2`}>Company:</b>{experience.company}</div>
+                                <div className={`${styles.indi} text-lg lg:text-3xl text-black`}><b className={`${styles.pang} mr-2`}>Role:</b>{experience.role}</div>
+                                <div className={`${styles.indi} text-lg lg:text-3xl text-black`}><b className={`${styles.pang} mr-2`}>Duration:</b>{experience.timePeriod}</div>
+                                <div className={`${styles.indi} text-lg lg:text-3xl text-black`}><b className={`${styles.pang} mr-2`}>Responsibilities:</b>{experience.responsibilities}</div>
                             </div>
                         ))}
                     </div>

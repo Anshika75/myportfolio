@@ -5,27 +5,27 @@ import styles from '../../../styles/DoodlePage/style.module.css';
 const Skills: React.FC = () => {
     return (
         <>
-            <div className="mt-8 flex flex-col items-center justify-start pb-20">
+            <div className="mt-8 flex flex-col items-center justify-start pb-20 px-[20px] lg:px-[60px]">
                 <div className={`flex flex-col relative w-full items-center scale-50 lg:scale-100 ${styles.anim7}`}>
                     <img src="https://www.dropbox.com/scl/fi/jtt76wbmdsdp5tekwuoep/Group.png?rlkey=bn0nvhih0n4gkugd9zfennda1&dl=1" className="absolute top-[70%] left-[50%] h-[7rem] w-[10rem] -translate-x-1/2 -translate-y-1/2" />
                     <p className={`text-white text-5xl z-20 mt-12 ${styles.pang}`}>Skills</p>
                 </div>
                 <h1 className={`text-5xl lg:text-[120px] lg:-mt-4 text-black ${styles.lond} ${styles.anim2} font-black`}>Extravaganza</h1>
                 <div className="flex flex-col lg:flex-row w-full justify-around items-center mt-20 text-justify">
-                    <div className={`text-black text-3xl w-[98%] text-justify flex flex-col items-center lg:w-[45%] px-12 ${styles.indi}`}>
+                    <div className={`text-black text-lg lg:text-3xl w-[100%] text-justify flex flex-col items-center lg:w-[45%] ${styles.indi}`}>
                         <div className="flex flex-row">
-                        <img src="https://static.wixstatic.com/media/49aa46_37ea75b07fa24b5d9ad05e122dc76d56~mv2.gif" className='h-32' alt="" />
-                        <img src="https://static.wixstatic.com/media/49aa46_37ea75b07fa24b5d9ad05e122dc76d56~mv2.gif" className='h-32' alt="" />
-                        <img src="https://static.wixstatic.com/media/49aa46_37ea75b07fa24b5d9ad05e122dc76d56~mv2.gif" className='h-32 hidden lg:block' alt="" />
+                            <img src="https://static.wixstatic.com/media/49aa46_37ea75b07fa24b5d9ad05e122dc76d56~mv2.gif" className='h-32' alt="" />
+                            <img src="https://static.wixstatic.com/media/49aa46_37ea75b07fa24b5d9ad05e122dc76d56~mv2.gif" className='h-32' alt="" />
+                            <img src="https://static.wixstatic.com/media/49aa46_37ea75b07fa24b5d9ad05e122dc76d56~mv2.gif" className='h-32 hidden lg:block' alt="" />
                         </div>
                         Embark on a journey through the enchanted kingdom of my coding palette! I am the Doodle Developer, and I invite you to witness the symphony of skills, where every percentage is a stroke of genius, and every language is a color in the tapestry of digital artistry. <br /><br />
                         In this realm where innovation dances with precision, my skills are the magical incantations that bring digital dreams to life. From HTML to NextJS, each percentage is a pixel of passion etched into the canvas of creativity. Let's navigate the binary seas, turning code into a masterpiece and pixels into unforgettable experiences! 💻✨
                         <div className="flex flex-row">
-                        <img src="https://static.wixstatic.com/media/49aa46_37ea75b07fa24b5d9ad05e122dc76d56~mv2.gif" className='h-32 lg:hidden' alt="" />
-                        <img src="https://static.wixstatic.com/media/49aa46_37ea75b07fa24b5d9ad05e122dc76d56~mv2.gif" className='h-32 lg:hidden' alt="" />
-                        <img src="https://monophy.com/media/RMSo4o1bGSuDPULWIZ/monophy.gif" className='h-32 hidden lg:block' alt="" />
-                        <img src="https://monophy.com/media/RMSo4o1bGSuDPULWIZ/monophy.gif" className='h-32 hidden lg:block' alt="" />
-                        <img src="https://monophy.com/media/RMSo4o1bGSuDPULWIZ/monophy.gif" className='h-32 hidden lg:block' alt="" />
+                            <img src="https://static.wixstatic.com/media/49aa46_37ea75b07fa24b5d9ad05e122dc76d56~mv2.gif" className='h-32 lg:hidden' alt="" />
+                            <img src="https://static.wixstatic.com/media/49aa46_37ea75b07fa24b5d9ad05e122dc76d56~mv2.gif" className='h-32 lg:hidden' alt="" />
+                            <img src="https://monophy.com/media/RMSo4o1bGSuDPULWIZ/monophy.gif" className='h-32 hidden lg:block' alt="" />
+                            <img src="https://monophy.com/media/RMSo4o1bGSuDPULWIZ/monophy.gif" className='h-32 hidden lg:block' alt="" />
+                            <img src="https://monophy.com/media/RMSo4o1bGSuDPULWIZ/monophy.gif" className='h-32 hidden lg:block' alt="" />
                         </div>
                     </div>
                     <div className={`w-full mt-16 lg:mt-0 lg:w-[45%] ${styles.skillGrid} px-4`}>
