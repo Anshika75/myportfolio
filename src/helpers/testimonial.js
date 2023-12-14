@@ -116,7 +116,7 @@ const testimonials = [
         name: "Ashwini Gupta",
         role: "SE - TCS",
         imageSrc: "https://www.dropbox.com/scl/fi/xw993quykgqueyffbsebv/1688456716883.jpeg?rlkey=acv0aupad5qv87y5gwj1f0xk6&dl=1",
-        testimonialText: "Anshika is an outstanding frontend developer whose skills have greatly enhanced our projects. With an exceptional eye for design and a deep understanding of user experience, she transforms complex ideas into visually stunning and intuitive interfaces. Anshika's proficiency in Reactjs and Tailwind, coupled with her commitment to delivering high-quality work on time, sets her apart. Her passion for staying current with industry trends ensures our projects remain cutting-edge. Anshika is a true professional, and I wholeheartedly recommend her to anyone in need of a top-tier frontend developer",
+        testimonialText: "Anshika is an outstanding frontend developer, seamlessly blending design and UX expertise. Proficient in Reactjs and Tailwind, she delivers top-quality work on time. Her commitment to staying current with industry trends sets her apart. Highly recommend for any frontend development needs.",
         socialLinks: {
           github: "",
           facebook: null,
