@@ -8,6 +8,7 @@ import Projects from '@/components/DoodlePage/Home/projects';
 import Volunteer from '@/components/DoodlePage/Home/volunteer';
 import Testimonial from '@/components/DoodlePage/Home/testimonial';
 import Stats from '@/components/DoodlePage/Home/stats';
+import Hobbies from '@/components/DoodlePage/Home/hobbies';
 
 
 const DoodlePage: React.FC = () => {
@@ -22,6 +23,7 @@ const DoodlePage: React.FC = () => {
                 <Volunteer/>
                 <Stats/>
                 <Testimonial/> 
+                <Hobbies/>
             </div>
             </>
     );
