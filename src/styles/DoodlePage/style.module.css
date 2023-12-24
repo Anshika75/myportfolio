@@ -171,26 +171,17 @@
 
   
 
-@media screen and (max-width: 768px) {
-    .skillGrid {
-        display: none;
+@media screen and (max-width: 768px) {     
+    
+
+    .skillGrid{
+        display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
-        gap: 25px;
+        gap: 10px;
         grid-template-areas:
             ". ."
             ". ."
             ". .";
-    }
-
-    .skillGridMob {
-        display: grid;
-        grid-template-columns: 1fr 0.1fr 1fr;
-        grid-template-rows: 1fr 0.1fr;
-        gap: 25px;
-        grid-template-areas:
-            ". . ."
-            ". . ."
-            ". . .";
     }
 }

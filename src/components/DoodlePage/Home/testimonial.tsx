@@ -4,6 +4,7 @@ import styles from '../../../styles/DoodlePage/style.module.css';
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css";
 import testimonials from '../../../helpers/testimonial'; // Import the external data
+import Link from 'next/link';
 
 const Testimonial: React.FC = () => {
     const [currentSlide, setCurrentSlide] = React.useState(0);
@@ -123,22 +124,22 @@ const Testimonial: React.FC = () => {
                                         <img src={testimonial.imageSrc} alt="" className='grayscale transition-all group-hover:scale-105 h-[70%] w-full' />
                                         <div className="flex items-center justify-center w-full social-links mt-6">
                                             {testimonial.socialLinks.github && (
-                                                <a href={testimonial.socialLinks.github}><i className="fa-brands fa-github mr-3 transition-all hover:scale-90 text-black text-3xl"></i></a>
+                                                <Link href={testimonial.socialLinks.github}><i className="fa-brands fa-github mr-3 transition-all hover:scale-90 text-black text-3xl"></i></Link>
                                             )}
                                             {testimonial.socialLinks.facebook && (
-                                                <a href={testimonial.socialLinks.facebook}><i className="fa-brands fa-facebook mr-3 transition-all hover:scale-90 text-black text-3xl"></i></a>
+                                                <Link href={testimonial.socialLinks.facebook}><i className="fa-brands fa-facebook mr-3 transition-all hover:scale-90 text-black text-3xl"></i></Link>
                                             )}
                                             {testimonial.socialLinks.linkedin && (
-                                                <a href={testimonial.socialLinks.linkedin}><i className="fa-brands fa-linkedin mr-3 transition-all hover:scale-90 text-black text-3xl"></i></a>
+                                                <Link href={testimonial.socialLinks.linkedin}><i className="fa-brands fa-linkedin mr-3 transition-all hover:scale-90 text-black text-3xl"></i></Link>
                                             )}
                                             {testimonial.socialLinks.instagram && (
-                                                <a href={testimonial.socialLinks.instagram}><i className="fa-brands fa-square-instagram mr-3 transition-all hover:scale-90 text-black text-3xl"></i></a>
+                                                <Link href={testimonial.socialLinks.instagram}><i className="fa-brands fa-square-instagram mr-3 transition-all hover:scale-90 text-black text-3xl"></i></Link>
                                             )}
                                             {testimonial.socialLinks.twitter && (
-                                                <a href={testimonial.socialLinks.twitter}><i className="fa-brands fa-twitter mr-3 transition-all hover:scale-90 text-black text-3xl"></i></a>
+                                                <Link href={testimonial.socialLinks.twitter}><i className="fa-brands fa-twitter mr-3 transition-all hover:scale-90 text-black text-3xl"></i></Link>
                                             )}
                                             {testimonial.socialLinks.email && (
-                                                <a href={testimonial.socialLinks.email}><i className="fa-solid fa-envelope mr-3 transition-all hover:scale-90 text-black text-3xl"></i></a>
+                                                <Link href={testimonial.socialLinks.email}><i className="fa-solid fa-envelope mr-3 transition-all hover:scale-90 text-black text-3xl"></i></Link>
                                             )}
                                         </div>
                                         <div className="absolute top-0 translate-y-[-85%] left-[30%] h-10 w-6 bg-[#555] origin-bottom rotate-[5deg]"></div>
@@ -159,22 +160,22 @@ const Testimonial: React.FC = () => {
                                         
                                         <div className="flex items-end justify-end w-full lg:hidden social-links mt-2 mb-6">
                                             {testimonial.socialLinks.github && (
-                                                <a href={testimonial.socialLinks.github}><i className="fa-brands fa-github mr-3 transition-all hover:scale-90 text-black text-base"></i></a>
+                                                <Link href={testimonial.socialLinks.github}><i className="fa-brands fa-github mr-3 transition-all hover:scale-90 text-black text-base"></i></Link>
                                             )}
                                             {testimonial.socialLinks.facebook && (
-                                                <a href={testimonial.socialLinks.facebook}><i className="fa-brands fa-facebook mr-3 transition-all hover:scale-90 text-black text-base"></i></a>
+                                                <Link href={testimonial.socialLinks.facebook}><i className="fa-brands fa-facebook mr-3 transition-all hover:scale-90 text-black text-base"></i></Link>
                                             )}
                                             {testimonial.socialLinks.linkedin && (
-                                                <a href={testimonial.socialLinks.linkedin}><i className="fa-brands fa-linkedin mr-3 transition-all hover:scale-90 text-black text-base"></i></a>
+                                                <Link href={testimonial.socialLinks.linkedin}><i className="fa-brands fa-linkedin mr-3 transition-all hover:scale-90 text-black text-base"></i></Link>
                                             )}
                                             {testimonial.socialLinks.instagram && (
-                                                <a href={testimonial.socialLinks.instagram}><i className="fa-brands fa-square-instagram mr-3 transition-all hover:scale-90 text-black text-base"></i></a>
+                                                <Link href={testimonial.socialLinks.instagram}><i className="fa-brands fa-square-instagram mr-3 transition-all hover:scale-90 text-black text-base"></i></Link>
                                             )}
                                             {testimonial.socialLinks.twitter && (
-                                                <a href={testimonial.socialLinks.twitter}><i className="fa-brands fa-twitter mr-3 transition-all hover:scale-90 text-black text-base"></i></a>
+                                                <Link href={testimonial.socialLinks.twitter}><i className="fa-brands fa-twitter mr-3 transition-all hover:scale-90 text-black text-base"></i></Link>
                                             )}
                                             {testimonial.socialLinks.email && (
-                                                <a href={testimonial.socialLinks.email}><i className="fa-solid fa-envelope mr-3 transition-all hover:scale-90 text-black text-base"></i></a>
+                                                <Link href={testimonial.socialLinks.email}><i className="fa-solid fa-envelope mr-3 transition-all hover:scale-90 text-black text-base"></i></Link>
                                             )}
                                         </div>
                                     </div>
