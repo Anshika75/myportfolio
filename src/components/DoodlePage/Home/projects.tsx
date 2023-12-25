@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
                         <p className={`text-lg text-black mt-2 ${styles.indi} text-justify`}>Empowering the visually impaired, our AI chatbot offers conversion, gaming, and translation, envisioning a user-friendly world without sight.</p>
                         <div className='flex text-black w-full justify-between mt-3'>
                             <i className={`${styles.pang}`}>#advance</i>
-                            <Link href="https://github.com/Anshika75/WebMindz" className={`text-black text-right font-black text-lg ${styles.pang} underline ${styles.anim1}`}>Get Glimpse</Link>
+                            {/* <Link href="https://github.com/Anshika75/WebMindz" className={`text-black text-right font-black text-lg ${styles.pang} underline ${styles.anim1}`}>Get Glimpse</Link> */}
                         </div>
                         <div className="absolute top-0 translate-y-[-85%] left-[30%] h-10 w-6 bg-[#555] origin-bottom rotate-[5deg]"></div>
                         <div className="absolute top-0 translate-y-[-80%] left-[30%] h-10 w-6 bg-black"></div>
@@ -36,7 +36,7 @@ const Projects: React.FC = () => {
                         <p className={`text-lg text-black mt-2 ${styles.indi} text-justify`}>An open platform to cherish and save your precious moments. Immerse yourself in a world where memories unfold.</p>
                         <div className='flex text-black w-full justify-between mt-3'>
                             <i className={`${styles.pang}`}>#advance</i>
-                            <Link href="https://github.com/Anshika75/Maggi-Album?tab=readme-ov-file" className={`text-black text-right font-black text-lg ${styles.pang} underline ${styles.anim1}`}>Get Glimpse</Link>
+                            {/* <Link href="https://github.com/Anshika75/Maggi-Album?tab=readme-ov-file" className={`text-black text-right font-black text-lg ${styles.pang} underline ${styles.anim1}`}>Get Glimpse</Link> */}
                         </div>
                         <div className="absolute top-0 translate-y-[-85%] left-[30%] h-10 w-6 bg-[#555] origin-bottom rotate-[5deg]"></div>
                         <div className="absolute top-0 translate-y-[-80%] left-[30%] h-10 w-6 bg-black"></div>
@@ -51,7 +51,7 @@ const Projects: React.FC = () => {
                         <p className={`text-lg text-black mt-2 ${styles.indi} text-justify`}>Web app offering hourly and weekly weather updates for different cities. Enjoy distinct UI experiences throughout the day.</p>
                         <div className='flex text-black w-full justify-between mt-3'>
                             <i className={`${styles.pang}`}>#advance</i>
-                            <Link href="https://github.com/Anshika75/Maggi-Weather" className={`text-black text-right font-black text-lg ${styles.pang} underline ${styles.anim1}`}>Get Glimpse</Link>
+                            {/* <Link href="https://github.com/Anshika75/Maggi-Weather" className={`text-black text-right font-black text-lg ${styles.pang} underline ${styles.anim1}`}>Get Glimpse</Link> */}
                         </div>
                         <div className="absolute top-0 translate-y-[-85%] left-[30%] h-10 w-6 bg-[#555] origin-bottom rotate-[5deg]"></div>
                         <div className="absolute top-0 translate-y-[-80%] left-[30%] h-10 w-6 bg-black"></div>
@@ -66,7 +66,7 @@ const Projects: React.FC = () => {
                         <p className={`text-lg text-black mt-2 ${styles.indi} text-justify`}>Indulge in a culinary journey with 'Maggi Hub,' a food website serving a diverse range of delicacies to elevate your new year celebrations.</p>
                         <div className='flex text-black w-full justify-between mt-3'>
                             <i className={`${styles.pang}`}>#advance</i>
-                            <Link href="https://github.com/Anshika75/Maggi-Hub" className={`text-black text-right font-black text-lg ${styles.pang} underline ${styles.anim1}`}>Get Glimpse</Link>
+                            {/* <Link href="https://github.com/Anshika75/Maggi-Hub" className={`text-black text-right font-black text-lg ${styles.pang} underline ${styles.anim1}`}>Get Glimpse</Link> */}
                         </div>
                         <div className="absolute top-0 translate-y-[-85%] left-[30%] h-10 w-6 bg-[#555] origin-bottom rotate-[5deg]"></div>
                         <div className="absolute top-0 translate-y-[-80%] left-[30%] h-10 w-6 bg-black"></div>

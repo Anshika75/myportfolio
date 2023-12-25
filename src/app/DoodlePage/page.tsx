@@ -11,6 +11,7 @@ import Stats from '@/components/DoodlePage/Home/stats';
 import Hobbies from '@/components/DoodlePage/Home/hobbies';
 import Achievments from '@/components/DoodlePage/Home/achievments';
 import Languages from '@/components/DoodlePage/Home/languages';
+import Contact from '@/components/DoodlePage/Home/contact';
 
 
 const DoodlePage: React.FC = () => {
@@ -28,6 +29,7 @@ const DoodlePage: React.FC = () => {
                 <Hobbies/>
                 <Achievments/>
                 <Languages/>
+                <Contact/>
             </div>
             </>
     );

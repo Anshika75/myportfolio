@@ -10,7 +10,7 @@ const Achievments: React.FC = () => {
                     <img src="https://www.dropbox.com/scl/fi/diuvurir4e4rgbgne30b8/Vector-12.png?rlkey=xgxsyx95yogsw0htniavg83sn&dl=1" className="absolute top-[60%] left-[50%] h-[5rem] w-[9rem] -translate-x-1/2 -translate-y-1/2" />
                     <p className={`text-white text-5xl z-20 ${styles.pang}`}>Key</p>
                 </div>
-                <h1 className={`text-5xl lg:text-[120px] -mt-4 text-black ${styles.lond} ${styles.anim2} font-black`}>Accomplishments</h1>
+                <h1 className={`text-5xl lg:text-[120px] -mt-2 text-black ${styles.lond} ${styles.anim2} font-black`}>Accomplishments</h1>
                 
                 <div className="grid place-items-center mt-24 w-full relative">
                     <img src="https://img.freepik.com/premium-vector/stars-white-background-black-star-shooting-with-elegant-star-meteoroid-comet-asteroid-stars_209910-481.jpg?w=2000" className='absolute top-0 left-0 w-full h-full' alt="" />

@@ -29,10 +29,7 @@ const CountUp = ({ end, duration, additionalText }: { end: number; duration: num
     return (
         <>
             {isAnimationComplete && (
-                <>
-                    <span className='text-black'>{Math.floor(current)}</span>
-                    {additionalText && <span>{additionalText}</span>}
-                </>
+                <></>
             )}
         </>
     );
@@ -107,18 +104,18 @@ const Stats: React.FC = () => {
         const frames = duration / 1000 * 60; // Assuming 60 frames per second
         const increment = (endValue - 0) / frames;
         let current = 0;
-
+        additionalText = additionalText ? additionalText:"";
         const updateCount = () => {
             if (current < endValue) {
                 current += increment;
                 if (element) {
-                    element.textContent = String(Math.floor(current));
+                    element.textContent = String(Math.floor(current)) + additionalText;
                 }
                 requestAnimationFrame(updateCount);
             } else {
                 current = endValue;
                 if (element) {
-                    element.textContent = String(Math.floor(current));
+                    element.textContent = String(Math.floor(current)) + additionalText;
                 }
             }
         };
@@ -135,7 +132,7 @@ const Stats: React.FC = () => {
                     <img src="https://www.dropbox.com/scl/fi/robamf6w8rdfpfohd0ve1/Group-2.png?rlkey=qdhl8zjqzqfaox4rhjrk57tdc&dl=1" className="absolute top-[70%] left-[50%] h-[7rem] w-[13rem] -translate-x-1/2 -translate-y-1/2 rotate-12" />
                     <p className={`text-white text-5xl z-20 ${styles.pang}`}>My</p>
                 </div>
-                <h1 className={`text-6xl lg:text-[120px] text-black ${styles.lond} ${styles.anim2} font-black`}>Feats</h1>
+                <p className={`text-6xl lg:text-[120px] text-black ${styles.lond} ${styles.anim2} font-black`}>Feats</p>
                 <div
                     ref={statsRef}
                     className={`grid w-full pt-16 lg:pt-20 lg:grid-cols-4 grid-cols-1 gap-12`}
@@ -143,47 +140,47 @@ const Stats: React.FC = () => {
                     {/* Project Counter */}
                     <div className="flex flex-col items-center justify-center relative py-20">
                         <img src="https://www.dropbox.com/scl/fi/o6gcks068k2hcc8be94cq/Vector-10.png?rlkey=06i6l4l24leo9innx4a17prtd&dl=1" className='absolute top-0 left-0 w-full h-full' alt="" />
-                        <h1 id="projectCounter" className={`text-3xl lg:text-5xl text-white z-20 text-center ${styles.perm}`}>
+                        <p id="projectCounter" className={`text-3xl lg:text-5xl text-white z-20 text-center ${styles.perm}`}>
                             <CountUp end={20} duration={2000} />
                             <span>+</span>
-                        </h1>
-                        <h1 className={`text-2xl lg:text-4xl mt-3 text-white z-20 text-center ${styles.pang}`}>
+                        </p>
+                        <p className={`text-2xl lg:text-4xl mt-3 text-white z-20 text-center ${styles.pang}`}>
                             Projects
-                        </h1>
+                        </p>
                     </div>
 
                     {/* Connections Counter */}
                     <div className="flex flex-col items-center justify-center relative py-20">
                         <img src="https://www.dropbox.com/scl/fi/o6gcks068k2hcc8be94cq/Vector-10.png?rlkey=06i6l4l24leo9innx4a17prtd&dl=1" className='absolute top-0 left-0 w-full h-full' alt="" />
-                        <h1 id="connectionsCounter" className={`text-3xl lg:text-5xl text-white z-20 text-center ${styles.perm}`}>
+                        <p id="connectionsCounter" className={`text-3xl lg:text-5xl text-white z-20 text-center ${styles.perm}`}>
                             <CountUp end={400} duration={2000} />
                             <span>+</span>
-                        </h1>
-                        <h1 className={`text-2xl lg:text-4xl mt-3 text-white z-20 text-center ${styles.pang}`}>
+                        </p>
+                        <p className={`text-2xl lg:text-4xl mt-3 text-white z-20 text-center ${styles.pang}`}>
                             Connections
-                        </h1>
+                        </p>
                     </div>
 
                     {/* Experience Counter */}
                     <div className="flex flex-col items-center justify-center relative py-20">
                         <img src="https://www.dropbox.com/scl/fi/o6gcks068k2hcc8be94cq/Vector-10.png?rlkey=06i6l4l24leo9innx4a17prtd&dl=1" className='absolute top-0 left-0 w-full h-full' alt="" />
-                        <h1 id="experienceCounter" className={`text-3xl lg:text-5xl text-white z-20 text-center ${styles.perm}`}>
+                        <p id="experienceCounter" className={`text-3xl lg:text-5xl text-white z-20 text-center ${styles.perm}`}>
                             <CountUp end={4} duration={2000} additionalText="+yr" />
-                        </h1>
-                        <h1 className={`text-2xl lg:text-4xl mt-3 text-white z-20 text-center ${styles.pang}`}>
+                        </p>
+                        <p className={`text-2xl lg:text-4xl mt-3 text-white z-20 text-center ${styles.pang}`}>
                             Experience
-                        </h1>
+                        </p>
                     </div>
 
                     {/* Endorsed Skills Counter */}
                     <div className="flex flex-col items-center justify-center relative py-20">
                         <img src="https://www.dropbox.com/scl/fi/o6gcks068k2hcc8be94cq/Vector-10.png?rlkey=06i6l4l24leo9innx4a17prtd&dl=1" className='absolute top-0 left-0 w-full h-full' alt="" />
-                        <h1 id="endorsedSkillsCounter" className={`text-3xl lg:text-5xl text-white z-20 text-center ${styles.perm}`}>
+                        <p id="endorsedSkillsCounter" className={`text-3xl lg:text-5xl text-white z-20 text-center ${styles.perm}`}>
                             <CountUp end={25} duration={2000} />
-                        </h1>
-                        <h1 className={`text-2xl lg:text-4xl mt-3 text-white z-20 text-center ${styles.pang}`}>
+                        </p>
+                        <p className={`text-2xl lg:text-4xl mt-3 text-white z-20 text-center ${styles.pang}`}>
                             Endorsed Skills
-                        </h1>
+                        </p>
                     </div>
                 </div>
             </div>

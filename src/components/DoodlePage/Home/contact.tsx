@@ -1,25 +1,83 @@
 "use client";
-import React from 'react';
+import React, { useState } from 'react';
 import styles from '../../../styles/DoodlePage/style.module.css';
 
 const Contact: React.FC = () => {
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        body: '',
+    });
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
+
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        console.log('Form submitted:', formData);
+    };
+
     return (
         <>
-            <div className="mt-8 flex flex-col items-center justify-start px-[20x] lg:px-[60px] pb-20">
-                <div className={`flex flex-col relative w-full items-center scale-50 lg:scale-100 ${styles.anim1}`}>
-                    <img src="https://www.dropbox.com/scl/fi/73tbxriwqbscbqwqmi1cl/Vector-2.png?rlkey=3zglj52k4c6ughi331730icvk&dl=1" className="absolute top-[60%] left-[50%] h-[5rem] w-[7rem] -translate-x-1/2 -translate-y-1/2" />
-                    <p className={`text-white text-5xl z-20 ${styles.pang}`}>My</p>
-                </div>
-                <h1 className={`text-6xl lg:text-[120px] -mt-4 text-black ${styles.lond} ${styles.anim2} font-black`}>Narrative</h1>
-                <div className="flex flex-col lg:flex-row w-full justify-around items-center mt-8 text-justify">
-                    <img src="https://assets-global.website-files.com/5e51c674258ffe10d286d30a/5e5361568e2493c0fa0ae191_peep-standing-9.svg" className={`hidden lg:block ${styles.anim5}`}/>
-                    <div className={`text-black text-lg lg:text-3xl w-[90%] lg:w-1/2 ${styles.indi}`}>
-                        <p className={`lg:text-3xl text-lg lg:leading-[3.5rem] ${styles.indi}`}><b className={`${styles.pang} ${styles.anim1}`}>Welcome</b> to the whimsical world of code conjuring!</p>  <br />
-                        I'm Anshika, a <b className={`${styles.pang} ${styles.anim1}`}>Front-End Maestro</b> on a quest to blend technology and creativity into seamless, enchanting digital experiences. With over 4 years of spellbinding expertise, I specialize in the mystical arts of <b className={`${styles.pang} ${styles.anim1}`}>HTML, CSS,</b> and <b className={`${styles.pang} ${styles.anim1}`}>JavaScript</b>, wielding the mighty frameworks of <b className={`${styles.pang} ${styles.anim1}`}>React.js</b> and <b className={`${styles.pang} ${styles.anim1}`}>Next.js</b>. <br /><br />
-
-                        Picture me as your <b className={`${styles.pang} ${styles.anim1}`}>digital sorceress,</b> transforming design blueprints into pixel-perfect realities. I thrive in the collaborative dance of cross-functional teams, where my coding spells harmonize with others to deliver enchanting solutions. A true <b className={`${styles.pang} ${styles.anim1}`}>team player</b>, I see the lines of code as the brushstrokes in the masterpiece of captivating user journeys. <br />
+            <div className="flex flex-col items-center justify-start">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#231f20" fillOpacity="1" d="M0,128L48,149.3C96,171,192,213,288,202.7C384,192,480,128,576,106.7C672,85,768,107,864,138.7C960,171,1056,213,1152,197.3C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+                <div className="flex flex-col justify-center items-center -mt-20 h-full w-full bg-[#231f20]">
+                    <div className={`flex flex-col relative w-full items-center scale-50 lg:scale-100 ${styles.anim1}`}>
+                        <img src="https://www.dropbox.com/scl/fi/9dauk6thirn350lx3ods5/Group-5.png?rlkey=rvw1jwjlnjfowuylzcn5zsz3r&dl=1" className="absolute top-[50%] left-[50%] h-[7rem] w-[13rem] -translate-x-1/2 -translate-y-1/2" />
+                        <p className={`text-black text-5xl z-20 ${styles.pang}`}>Let's</p>
                     </div>
-                    <img src="https://assets-global.website-files.com/5e51b3b0337309d672efd94c/5e535cc533d36869f23e5264_mix-6.svg" className={`block lg:hidden mt-8 ${styles.anim6}`} alt="" />
+                    <h1 className={`text-6xl lg:text-[120px] text-white ${styles.lond} ${styles.anim2} font-black`}>Connect</h1>
+                    <div className="flex w-full flex-row-reverse px-[20px] lg:px-[60px] mt-12 pb-20">
+                        <form action="mailto:anshikathakur147@gmail.com" method='GET' className="w-1/2">
+                            <div className="mb-4">
+                                <label htmlFor="name" className={`block text-sm font-medium text-white ${styles.pang}`}>
+                                    Name
+                                </label>
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    value={formData.name}
+                                    onChange={handleChange}
+                                    className={`mt-1 p-2 w-full border rounded-md text-white ${styles.pang} bg-transparent border-2 border-l-4 border-b-4 border-white rounded-lg outline-none hover:outline-none focus:outline-none`}
+                                />
+                            </div>
+                            <div className="mb-4">
+                                <label htmlFor="email" className={`block text-sm font-medium text-white ${styles.pang}`}>
+                                    Email
+                                </label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    value={formData.email}
+                                    onChange={handleChange}
+                                    className={`mt-1 p-2 w-full border rounded-md text-white ${styles.pang} bg-transparent border-2 border-l-4 border-b-4 border-white rounded-lg outline-none hover:outline-none focus:outline-none`}
+                                />
+                            </div>
+                            <div className="mb-4">
+                                <label htmlFor="message" className={`block text-sm font-medium text-white ${styles.pang}`}>
+                                    Message
+                                </label>
+                                <textarea
+                                    id="message"
+                                    name="body"
+                                    value={formData.body}
+                                    onChange={handleChange}
+                                    rows={4}
+                                    className={`mt-1 p-2 w-full border rounded-md text-white ${styles.pang} bg-transparent border-2 border-l-4 border-b-4 border-white rounded-lg outline-none hover:outline-none focus:outline-none`}
+                                />
+                            </div>
+                            <div>
+                                <button
+                                    type="submit"
+                                    className={`mt-1 px-5 py-3 border rounded-md text-white ${styles.pang} bg-transparent border-2 border-l-4 border-b-4 border-white rounded-lg outline-none hover:outline-none focus:outline-none transition-all hover:bg-white hover:text-black hover:font-extrabold`}>
+                                    Submit
+                                </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </>
