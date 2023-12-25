@@ -21,12 +21,24 @@ const Landing: React.FC = () => {
     return (
         <>
             <div style={style.container}>
-                <div className="min-h-screen flex flex-col items-center justify-center">
+                <div className="min-h-screen flex flex-col w-full items-center justify-center">
                     <img src="https://www.dropbox.com/scl/fi/vl1jix1g5mc5c8a1gcoa7/Pink_Doodle_Project_Presentation__1_-removebg.png?rlkey=n4wqzsc9i09bkh5wskxzn3urd&dl=1" className={`absolute left-0 top-0 h-full lg:h-[95%] w-full z-10 ${styles.anim3}`} alt="" />
-                    <div className="relative flex flex-col justify-center items-center">
+                    <div className="flex w-full justify-center">
+                        <div className="hidden lg:flex flex-col items-center w-[30%]">
+                            <a href="" className={`cursor-pointer hover:animate-none animate-pulse z-20 bg-[#231F20] w-32 text-center rounded-full my-6 text-white py-4 px-2 rotate-12 ${styles.pang}`}>About</a>
+                            <a href="" className={`cursor-pointer hover:animate-none animate-pulse z-20 bg-[#231F20] w-32 text-center rounded-full my-6 text-white py-4 px-2 ${styles.pang}`}>Skills</a>
+                            <a href="" className={`cursor-pointer hover:animate-none animate-pulse z-20 bg-[#231F20] w-32 text-center rounded-full my-6 text-white py-4 px-2 rotate-[-12deg] ${styles.pang}`}>Experience</a>
+                        </div>
+                    <div className="relative w-full flex flex-col justify-center items-center">
                         <img src="https://i.pinimg.com/originals/ec/2b/26/ec2b2668869590e1a4f5297a7c935171.gif" alt="" className='absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2' />
                         <p className={`z-20 text-black text-3xl font-black ${styles.indi} ${styles.anim1}`}>Welcome to my</p>
                         <h1 className={`z-20 text-black text-6xl lg:text-[120px] ${styles.fred} ${styles.anim2}`}>DoodleVerse</h1>
+                    </div>
+                        <div className="hidden lg:flex flex-col items-center w-[30%]">
+                            <a href="" className={`cursor-pointer hover:animate-none animate-pulse z-20 bg-[#231F20] w-32 text-center rounded-full my-6 text-white py-4 px-2 rotate-[-12deg] ${styles.pang}`}>Projects</a>
+                            <a href="" className={`cursor-pointer hover:animate-none animate-pulse z-20 bg-[#231F20] w-32 text-center rounded-full my-6 text-white py-4 px-2 ${styles.pang}`}>Testimonials</a>
+                            <a href="" className={`cursor-pointer hover:animate-none animate-pulse z-20 bg-[#231F20] w-32 text-center rounded-full my-6 text-white py-4 px-2 rotate-[12deg] ${styles.pang}`}>Contact</a>
+                        </div>
                     </div>
                 </div>
                 <img src="https://www.dropbox.com/scl/fi/hw270h8ph76yy5m7zzpzr/banner-full-img.png?rlkey=jmv3oow0behidquczjfx9fm5k&dl=1" className={`z-10`} alt="" />
