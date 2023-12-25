@@ -81,7 +81,7 @@ const Contact: React.FC = () => {
                             <img src="https://www.dropbox.com/scl/fi/1wqnz5suij2fop2cjaq5v/Group-6-1.png?rlkey=2e9alygwteen32xe3ik2nqfeh&dl=1" className='w-32 lg:w-48' alt="" />
                             <img src="https://www.dropbox.com/scl/fi/mloykpdv4hq3mdsn4pfhd/Group-6.png?rlkey=fyau414xurzi33s3j7m58e4c9&dl=1" className='w-32 lg:w-48' alt="" />
                         </div>
-                        <div className="hidden lg:flex flex-col items-center justify-evenly py-4 bg-white absolute h-full w-14 top-0 left-0 rounded-r-2xl shadow-2xl shadow-black">
+                        <div className="hidden lg:flex flex-col items-center justify-evenly py-2 bg-white absolute min-h-full w-14 top-0 left-0 rounded-r-2xl shadow-2xl shadow-black">
                             <a href="https://www.linkedin.com/in/anshika75/" className='text-black text-2xl transition-all hover:bg-[#231f20] hover:text-white w-full text-center py-2'><i className="fa-brands fa-linkedin-in"></i></a>
                             <a href="https://github.com/Anshika75" className='text-black text-2xl transition-all hover:bg-[#231f20] hover:text-white w-full text-center py-2'><i className="fa-brands fa-github"></i></a>
                             <a href="https://www.instagram.com/demilune75" className='text-black text-2xl transition-all hover:bg-[#231f20] hover:text-white w-full text-center py-2'><i className="fa-brands fa-instagram"></i></a>
@@ -89,6 +89,7 @@ const Contact: React.FC = () => {
                             <a href="https://discordapp.com/users/1054336973197811742" className='text-black text-2xl transition-all hover:bg-[#231f20] hover:text-white w-full text-center py-2'><i className="fa-brands fa-discord"></i></a>
                             <a href="https://open.spotify.com/user/ejaxcu4gm4x4f94czuyzn0ip6/" className='text-black text-2xl transition-all hover:bg-[#231f20] hover:text-white w-full text-center py-2'><i className="fa-brands fa-spotify"></i></a>
                             <a href="https://maps.app.goo.gl/Vq4HigC8zHNDQAYHA" className='text-black text-2xl transition-all hover:bg-[#231f20] hover:text-white w-full text-center py-2'><i className="fa-solid fa-location-dot"></i></a>
+                            <a href="https://drive.google.com/file/d/1YfgLCN97dEkGeCYgry7KndRtFsy9cQtP/view?usp=sharing" className='text-black text-2xl transition-all hover:bg-[#231f20] hover:text-white w-full text-center py-2'><i className="fa-solid fa-download"></i></a>                    
                         </div>
                     </div>
                     <div className="flex lg:hidden flex-row items-center justify-evenly py-4 bg-white absolute h-14 w-full bottom-0 left-1/2 -translate-x-1/2 rounded-t-2xl shadow-2xl shadow-black">
@@ -99,6 +100,7 @@ const Contact: React.FC = () => {
                             <a href="https://discordapp.com/users/1054336973197811742" className='text-black text-2xl transition-all hover:bg-[#231f20] hover:text-white w-full text-center py-2'><i className="fa-brands fa-discord"></i></a>
                             <a href="https://open.spotify.com/user/ejaxcu4gm4x4f94czuyzn0ip6/" className='text-black text-2xl transition-all hover:bg-[#231f20] hover:text-white w-full text-center py-2'><i className="fa-brands fa-spotify"></i></a>
                             <a href="https://maps.app.goo.gl/Vq4HigC8zHNDQAYHA" className='text-black text-2xl transition-all hover:bg-[#231f20] hover:text-white w-full text-center py-2'><i className="fa-solid fa-location-dot"></i></a>
+                            <a href="https://drive.google.com/file/d/1YfgLCN97dEkGeCYgry7KndRtFsy9cQtP/view?usp=sharing" className='text-black text-2xl transition-all hover:bg-[#231f20] hover:text-white w-full text-center py-2'><i className="fa-solid fa-download"></i></a>                            
                         </div>
                 </div>
             </div>
