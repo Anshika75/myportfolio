@@ -185,3 +185,140 @@
             ". .";
     }
 }
+
+.main {
+    color: #e3e4e8;
+    background-color: #17181c;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    height: 100vh;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.hexagon {
+    margin-bottom: 1.5em;
+    overflow: hidden;
+    position: relative;
+    width: 15em;
+    height: 15em;
+}
+.hexagongroup, .hexagonsector, .hexagonsector:before, .hexagonsector:after {
+    position: absolute;
+}
+.hexagongroup {
+    width: 100%;
+    height: 100%;
+}
+.hexagongroup:nth-child(2) .hexagonsector,
+.hexagongroup:nth-child(2) .hexagonsector:before,
+.hexagongroup:nth-child(2) .hexagonsector:after {
+    animation-delay: calc(8s * -1/6);
+}
+.hexagongroup:nth-child(3) .hexagonsector,
+.hexagongroup:nth-child(3) .hexagonsector:before,
+.hexagongroup:nth-child(3) .hexagonsector:after {
+    animation-delay: calc(8s * -2/6);
+}
+.hexagongroup:nth-child(4) .hexagonsector,
+.hexagongroup:nth-child(4) .hexagonsector:before,
+.hexagongroup:nth-child(4) .hexagonsector:after {
+    animation-delay: calc(8s * -3/6);
+}
+.hexagongroup:nth-child(5) .hexagonsector,
+.hexagongroup:nth-child(5) .hexagonsector:before,
+.hexagongroup:nth-child(5) .hexagonsector:after {
+    animation-delay: calc(8s * -4/6);
+}
+.hexagongroup:nth-child(6) .hexagonsector,
+.hexagongroup:nth-child(6) .hexagonsector:before,
+.hexagongroup:nth-child(6) .hexagonsector:after {
+    animation-delay: calc(8s * -5/6);
+}
+.hexagongroup:nth-child(odd) {
+    transform: rotate(30deg);
+}
+.hexagonsector, .hexagonsector:before, .hexagonsector:after {
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /*animation-play-state: paused;*/
+    width: 0.2em;
+    height: 0.2em;
+}
+.hexagonsector {
+    animation-name: moveOut1;
+    top: calc(50% - 0.1em);
+    left: calc(50% - 0.1em);
+}
+.hexagonsector:nth-child(2) {
+    animation-name: moveOut2;
+}
+.hexagonsector:nth-child(3) {
+    animation-name: moveOut3;
+}
+.hexagonsector:nth-child(4) {
+    animation-name: moveOut4;
+}
+.hexagonsector:nth-child(5) {
+    animation-name: moveOut5;
+}
+.hexagonsector:nth-child(6) {
+    animation-name: moveOut6;
+}
+.hexagonsector:before, .hexagonsector:after {
+    animation-name: ripple;
+    background-color: currentColor;
+    border-radius: 0.1em;
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    transform-origin: 0.1em 0.1em;
+}
+.hexagonsector:before {
+    transform: rotate(-30deg)
+}
+.hexagonsector:after {
+    transform: rotate(-150deg)
+}
+@keyframes moveOut1 {
+    from { transform: translateY(0) scale(0); }
+    3% { transform: translateY(0.2em) scale(1); }
+    97% { transform: translateY(7.3em) scale(1); }
+    to { transform: translateY(7.5em) scale(0); }
+}
+@keyframes moveOut2 {
+    from { transform: rotate(60deg) translateY(0) scale(0); }
+    3% { transform: rotate(60deg) translateY(0.2em) scale(1); }
+    97% { transform: rotate(60deg) translateY(7.3em) scale(1); }
+    to { transform: rotate(60deg) translateY(7.5em) scale(0); }
+}
+@keyframes moveOut3 {
+    from { transform: rotate(120deg) translateY(0) scale(0); }
+    3% { transform: rotate(120deg) translateY(0.2em) scale(1); }
+    97% { transform: rotate(120deg) translateY(7.3em) scale(1); }
+    to { transform: rotate(120deg) translateY(7.5em) scale(0); }
+}
+@keyframes moveOut4 {
+    from { transform: rotate(180deg) translateY(0) scale(0); }
+    3% { transform: rotate(180deg) translateY(0.2em) scale(1); }
+    97% { transform: rotate(180deg) translateY(7.3em) scale(1); }
+    to { transform: rotate(180deg) translateY(7.5em) scale(0); }
+}
+@keyframes moveOut5 {
+    from { transform: rotate(240deg) translateY(0) scale(0); }
+    3% { transform: rotate(240deg) translateY(0.2em) scale(1); }
+    97% { transform: rotate(240deg) translateY(7.3em) scale(1); }
+    to { transform: rotate(240deg) translateY(7.5em) scale(0); }
+}
+@keyframes moveOut6 {
+    from { transform: rotate(300deg) translateY(0) scale(0); }
+    3% { transform: rotate(300deg) translateY(0.2em) scale(1); }
+    97% { transform: rotate(300deg) translateY(7.3em) scale(1); }
+    to { transform: rotate(300deg) translateY(7.5em) scale(0); }
+}
+@keyframes ripple {
+    from, to { width: 0.2em; }
+    33% { width: 2.4em; }
+}
