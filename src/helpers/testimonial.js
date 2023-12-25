@@ -73,7 +73,7 @@ const testimonials = [
       {
         name: "Sudhir Verma",
         role: "Recruiter - JPF NGO",
-        imageSrc: "",
+        imageSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMRBqTeY-dTImnv-0qS4j32of8dVtWelSEMw&usqp=CAU",
         testimonialText: "Thanks for your talent and hard work, JPF NGO now has a compelling online presence that effectively communicates our cause to the world. I wholeheartedly recommend anshika for any web design or development project; she's a true professional and a pleasure to collaborate with.",
         socialLinks: {
           github: null,
@@ -84,24 +84,24 @@ const testimonials = [
           email: "mailto:sudhirkumar.verma108@gmail.com",
         },
       },
-      {
-        name: "Amardeep Kesharwani",
-        role: "SE - DVertex ",
-        imageSrc: "https://www.dropbox.com/scl/fi/jq9ld6xsh25ranl7c49qq/1696250781381.jpeg?rlkey=sc7se1olcpxykvsz88excrerw&dl=1",
-        testimonialText: "",
-        socialLinks: {
-          github: "https://github.com/amardeepkesharwani",
-          facebook: null,
-          linkedin: "https://www.linkedin.com/in/amardeepkesharwani/",
-          instagram: "https://www.instagram.com/amardeep_kesharwani",
-          twitter: null,
-          email: null,
-        },
-      },
+      // {
+      //   name: "Amardeep Kesharwani",
+      //   role: "SE - DVertex ",
+      //   imageSrc: "https://www.dropbox.com/scl/fi/jq9ld6xsh25ranl7c49qq/1696250781381.jpeg?rlkey=sc7se1olcpxykvsz88excrerw&dl=1",
+      //   testimonialText: "",
+      //   socialLinks: {
+      //     github: "https://github.com/amardeepkesharwani",
+      //     facebook: null,
+      //     linkedin: "https://www.linkedin.com/in/amardeepkesharwani/",
+      //     instagram: "https://www.instagram.com/amardeep_kesharwani",
+      //     twitter: null,
+      //     email: null,
+      //   },
+      // },
       {
         name: "Tanay Bhatt",
         role: "FreeLancer",
-        imageSrc: "",
+        imageSrc: "https://cdn.icon-icons.com/icons2/2468/PNG/512/user_kids_avatar_user_profile_icon_149314.png",
         testimonialText: "I am thrilled to provide a strong endorsement for Anshika, a standout freelance frontend developer. Anshika's expertise in React, and Tailwind, coupled with a keen design sense, consistently elevates the quality of our projects. Her commitment to timely delivery, collaborative approach, and innovative thinking make her an invaluable freelancer. Anshika's professionalism and dedication to excellence truly set her apart in the world of frontend development",
         socialLinks: {
           github: "",
@@ -127,6 +127,34 @@ const testimonials = [
         },
       },
       {
+        name: "Yashi Goyal",
+        role: "TAHK Web Dev",
+        imageSrc: "https://www.dropbox.com/scl/fi/vofvrom3y95cf0jdes2ge/1666839888748.jpeg?rlkey=1ykw6pqwtje8pcku5toy85fq9&dl=1",
+        testimonialText: "Anshika has a good grasp of skills in frontend development. I worked with her on a project using HTML, CSS, JS and BootStrap. She is a team player and prefers working together in order to take the project to greater heights.",
+        socialLinks: {
+          github: "https://github.com/YashiGoyal-02",
+          facebook: null,
+          linkedin: "https://www.linkedin.com/in/yashigoyal/",
+          instagram: null,
+          twitter: null,
+          email: "mailto:yashigoyal02@gmail.com",
+        },
+      },
+      {
+        name: "Mridul Verma",
+        role: "Project Partner",
+        imageSrc: "https://www.dropbox.com/scl/fi/gkknwbalbseyc1yqhrrvx/1688197676868.jpeg?rlkey=403zkrpi4d02rvwmj9vs6h74e&dl=1",
+        testimonialText: "We had the pleasure of working with Anshika as our Front-End Developer on a recent project. Her unique blend of creativity, technical expertise, and attention to detail significantly elevated the user experience. Anshika seamlessly integrated feedback, collaborated effectively, and fostered a positive working environment. I wholeheartedly recommend Anshika for her dedication and valuable contributions as a Front-End Developer. Look forward to working together again in the future.",
+        socialLinks: {
+          github: "https://github.com/theprasant",
+          facebook: null,
+          linkedin: "https://linkedin.com/in/mridul-verma-719792230/",
+          instagram: "https://www.instagram.com/mridul3533/",
+          twitter: null,
+          email: "mailto:mridulverma2308@gmail.com",
+        },
+      },
+      {
         name: "Prasant Kumar",
         role: "Frontend Dev",
         imageSrc: "https://www.dropbox.com/scl/fi/aamg38qsk9b1jmivjjhnc/1701466616218.jpeg?rlkey=zhdi6inzgeur8342j7xpb2tii&dl=1",
@@ -137,7 +165,7 @@ const testimonials = [
           linkedin: "https://www.linkedin.com/in/decodeprasant",
           instagram: "https://www.instagram.com/decodeprasant/",
           twitter: null,
-          email: "mailto:",
+          email: "mailto:developer.prasant@gmail.com",
         },
       },
     // Add more testimonials as needed
