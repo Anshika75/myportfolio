@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import styles from '../../../styles/DoodlePage/style.module.css';
 
-const Hobbies: React.FC = () => {
+const Languages: React.FC = () => {
 
     return (
         <>
@@ -48,4 +48,4 @@ const Hobbies: React.FC = () => {
     );
 };
 
-export default Hobbies;
+export default Languages;

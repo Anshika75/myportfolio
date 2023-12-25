@@ -130,7 +130,7 @@ const Stats: React.FC = () => {
     return (
         <>
 
-            <div className="flex flex-col items-center justify-start mt-20 pb-40 lg:mt-40 px-[60px]">
+            <div className="flex flex-col items-center justify-start pb-40 lg:mt-40 px-[60px]">
                 <div className={`flex flex-col relative w-full items-center scale-50 lg:scale-100 ${styles.anim1}`}>
                     <img src="https://www.dropbox.com/scl/fi/robamf6w8rdfpfohd0ve1/Group-2.png?rlkey=qdhl8zjqzqfaox4rhjrk57tdc&dl=1" className="absolute top-[70%] left-[50%] h-[7rem] w-[13rem] -translate-x-1/2 -translate-y-1/2 rotate-12" />
                     <p className={`text-white text-5xl z-20 ${styles.pang}`}>My</p>
