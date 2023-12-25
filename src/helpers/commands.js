@@ -8,38 +8,44 @@ const commands = {
       'id': 1,
       'command': 'help',
       'description': `\nGet assistance on navigating through my digital space.\n
-- <b style='color:var(--primary-text-color);'> theme</b>: Customize your coding space with a variety of visually stunning themes. Choose from a range of options to personalize your environment and enhance your coding experience.
-
-&nbsp;&nbsp; <b style='color:var(--primary-text-color);'>Usage</b>:
-&nbsp;&nbsp; theme &lt;theme-name&gt;
-
-  &nbsp;&nbsp; <b style='color:var(--primary-text-color);'>Available Themes</b>:
-     &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>default</b>: Set the default theme to match your system appearance.
-     &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>dark</b>: Immerse yourself in the elegance of a dark-themed interface.
-     &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>light</b>: Bask in the soothing glow of a light-themed ambiance.
-     &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>coffee</b>: Awaken your senses with a warm and rich coffee-inspired theme.
-     &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>mint</b>: Experience a refreshing and cool mint-themed visual environment.
-     &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>forest</b>: Surround yourself with the lush greens of a forest-inspired theme.
-     &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>rainbow</b>: Indulge in the vibrant and colorful hues of a rainbow-themed display.
-     &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>ocean</b>: Dive into the deep blues of an ocean-inspired theme.
-     &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>sunset</b>: Witness the warm and calming tones of a sunset-themed interface.
-     &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>charcoal</b>: Embrace the sophisticated darkness with a charcoal-themed backdrop.
-     &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>nebula</b>: Explore the cosmic wonders with a nebula-themed visual experience.
-     &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>moonlit</b>: Illuminate your screen with the gentle glow of a moonlit-themed ambiance.
-
-     &nbsp;&nbsp;<b style='color:var(--primary-text-color);'>Example</b>:
-     &nbsp;&nbsp; theme dark
-
-- <b style='color:var(--primary-text-color);'>about:</b> Delve into the coding chronicles of my digital DNA
-- <b style='color:var(--primary-text-color);'>skills:</b> Witness the prowess encoded in my skillset
-- <b style='color:var(--primary-text-color);'>projects:</b> Navigate through the command lines of my digital masterpieces
-    &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>projects-css</b>: Discover the captivating CSS illustrations crafted with a blend of art and technology.
-    &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>projects-basics</b>: Explore fundamental projects showcasing simplicity and functionality.
-    &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>projects-intermediate</b>: Immerse yourself in projects that strike a balance between complexity and creativity.
-    &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>projects-advance</b>: Dive into advanced projects pushing the boundaries of technology and innovation.
-- <b style='color:var(--primary-text-color);'>social:</b> Establish a data connection and dive into the network of possibilities`
-
+    - <b style='color:var(--primary-text-color);'> theme</b>: Customize your coding space with a variety of visually stunning themes. Choose from a range of options to personalize your environment and enhance your coding experience.
+    
+    &nbsp;&nbsp; <b style='color:var(--primary-text-color);'>Usage</b>:
+    &nbsp;&nbsp; theme &lt;theme-name&gt;
+    
+      &nbsp;&nbsp; <b style='color:var(--primary-text-color);'>Available Themes</b>:
+         &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>default</b>: Set the default theme to match your system appearance.
+         &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>dark</b>: Immerse yourself in the elegance of a dark-themed interface.
+         &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>light</b>: Bask in the soothing glow of a light-themed ambiance.
+         &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>coffee</b>: Awaken your senses with a warm and rich coffee-inspired theme.
+         &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>mint</b>: Experience a refreshing and cool mint-themed visual environment.
+         &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>forest</b>: Surround yourself with the lush greens of a forest-inspired theme.
+         &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>rainbow</b>: Indulge in the vibrant and colorful hues of a rainbow-themed display.
+         &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>ocean</b>: Dive into the deep blues of an ocean-inspired theme.
+         &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>sunset</b>: Witness the warm and calming tones of a sunset-themed interface.
+         &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>charcoal</b>: Embrace the sophisticated darkness with a charcoal-themed backdrop.
+         &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>nebula</b>: Explore the cosmic wonders with a nebula-themed visual experience.
+         &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>moonlit</b>: Illuminate your screen with the gentle glow of a moonlit-themed ambiance.
+    
+         &nbsp;&nbsp;<b style='color:var(--primary-text-color);'>Example</b>:
+         &nbsp;&nbsp; theme dark
+    
+    - <b style='color:var(--primary-text-color);'>about:</b> Delve into the coding chronicles of my digital DNA
+    - <b style='color:var(--primary-text-color);'>skills:</b> Witness the prowess encoded in my skillset
+    - <b style='color:var(--primary-text-color);'>projects:</b> Navigate through the command lines of my digital masterpieces
+        &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>projects-css</b>: Discover the captivating CSS illustrations crafted with a blend of art and technology.
+        &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>projects-basics</b>: Explore fundamental projects showcasing simplicity and functionality.
+        &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>projects-intermediate</b>: Immerse yourself in projects that strike a balance between complexity and creativity.
+        &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>projects-advance</b>: Dive into advanced projects pushing the boundaries of technology and innovation.    
+    - <b style='color:var(--primary-text-color);'>volunteer-advance</b>: Explore my volunteer experiences and contributions to various organizations.
+    - <b style='color:var(--primary-text-color);'>my-feats-advance</b>: Discover my achievements and milestones, including projects, connections, and years of experience.
+    - <b style='color:var(--primary-text-color);'>testimonials-advance</b>: Read testimonials from professionals I've collaborated with, sharing their experiences and recommendations.
+    - <b style='color:var(--primary-text-color);'>leisures-advance</b>: Step into the realm of my leisure pursuits.
+    - <b style='color:var(--primary-text-color);'>languages-advance</b>: Explore the linguistic landscape of my language proficiences.
+    - <b style='color:var(--primary-text-color);'>education-advance</b>: Embark on a journey through my educational milestones, witnessing the growth and insights gained at each phase.
+    - <b style='color:var(--primary-text-color);'>social:</b> Establish a data connection and dive into the network of possibilities`
     },
+    
     {
       'id': 2,
       'command': 'about',
@@ -325,6 +331,11 @@ Welcome to a showcase of creative wonders! ✨🎨
       'id': 7,
       'command': 'projects-advance',
       'description': `\nWelcome to the advanced corner of my coding world! 🚀 Uncover the sophistication and innovation behind these projects:\n
+
+      <b style='color:var(--primary-text-color);'>Web Mindz</b> <a href='https://github.com/Anshika75/WebMindz' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>:
+        - <b style='color:var(--secondary-text-color);'>Description:</b> Empowering the visually impaired, our AI chatbot offers conversion, gaming, and translation, envisioning a user-friendly world without sight.
+        - <b style='color:var(--secondary-text-color);'>Tech Stack:</b> NExtjs, Tailwind, Firebase Auth, API
+        
 <b style='color:var(--primary-text-color);'>Maggi Album</b> <a href='https://github.com/Anshika75/Maggi-Album' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>:
   - <b style='color:var(--secondary-text-color);'>Description:</b> An open platform to cherish and save your precious moments. Try it out!
   - <b style='color:var(--secondary-text-color);'>Tech Stack:</b> React, Tailwind, Firebase
@@ -438,9 +449,125 @@ Terminal Connection Established. Let's Stay Linked! 🚀🌟`,
       - <b style='color:var(--secondary-text-color);'>Description:</b> Recognized for proficiency in a diverse skill set, with 25+ endorsed skills by peers and professionals.
     
     Embark on a journey through my professional feats, showcasing expertise, connections, and continuous growth! 🚀🌐`
+    },
+    {
+      'id': 12,
+      'command': 'testimonials',
+      'description': `\nExplore what others have to say about my work and collaboration! 🌟 Delve into these heartfelt testimonials from professionals I've had the privilege to work with:
+    
+    <b style='color:var(--primary-text-color);'>Kunwar Atharav</b> <a href='https://www.linkedin.com/in/kunwar-atharav-singh-kotwal-3b4930220/' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>:
+    - <b style='color:var(--secondary-text-color);'>Role:</b> Recruiter - Repaybly
+    - <b style='color:var(--secondary-text-color);'>Testimonial:</b> "Anshika was the linchpin of my startup, excelling as the senior front-end developer. Her unmatched technical skills, reliability, and effective communication significantly elevated our projects. I wholeheartedly recommend Anshika for her invaluable contributions in our venture."
+    
+    <b style='color:var(--primary-text-color);'>Himanshu Goyal</b> <a href='https://www.linkedin.com/in/himanshu-goyal-b2376232/' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>:
+    - <b style='color:var(--secondary-text-color);'>Role:</b> Design Lead - Hackoverflow Society
+    - <b style='color:var(--secondary-text-color);'>Testimonial:</b> "Working with Anshika has been the best decision. Their attention to detail, creative approach to design, and proficiency in front-end technologies have significantly contributed to the success of our projects. Their dedication to delivering high-quality and visually stunning user interfaces sets them apart. I highly recommend Anshika for anyone seeking a skilled and reliable front-end developer."
+        
+    <b style='color:var(--primary-text-color);'>Ishika Dixit</b> <a href='https://linkedin.com/in/girlwithalaptop/' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>:
+    - <b style='color:var(--secondary-text-color);'>Role:</b> Design Lead - LaDebug Club
+    - <b style='color:var(--secondary-text-color);'>Testimonial:</b> "I worked with Anshika at LaDebug Club & HackOverflow Society, where her skills as a Frontend Developer were invaluable. Her ability to transform complex designs into intuitive interfaces was impressive. Anshika's teamwork, problem-solving skills, and commitment to deadlines greatly contributed to our projects. Her talents and positive attitude make her an asset to any team."
+    
+    <b style='color:var(--primary-text-color);'>Shashank</b> <a href='https://www.linkedin.com/in/sha-shanks/' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>:
+    - <b style='color:var(--secondary-text-color);'>Role:</b> Internal Secretary - Hackoverflow Society
+    - <b style='color:var(--secondary-text-color);'>Testimonial:</b> "Anshika is one of the best front end developers that I've ever worked with. No matter what I've designed, I'm always confident that she can bring my designs to iife it the same manner from pixel to pixel through her coding skills."
+    
+    <b style='color:var(--primary-text-color);'>Krishma Kaur</b> <a href='https://www.linkedin.com/in/krishma7/' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>:
+    - <b style='color:var(--secondary-text-color);'>Role:</b> Chief Executive Member - LaDebug Club
+    - <b style='color:var(--secondary-text-color);'>Testimonial:</b> "She has made a significant contribution to the organization with her genuine efforts. She is well trained in developing, maintaining and designing websites. Her work has exceeded our expectations. Her talent in creating stunning and memorable website designs is simply remarkable. She demonstrated professionalism, patience, and attention to detail during her time with us. We are pleased with her work and highly recommend her services as a web developer."
+    
+    <b style='color:var(--primary-text-color);'>Sudhir Verma</b> <a href='https://www.linkedin.com/in/sudhir-kumar-verma-46a661108/' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>:
+    - <b style='color:var(--secondary-text-color);'>Role:</b> Recruiter - JPF NGO
+    - <b style='color:var(--secondary-text-color);'>Testimonial:</b> "Thanks for your talent and hard work, JPF NGO now has a compelling online presence that effectively communicates our cause to the world. I wholeheartedly recommend anshika for any web design or development project; she's a true professional and a pleasure to collaborate with."
+    
+    <b style='color:var(--primary-text-color);'>Tanay Bhatt</b> <a href='https://www.instagram.com/bhatt_tanay/' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>:
+    - <b style='color:var(--secondary-text-color);'>Role:</b> Freelancer
+    - <b style='color:var(--secondary-text-color);'>Testimonial:</b> "I am thrilled to provide a strong endorsement for Anshika, a standout freelance frontend developer. Anshika's expertise in React, and Tailwind, coupled with a keen design sense, consistently elevates the quality of our projects. Her commitment to timely delivery, collaborative approach, and innovative thinking make her an invaluable freelancer. Anshika's professionalism and dedication to excellence truly set her apart in the world of frontend development"
+    
+    <b style='color:var(--primary-text-color);'>Ashwini Gupta</b> <a href='https://www.linkedin.com/in/ashwani-gupta-5658b61bb' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>:
+    - <b style='color:var(--secondary-text-color);'>Role:</b> SE - TCS
+    - <b style='color:var(--secondary-text-color);'>Testimonial:</b> "Anshika is an outstanding frontend developer, seamlessly blending design and UX expertise. Proficient in Reactjs and Tailwind, she delivers top-quality work on time. Her commitment to staying current with industry trends sets her apart. Highly recommend for any frontend development needs."
+    
+    <b style='color:var(--primary-text-color);'>Yashi Goyal</b> <a href='https://www.linkedin.com/in/yashigoyal/' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>:
+    - <b style='color:var(--secondary-text-color);'>Role:</b> TAHK Web Dev
+    - <b style='color:var(--secondary-text-color);'>Testimonial:</b> "Anshika has a good grasp of skills in frontend development. I worked with her on a project using HTML, CSS, JS and BootStrap. She is a team player and prefers working together in order to take the project to greater heights."
+    
+    <b style='color:var(--primary-text-color);'>Mridul Verma</b> <a href='https://linkedin.com/in/mridul-verma-719792230/' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>:
+    - <b style='color:var(--secondary-text-color);'>Role:</b> Project Partner
+    - <b style='color:var(--secondary-text-color);'>Testimonial:</b> "We had the pleasure of working with Anshika as our Front-End Developer on a recent project. Her unique blend of creativity, technical expertise, and attention to detail significantly elevated the user experience. Anshika seamlessly integrated feedback, collaborated effectively, and fostered a positive working environment. I wholeheartedly recommend Anshika for her dedication and valuable contributions as a Front-End Developer. Look forward to working together again in the future."
+    
+    <b style='color:var(--primary-text-color);'>Prasant Kumar</b> <a href='https://www.linkedin.com/in/decodeprasant' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>:
+    - <b style='color:var(--secondary-text-color);'>Role:</b> Frontend Dev
+    - <b style='color:var(--secondary-text-color);'>Testimonial:</b> "Anshika is great at building websites, turning ideas into beautiful, functional sites. Her coding and design skills are top-notch. I've seen her coding skills improve a lot. She's leveling up, and it's awesome to witness! Her passion for what she does makes her work stand out."
+    
+    Embark on a journey through the praises and recommendations from professionals who have witnessed my dedication and expertise! 🌐🙌`
+    },
+    {
+      'id': 13,
+      'command': 'leisures',
+      'description': `\nStep into the realm of my leisure pursuits! 🎶📝 Explore the facets of my creative side beyond coding:
+    
+    <b style='color:var(--primary-text-color);'>Lyricism</b>
+    - <b style='color:var(--secondary-text-color);'>Description:</b> Immerse yourself in the world of words and emotions through my lyrical expressions. Crafting meaningful and poetic verses is one of my cherished leisure activities.
+    
+    <b style='color:var(--primary-text-color);'>Text Crafting</b>
+    - <b style='color:var(--secondary-text-color);'>Description:</b> Dive into the art of text crafting, where words are carefully woven to convey ideas, stories, and messages. Explore the creative process behind shaping written content.
+    
+    <b style='color:var(--primary-text-color);'>Oratory</b>
+    - <b style='color:var(--secondary-text-color);'>Description:</b> Experience the power of spoken words and effective communication. Oratory is not just a skill but a leisure pursuit, where I engage in expressing thoughts and ideas with eloquence.
+    
+    <b style='color:var(--primary-text-color);'>Artistry</b>
+    - <b style='color:var(--secondary-text-color);'>Description:</b> Uncover the visual dimensions of my creativity. Artistry is a form of expression where I explore and bring ideas to life through various visual mediums.
+    
+    Embark on a journey through my leisure activities, where creativity takes center stage! 🎨✨`
+    },
+    {
+      'id': 14,
+      'command': 'languages',
+      'description': `\nExplore the linguistic landscape of my proficiency! 🌐🗣️ Delve into the languages that I am well-versed in:
+    
+    <b style='color:var(--primary-text-color);'>Hindi</b>
+    - <b style='color:var(--secondary-text-color);'>Proficiency:</b> Fluent
+    - <b style='color:var(--secondary-text-color);'>Description:</b> Navigate through the richness of Hindi, my native language, with seamless fluency and a deep understanding of its cultural nuances.
+    
+    <b style='color:var(--primary-text-color);'>English</b>
+    - <b style='color:var(--secondary-text-color);'>Proficiency:</b> Fluent
+    - <b style='color:var(--secondary-text-color);'>Description:</b> Engage in effective communication and expression in English, showcasing proficiency in both written and spoken forms.
+    
+    <b style='color:var(--primary-text-color);'>French</b>
+    - <b style='color:var(--secondary-text-color);'>Proficiency:</b> Intermediate
+    - <b style='color:var(--secondary-text-color);'>Description:</b> Embark on a linguistic journey with intermediate proficiency in French, exploring the beauty of this romantic language.
+    
+    <b style='color:var(--primary-text-color);'>Punjabi</b>
+    - <b style='color:var(--secondary-text-color);'>Proficiency:</b> Conversational
+    - <b style='color:var(--secondary-text-color);'>Description:</b> Engage in casual conversations and connect culturally with my conversational proficiency in Punjabi.
+    
+    Embark on a linguistic adventure, exploring the diverse world of languages that I am proficient in! 🗺️🔤`
+    },
+    {
+      'id': 15,
+      'command': 'education',
+      'description': `\nEmbark on a journey through my educational milestones! 📚🎓 Explore the key phases of my academic life and the valuable insights gained along the way:
+    
+    <b style='color:var(--primary-text-color);'>Secondary School: 2019</b>
+    - <b style='color:var(--secondary-text-color);'>Percentage:</b> 96%
+    - <b style='color:var(--secondary-text-color);'>Description:</b> One of the turning phases in my life that gave me an insight into my real skills. Since it was the first time I appeared for boards, I truly recognized the level of competitiveness around the world.
+    
+    <b style='color:var(--primary-text-color);'>Senior Secondary School: 2021</b>
+    - <b style='color:var(--secondary-text-color);'>Percentage:</b> 93.4%
+    - <b style='color:var(--secondary-text-color);'>Description:</b> During this time, I got exposure to event management and the world of coding. It was the time when I truly realized my potential and was able to get a clear road map of my future choices.
+    
+    <b style='color:var(--primary-text-color);'>Graduation: Present</b>
+    - <b style='color:var(--secondary-text-color);'>CGPA:</b> 8.7
+    - <b style='color:var(--secondary-text-color);'>Description:</b> After a lot of analysis among different colleges in North India, I chose CU, and looking at continuous improvement in my skills and personality, I can proudly say it's one of the best decisions I made.
+    
+    Embark on a journey through my academic milestones, witnessing the growth and insights gained at each educational phase! 🏫🌱`
     }
-    
-    
+
+
+
+
+
+
     // Add more commands as needed
   ]
 };
