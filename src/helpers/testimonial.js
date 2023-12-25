@@ -146,7 +146,7 @@ const testimonials = [
         imageSrc: "https://www.dropbox.com/scl/fi/gkknwbalbseyc1yqhrrvx/1688197676868.jpeg?rlkey=403zkrpi4d02rvwmj9vs6h74e&dl=1",
         testimonialText: "We had the pleasure of working with Anshika as our Front-End Developer on a recent project. Her unique blend of creativity, technical expertise, and attention to detail significantly elevated the user experience. Anshika seamlessly integrated feedback, collaborated effectively, and fostered a positive working environment. I wholeheartedly recommend Anshika for her dedication and valuable contributions as a Front-End Developer. Look forward to working together again in the future.",
         socialLinks: {
-          github: "https://github.com/theprasant",
+          github: "https://github.com/Mridulv20",
           facebook: null,
           linkedin: "https://linkedin.com/in/mridul-verma-719792230/",
           instagram: "https://www.instagram.com/mridul3533/",
