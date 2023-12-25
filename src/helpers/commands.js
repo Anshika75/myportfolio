@@ -399,6 +399,48 @@ Let's connect the dots and script the next adventure.`,
 ------------------------------
 Terminal Connection Established. Let's Stay Linked! 🚀🌟`,
     },
+    {
+      'id': 10,
+      'command': 'volunteer',
+      'description': `\nWelcome to the impactful corner of my volunteer journey! 🌟 Dive into the meaningful experiences and contributions made during my time as a volunteer:
+    
+    <b style='color:var(--primary-text-color);'>Google Cloud Community India</b>:
+      - <b style='color:var(--secondary-text-color);'>Role:</b> Google Cloud Arcade Facilitator
+      - <b style='color:var(--secondary-text-color);'>Duration:</b> Jun 2023 - Aug 2023 (3 months)
+      - <b style='color:var(--secondary-text-color);'>Description:</b> Engaged as a facilitator in the Google Cloud Arcade, contributing to the growth and knowledge-sharing within the Google Cloud Community in India.
+    
+    <b style='color:var(--primary-text-color);'>Jeevan Pradata Foundation - NGO</b>:
+      - <b style='color:var(--secondary-text-color);'>Role:</b> Frontend Developer
+      - <b style='color:var(--secondary-text-color);'>Duration:</b> Jun 2023 - Oct 2023 (5 months)
+      - <b style='color:var(--secondary-text-color);'>Description:</b> Played a pivotal role as a frontend developer at the Jeevan Pradata Foundation, contributing technical skills to support the NGO's mission and enhance its online presence.
+      Embark on a journey of making a positive impact through volunteer work! 🌍🤝`
+
+    },
+    {
+      'id': 11,
+      'command': 'feats',
+      'description': `\nDiscover the highlights of my professional journey and accomplishments! 🏆 Uncover the statistics that showcase my skills and experiences:
+    
+    <b style='color:var(--primary-text-color);'>Projects</b>:
+      - <b style='color:var(--secondary-text-color);'>Number:</b> 20+
+      - <b style='color:var(--secondary-text-color);'>Description:</b> Successfully completed and contributed to over 20 diverse projects, showcasing a range of technical expertise and creativity.
+    
+    <b style='color:var(--primary-text-color);'>Connections</b>:
+      - <b style='color:var(--secondary-text-color);'>Number:</b> 400
+      - <b style='color:var(--secondary-text-color);'>Description:</b> Cultivated a network of 400+ professional connections, fostering collaborations and expanding the reach of my professional community.
+    
+    <b style='color:var(--primary-text-color);'>Experience</b>:
+      - <b style='color:var(--secondary-text-color);'>Duration:</b> 4+ years
+      - <b style='color:var(--secondary-text-color);'>Description:</b> Garnered valuable experience over a span of more than 4 years, honing skills and adapting to evolving industry trends.
+    
+    <b style='color:var(--primary-text-color);'>Endorsed Skills</b>:
+      - <b style='color:var(--secondary-text-color);'>Number:</b> 25
+      - <b style='color:var(--secondary-text-color);'>Description:</b> Recognized for proficiency in a diverse skill set, with 25+ endorsed skills by peers and professionals.
+    
+    Embark on a journey through my professional feats, showcasing expertise, connections, and continuous growth! 🚀🌐`
+    }
+    
+    
     // Add more commands as needed
   ]
 };
