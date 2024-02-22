@@ -37,13 +37,15 @@ const commands = {
         &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>projects-basics</b>: Explore fundamental projects showcasing simplicity and functionality.
         &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>projects-intermediate</b>: Immerse yourself in projects that strike a balance between complexity and creativity.
         &nbsp;&nbsp;&nbsp;&nbsp; - <b style='color:var(--secondary-text-color);'>projects-advance</b>: Dive into advanced projects pushing the boundaries of technology and innovation.    
-    - <b style='color:var(--primary-text-color);'>volunteer-advance</b>: Explore my volunteer experiences and contributions to various organizations.
-    - <b style='color:var(--primary-text-color);'>my-feats-advance</b>: Discover my achievements and milestones, including projects, connections, and years of experience.
-    - <b style='color:var(--primary-text-color);'>testimonials-advance</b>: Read testimonials from professionals I've collaborated with, sharing their experiences and recommendations.
-    - <b style='color:var(--primary-text-color);'>leisures-advance</b>: Step into the realm of my leisure pursuits.
-    - <b style='color:var(--primary-text-color);'>languages-advance</b>: Explore the linguistic landscape of my language proficiences.
-    - <b style='color:var(--primary-text-color);'>education-advance</b>: Embark on a journey through my educational milestones, witnessing the growth and insights gained at each phase.
-    - <b style='color:var(--primary-text-color);'>social:</b> Establish a data connection and dive into the network of possibilities`
+    - <b style='color:var(--primary-text-color);'>experience</b>: Discover my experiences and contributions to various organizations.
+    - <b style='color:var(--primary-text-color);'>volunteer</b>: Explore my volunteer experiences and contributions to various organizations.
+    - <b style='color:var(--primary-text-color);'>badges</b>: Explore the digital badges I've earned on my professional journey.
+    - <b style='color:var(--primary-text-color);'>feats</b>: Discover the highlights of my professional journey and accomplishments! 
+    - <b style='color:var(--primary-text-color);'>testimonials</b>: Read testimonials from professionals I've collaborated with, sharing their experiences and recommendations.
+    - <b style='color:var(--primary-text-color);'>leisures</b>: Step into the realm of my leisure pursuits.
+    - <b style='color:var(--primary-text-color);'>languages</b>: Explore the linguistic landscape of my language proficiences.
+    - <b style='color:var(--primary-text-color);'>education</b>: Embark on a journey through my educational milestones, witnessing the growth and insights gained at each phase.
+    - <b style='color:var(--primary-text-color);'>social</b>: Establish a data connection and dive into the network of possibilities`
     },
 
     {
@@ -363,46 +365,51 @@ Embark on a voyage through cutting-edge projects that combine technology and cre
       'command': 'experience',
       'description': `\nProfessional Chronicles Unveiled ⚡️
        ------------------------------\n
- <b style='color:var(--primary-text-color);'>Internet Technology Development Intern</b>
-<i style='color:var(--secondary-text-color);'>BasketHunt Pvt Ltd | Feb 2022 - Apr 2022 | 3 mos</i>
-🚀 Managed VPNs and user profiles on the Moodle platform.
+       
+      <b style='color:var(--primary-text-color);'>Development Executive</b>
+      <i style='color:var(--secondary-text-color);'>CU Academic Competitions | Dec 2023 - Present</i>
+      🎨 Designed the app on Figma and developed website. Along with that I've contributed to event and team management
 
-<b style='color:var(--primary-text-color);'>Technical Team Co-ordinator</b>
-<i style='color:var(--secondary-text-color);'>The LaDebug Club | Jan 2022 - Aug 2022 | 8 mos</i>
-🌐 Developed the team website and handled mailer management.
+      <b style='color:var(--primary-text-color);'>Frontend Developer</b>
+      <i style='color:var(--secondary-text-color);'>Medantrik Medtech Pvt Ltd | Oct 2023 - Present</i>
+      🎨 Designed the app on Figma and developed its working prototype.
 
-<b style='color:var(--primary-text-color);'>Web Development Intern</b>
-<i style='color:var(--secondary-text-color);'>TreeAndHumanKnot | Jun 2022 - Sep 2022 | 4 mos</i>
-💻 Designed and developed the website using child and parent themes.
+      <b style='color:var(--primary-text-color);'>Web Development Intern</b>
+      <i style='color:var(--secondary-text-color);'>Report Prime | Jun 2023 - Oct 2023</i>
+      🌐 Developed the site using Bootstrap and Bootstrap Sass.
 
-<b style='color:var(--primary-text-color);'>Senior Frontend Developer</b>
-<i style='color:var(--secondary-text-color);'>Repaybly | Aug 2022 - Nov 2022 | 4 mos</i>
-⚛️ Developed the website using React and Tailwind; managed the team.
+      <b style='color:var(--primary-text-color);'>Technical Lead</b>
+      <i style='color:var(--secondary-text-color);'>Hackoverflow Society | Jan 2022 - Aug 2023</i>
+      👨‍💻 Led the tech team, developed the team website, and actively contributed to event organization.
+      ✨ Organized HS Day, Hack The Fest, and judged the CSS Quest competition.
 
-<b style='color:var(--primary-text-color);'>Web Developer</b>
-<i style='color:var(--secondary-text-color);'>INFINITY SMART INDIA | Jun 2022 - Dec 2022 | 7 mos</i>
-🏫 Developed a school management system on React and Tailwind from Figma UI.
+      <b style='color:var(--primary-text-color);'>Subject Matter Expert</b>
+      <i style='color:var(--secondary-text-color);'>House of Couton Private Limited | Jun 2023 - Jul 2023</i>
+      📝 Completed content writing tasks, worked with UML software, and did wireframe designs.
 
-<b style='color:var(--primary-text-color);'>Subject Matter Expert</b>
-<i style='color:var(--secondary-text-color);'>House of Couton Private Limited | Jun 2023 - Jul 2023 | 2 mos</i>
-📝 Completed content writing tasks, worked with UML software, and did wireframe designs.
+      <b style='color:var(--primary-text-color);'>Web Developer</b>
+      <i style='color:var(--secondary-text-color);'>INFINITY SMART INDIA | Jun 2022 - Dec 2022</i>
+      🏫 Developed a school management system on React and Tailwind from Figma UI.
 
-<b style='color:var(--primary-text-color);'>Technical Lead</b>
-<i style='color:var(--secondary-text-color);'>Hackoverflow Society | Jan 2022 - Aug 2023 | 1 yr 8 mos</i>
-👨‍💻 Led the tech team, developed the team website, and actively contributed to event organization.
-✨ Organized HS Day, Hack The Fest, and judged the CSS Quest competition.
+      <b style='color:var(--primary-text-color);'>Senior Frontend Developer</b>
+      <i style='color:var(--secondary-text-color);'>Repaybly | Aug 2022 - Nov 2022</i>
+      ⚛️ Developed the website using React and Tailwind; managed the team.
 
-<b style='color:var(--primary-text-color);'>Web Development Intern</b>
-<i style='color:var(--secondary-text-color);'>Report Prime | Jun 2023 - Oct 2023 | 5 mos</i>
-🌐 Developed the site using Bootstrap and Bootstrap Sass.
+      <b style='color:var(--primary-text-color);'>Web Development Intern</b>
+      <i style='color:var(--secondary-text-color);'>TreeAndHumanKnot | Jun 2022 - Sep 2022</i>
+      💻 Designed and developed the website using child and parent themes.
 
-<b style='color:var(--primary-text-color);'>Frontend Developer</b>
-<i style='color:var(--secondary-text-color);'>Medantrik Medtech Pvt Ltd | Oct 2023 - Present | 2 mos</i>
-🎨 Designed the app on Figma and developed its working prototype.
+      <b style='color:var(--primary-text-color);'>Technical Team Co-ordinator</b>
+      <i style='color:var(--secondary-text-color);'>The LaDebug Club | Jan 2022 - Aug 2022</i>
+      🌐 Developed the team website and handled mailer management.
 
-Exit Code: Journey Completed. 
-------------------------------
-Let's connect the dots and script the next adventure.`,
+      <b style='color:var(--primary-text-color);'>Internet Technology Development Intern</b>
+      <i style='color:var(--secondary-text-color);'>BasketHunt Pvt Ltd | Feb 2022 - Apr 2022</i>
+      🚀 Managed VPNs and user profiles on the Moodle platform.
+
+      Exit Code: Journey Completed. 
+      ------------------------------
+      Let's connect the dots and script the next adventure.`,
     },
     {
       'id': 9,
@@ -512,7 +519,7 @@ Terminal Connection Established. Let's Stay Linked! 🚀🌟`,
     {
       'id': 13,
       'command': 'leisures',
-      'description': `\nStep into the realm of my leisure pursuits! 🎶📝 Explore the facets of my creative side beyond coding:
+      'description': `\nStep into the realm of my leisure pursuits! 🎶📝 Explore the facets of my creative side beyond coding: \n
     
     <b style='color:var(--primary-text-color);'>Lyricism</b>
     - <b style='color:var(--secondary-text-color);'>Description:</b> Immerse yourself in the world of words and emotions through my lyrical expressions. Crafting meaningful and poetic verses is one of my cherished leisure activities.
@@ -569,14 +576,27 @@ Terminal Connection Established. Let's Stay Linked! 🚀🌟`,
     - <b style='color:var(--secondary-text-color);'>Description:</b> After a lot of analysis among different colleges in North India, I chose CU, and looking at continuous improvement in my skills and personality, I can proudly say it's one of the best decisions I made.
     
     Embark on a journey through my academic milestones, witnessing the growth and insights gained at each educational phase! 🏫🌱`
+    },
+    {
+      'id': 16,
+      'command': 'badges',
+      'description': `Unlock the badges of my journey! 🛡️🔓 Explore the badges earned through dedication and hard work:\n
+      <b style='color:var(--primary-text-color);'>Data Science Foundations</b> <a href='https://www.credly.com/badges/c2f4847f-0ff4-45df-acbe-f5e2fefc8abe/public_url' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      <b style='color:var(--primary-text-color);'>Databases and SQL for Data Science</b> <a href='https://www.credly.com/badges/77d7f6cf-77c4-40d9-bc9d-8a295a27d6e1/public_url' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      <b style='color:var(--primary-text-color);'>Software Engineering Essentials</b> <a href='https://www.credly.com/badges/12e76a1c-cf2e-4d86-b085-9668682310c3/public_url' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      <b style='color:var(--primary-text-color);'>Surfer Moby Dock</b> <a href='https://www.holopin.io/userbadge/cla2g6tq01036609jnkubeooik' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      <b style='color:var(--primary-text-color);'>Hacktoberfest 2022: Level 4</b> <a href='https://www.holopin.io/userbadge/clsw7mz4r93570fiek0wrafhs' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      <b style='color:var(--primary-text-color);'>Hacktoberfest 2022: Level 3</b> <a href='https://www.holopin.io/userbadge/cl9c7jexb450509k0fcclxk9z' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      <b style='color:var(--primary-text-color);'>Hacktoberfest 2022: Level 2</b> <a href='https://www.holopin.io/userbadge/clsw81hgv129210fiexg3kg87v' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      <b style='color:var(--primary-text-color);'>Hacktoberfest 2022: Level 1</b> <a href='https://www.holopin.io/userbadge/cl9c7jwio457409k0valv7a0h' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      <b style='color:var(--primary-text-color);'>Hacktoberfest 2022: Registered</b> <a href='https://www.holopin.io/userbadge/cl91cmu512066309jqegnx2lzg' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      <b style='color:var(--primary-text-color);'>Appwrite Hacktoberfest 2022</b> <a href='https://www.holopin.io/userbadge/clampo1s1153408mkdrjxg13w' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      <b style='color:var(--primary-text-color);'>New Year, New Skills: Red Challenge (A)</b> <a href='https://www.cloudskillsboost.google/public_profiles/b42300dc-0e54-4781-8cfc-4ee5dd8442f0/badges/3142086' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      <b style='color:var(--primary-text-color);'>New Year, New Skills: Green Challenge (A)</b> <a href='https://www.cloudskillsboost.google/public_profiles/b42300dc-0e54-4781-8cfc-4ee5dd8442f0/badges/3105263' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+
+      \n\nEmbark on a journey through my badges collection, witnessing the skills and values demonstrated with each earned badge! 💼🔑"`
     }
 
-
-
-
-
-
-    // Add more commands as needed
   ]
 };
 
