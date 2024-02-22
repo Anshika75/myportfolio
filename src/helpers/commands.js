@@ -1,7 +1,3 @@
-// commands.js
-
-
-
 const commands = {
   'commands': [
     {
@@ -452,8 +448,8 @@ Terminal Connection Established. Let's Stay Linked! 🚀🌟`,
       - <b style='color:var(--secondary-text-color);'>Description:</b> Successfully completed and contributed to over 20 diverse projects, showcasing a range of technical expertise and creativity.
     
     <b style='color:var(--primary-text-color);'>Connections</b>:
-      - <b style='color:var(--secondary-text-color);'>Number:</b> 400
-      - <b style='color:var(--secondary-text-color);'>Description:</b> Cultivated a network of 400+ professional connections, fostering collaborations and expanding the reach of my professional community.
+      - <b style='color:var(--secondary-text-color);'>Number:</b> 500
+      - <b style='color:var(--secondary-text-color);'>Description:</b> Cultivated a network of 500+ professional connections, fostering collaborations and expanding the reach of my professional community.
     
     <b style='color:var(--primary-text-color);'>Experience</b>:
       - <b style='color:var(--secondary-text-color);'>Duration:</b> 4+ years
@@ -519,7 +515,7 @@ Terminal Connection Established. Let's Stay Linked! 🚀🌟`,
     {
       'id': 13,
       'command': 'leisures',
-      'description': `\nStep into the realm of my leisure pursuits! 🎶📝 Explore the facets of my creative side beyond coding: \n
+      'description': `\nStep into the realm of my leisure pursuits! 🎶📝 Explore the facets of my creative side beyond coding:
     
     <b style='color:var(--primary-text-color);'>Lyricism</b>
     - <b style='color:var(--secondary-text-color);'>Description:</b> Immerse yourself in the world of words and emotions through my lyrical expressions. Crafting meaningful and poetic verses is one of my cherished leisure activities.
@@ -563,38 +559,38 @@ Terminal Connection Established. Let's Stay Linked! 🚀🌟`,
       'command': 'education',
       'description': `\nEmbark on a journey through my educational milestones! 📚🎓 Explore the key phases of my academic life and the valuable insights gained along the way:
     
-    <b style='color:var(--primary-text-color);'>Secondary School: 2019</b>
-    - <b style='color:var(--secondary-text-color);'>Percentage:</b> 96%
-    - <b style='color:var(--secondary-text-color);'>Description:</b> One of the turning phases in my life that gave me an insight into my real skills. Since it was the first time I appeared for boards, I truly recognized the level of competitiveness around the world.
+      <b style='color:var(--primary-text-color);'>Graduation: Present</b>
+      - <b style='color:var(--secondary-text-color);'>CGPA:</b> 8.7
+      - <b style='color:var(--secondary-text-color);'>Description:</b> After a lot of analysis among different colleges in North India, I chose CU, and looking at continuous improvement in my skills and personality, I can proudly say it's one of the best decisions I made.
     
-    <b style='color:var(--primary-text-color);'>Senior Secondary School: 2021</b>
-    - <b style='color:var(--secondary-text-color);'>Percentage:</b> 93.4%
-    - <b style='color:var(--secondary-text-color);'>Description:</b> During this time, I got exposure to event management and the world of coding. It was the time when I truly realized my potential and was able to get a clear road map of my future choices.
+      <b style='color:var(--primary-text-color);'>Senior Secondary School: 2021</b>
+      - <b style='color:var(--secondary-text-color);'>Percentage:</b> 93.4%
+      - <b style='color:var(--secondary-text-color);'>Description:</b> During this time, I got exposure to event management and the world of coding. It was the time when I truly realized my potential and was able to get a clear road map of my future choices.
     
-    <b style='color:var(--primary-text-color);'>Graduation: Present</b>
-    - <b style='color:var(--secondary-text-color);'>CGPA:</b> 8.7
-    - <b style='color:var(--secondary-text-color);'>Description:</b> After a lot of analysis among different colleges in North India, I chose CU, and looking at continuous improvement in my skills and personality, I can proudly say it's one of the best decisions I made.
+      <b style='color:var(--primary-text-color);'>Secondary School: 2019</b>
+      - <b style='color:var(--secondary-text-color);'>Percentage:</b> 96%
+      - <b style='color:var(--secondary-text-color);'>Description:</b> One of the turning phases in my life that gave me an insight into my real skills. Since it was the first time I appeared for boards, I truly recognized the level of competitiveness around the world.
     
     Embark on a journey through my academic milestones, witnessing the growth and insights gained at each educational phase! 🏫🌱`
     },
     {
       'id': 16,
       'command': 'badges',
-      'description': `Unlock the badges of my journey! 🛡️🔓 Explore the badges earned through dedication and hard work:\n
-      <b style='color:var(--primary-text-color);'>Data Science Foundations</b> <a href='https://www.credly.com/badges/c2f4847f-0ff4-45df-acbe-f5e2fefc8abe/public_url' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
-      <b style='color:var(--primary-text-color);'>Databases and SQL for Data Science</b> <a href='https://www.credly.com/badges/77d7f6cf-77c4-40d9-bc9d-8a295a27d6e1/public_url' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
-      <b style='color:var(--primary-text-color);'>Software Engineering Essentials</b> <a href='https://www.credly.com/badges/12e76a1c-cf2e-4d86-b085-9668682310c3/public_url' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
-      <b style='color:var(--primary-text-color);'>Surfer Moby Dock</b> <a href='https://www.holopin.io/userbadge/cla2g6tq01036609jnkubeooik' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
-      <b style='color:var(--primary-text-color);'>Hacktoberfest 2022: Level 4</b> <a href='https://www.holopin.io/userbadge/clsw7mz4r93570fiek0wrafhs' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
-      <b style='color:var(--primary-text-color);'>Hacktoberfest 2022: Level 3</b> <a href='https://www.holopin.io/userbadge/cl9c7jexb450509k0fcclxk9z' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
-      <b style='color:var(--primary-text-color);'>Hacktoberfest 2022: Level 2</b> <a href='https://www.holopin.io/userbadge/clsw81hgv129210fiexg3kg87v' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
-      <b style='color:var(--primary-text-color);'>Hacktoberfest 2022: Level 1</b> <a href='https://www.holopin.io/userbadge/cl9c7jwio457409k0valv7a0h' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
-      <b style='color:var(--primary-text-color);'>Hacktoberfest 2022: Registered</b> <a href='https://www.holopin.io/userbadge/cl91cmu512066309jqegnx2lzg' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
-      <b style='color:var(--primary-text-color);'>Appwrite Hacktoberfest 2022</b> <a href='https://www.holopin.io/userbadge/clampo1s1153408mkdrjxg13w' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
-      <b style='color:var(--primary-text-color);'>New Year, New Skills: Red Challenge (A)</b> <a href='https://www.cloudskillsboost.google/public_profiles/b42300dc-0e54-4781-8cfc-4ee5dd8442f0/badges/3142086' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
-      <b style='color:var(--primary-text-color);'>New Year, New Skills: Green Challenge (A)</b> <a href='https://www.cloudskillsboost.google/public_profiles/b42300dc-0e54-4781-8cfc-4ee5dd8442f0/badges/3105263' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      'description': `\nUnlock the badges of my journey! 🛡️🔓 Explore the badges earned through dedication and hard work:\n
+      - <b style='color:var(--primary-text-color);'>Data Science Foundations</b> <a href='https://www.credly.com/badges/c2f4847f-0ff4-45df-acbe-f5e2fefc8abe/public_url' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      - <b style='color:var(--primary-text-color);'>Databases and SQL for Data Science</b> <a href='https://www.credly.com/badges/77d7f6cf-77c4-40d9-bc9d-8a295a27d6e1/public_url' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      - <b style='color:var(--primary-text-color);'>Software Engineering Essentials</b> <a href='https://www.credly.com/badges/12e76a1c-cf2e-4d86-b085-9668682310c3/public_url' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      - <b style='color:var(--primary-text-color);'>Surfer Moby Dock</b> <a href='https://www.holopin.io/userbadge/cla2g6tq01036609jnkubeooik' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      - <b style='color:var(--primary-text-color);'>Hacktoberfest 2022: Level 4</b> <a href='https://www.holopin.io/userbadge/clsw7mz4r93570fiek0wrafhs' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      - <b style='color:var(--primary-text-color);'>Hacktoberfest 2022: Level 3</b> <a href='https://www.holopin.io/userbadge/cl9c7jexb450509k0fcclxk9z' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      - <b style='color:var(--primary-text-color);'>Hacktoberfest 2022: Level 2</b> <a href='https://www.holopin.io/userbadge/clsw81hgv129210fiexg3kg87v' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      - <b style='color:var(--primary-text-color);'>Hacktoberfest 2022: Level 1</b> <a href='https://www.holopin.io/userbadge/cl9c7jwio457409k0valv7a0h' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      - <b style='color:var(--primary-text-color);'>Hacktoberfest 2022: Registered</b> <a href='https://www.holopin.io/userbadge/cl91cmu512066309jqegnx2lzg' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      - <b style='color:var(--primary-text-color);'>Appwrite Hacktoberfest 2022</b> <a href='https://www.holopin.io/userbadge/clampo1s1153408mkdrjxg13w' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      - <b style='color:var(--primary-text-color);'>New Year, New Skills: Red Challenge (A)</b> <a href='https://www.cloudskillsboost.google/public_profiles/b42300dc-0e54-4781-8cfc-4ee5dd8442f0/badges/3142086' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
+      - <b style='color:var(--primary-text-color);'>New Year, New Skills: Green Challenge (A)</b> <a href='https://www.cloudskillsboost.google/public_profiles/b42300dc-0e54-4781-8cfc-4ee5dd8442f0/badges/3105263' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
 
-      \n\nEmbark on a journey through my badges collection, witnessing the skills and values demonstrated with each earned badge! 💼🔑"`
+      Embark on a journey through my badges collection, witnessing the skills and values demonstrated with each earned badge! 💼🔑"`
     }
 
   ]
