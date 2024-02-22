@@ -16,7 +16,7 @@ const MoreProjects: React.FC = () => {
 
     return (
         <>
-            <div className="mt-8 flex flex-col items-center justify-start pb-20 px-[20px] lg:px-[60px]">
+            <div className="mt-20 relative flex flex-col items-center justify-start pb-20 px-[20px] lg:px-[60px]">
                 {/* Header and Filter Buttons */}
                 <div className={`flex flex-col relative w-full items-center scale-50 lg:scale-100 ${styles.anim1}`}>
                     {/* Header Image */}
@@ -24,13 +24,13 @@ const MoreProjects: React.FC = () => {
                     {/* Header Text */}
                     <p className={`text-white text-5xl z-20 ${styles.pang}`}>My</p>
                 </div>
-                <h1 className={`text-6xl lg:text-[120px] text-black ${styles.lond} ${styles.anim2} font-black`}>Creations</h1>
+                <h1 className={`text-6xl -mt-2 lg:mt-0 lg:text-[120px] text-black ${styles.lond} ${styles.anim2} font-black`}>Creations</h1>
                 {/* Filter Buttons */}
-                <div className="flex flex-row w-full justify-center align-center">
+                <div className="grid grid-cols-3 lg:grid-cols-5 gap-5 place-items-center my-8 w-full lg:w-[75%] justify-center align-center">
                     {["All", "CSS Art", "Basic", "Intermediate", "Advance"].map((tag, index) => (
                         <div
                             key={index}
-                            className={`cursor-pointer hover:animate-none mx-4 z-20 bg-[#231F20] w-32 text-center rounded-full my-6 text-white py-4 px-2 ${styles.pang} ${activeFilter === tag ? 'bg-opacity-100' : 'bg-opacity-50'}`}
+                            className={`cursor-pointer hover:animate-none hover:bg-opacity-100 z-20 bg-[#231F20] w-full text-center rounded-full text-white py-4 text-sm lg:text-xl ${styles.pang} ${activeFilter === tag ? 'bg-opacity-100' : 'bg-opacity-50'}`}
                             onClick={() => handleFilterChange(tag)}
                         >
                             {tag}
