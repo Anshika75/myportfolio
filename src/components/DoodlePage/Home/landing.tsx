@@ -10,7 +10,6 @@ const Landing: React.FC = () => {
             flexDirection: 'column',
             justifyContent: 'center',
             alignItems: 'center',
-            minHeight: '100vh',
             width: '100%',
             backgroundImage: 'url("https://media.istockphoto.com/id/1199971584/vector/paper-texture-background.jpg?s=612x612&w=0&k=20&c=nqWK-ppAxZLYeKfxur9eHVldpSLDD1njkitFS2hyinY=")',
             backgroundSize: 'cover',
@@ -20,9 +19,9 @@ const Landing: React.FC = () => {
 
     return (
         <>
-            <div style={style.container}>
-                <div className="min-h-screen flex flex-col w-full items-center justify-center">
-                    <img src="https://www.dropbox.com/scl/fi/vl1jix1g5mc5c8a1gcoa7/Pink_Doodle_Project_Presentation__1_-removebg.png?rlkey=n4wqzsc9i09bkh5wskxzn3urd&dl=1" className={`absolute left-0 top-0 h-full lg:h-[95%] w-full z-10 ${styles.anim3}`} alt="" />
+            <div style={style.container} className='h-[45vh] lg:min-h-[100vh]'>
+                <div className="h-[45vh] lg:min-h-screen flex flex-col w-full items-center justify-center">
+                    <img src="https://www.dropbox.com/scl/fi/vl1jix1g5mc5c8a1gcoa7/Pink_Doodle_Project_Presentation__1_-removebg.png?rlkey=n4wqzsc9i09bkh5wskxzn3urd&dl=1" className={`absolute left-0 top-0 h-[50vh] lg:h-[95%] w-full z-10 ${styles.anim3}`} alt="" />
                     <div className="flex w-full justify-center">
                         <div className="hidden lg:flex flex-col items-center w-[30%]">
                             <a href="" className={`cursor-pointer hover:animate-none animate-pulse z-20 bg-[#231F20] w-32 text-center rounded-full my-6 text-white py-4 px-2 rotate-12 ${styles.pang}`}>About</a>
