@@ -16,7 +16,7 @@ const Badges: React.FC = () => {
                 </div>
                 <h1 className={`text-6xl lg:text-[120px] text-black ${styles.lond} ${styles.anim2} font-black`}>Tokens</h1>
                 
-                <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 lg:gap-4 mt-12 cursor-pointer transition-all">
+                <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 lg:gap-4 lg:gap-y-12 mt-12 cursor-pointer transition-all">
 
                     <Link href={'https://www.credly.com/badges/c2f4847f-0ff4-45df-acbe-f5e2fefc8abe/public_url'} className="relative grid place-items-center shadow-md border-8 border-black rounded-full group hover:-translate-y-5 transition-all h-64 w-64 border-double" target='blank'>
                         <img src="https://images.credly.com/images/ac4daa48-1924-4dc5-80cf-ede5a08bac51/Data_Science_Foundations_Specialization.png" alt="" className='grayscale h-44 -mt-4 transition-all group-hover:scale-105' />
