@@ -232,6 +232,55 @@ const Skills: React.FC = () => {
                             <p className={`text-3xl text-black ${styles.perm} mt-2`}>37%</p>
                         </div>
                     </div>
+                </div><div className={`grid w-full pt-16 lg:pt-20 lg:grid-cols-4 grid-cols-1 gap-12`}>
+                    <div className="flex flex-col items-center justify-center relative px-2 py-24 cursor-pointer transition-all hover:-translate-y-5">
+                        <img src="https://www.dropbox.com/scl/fi/u9p5ve92n1p4rn1i7hrpl/Group-7.png?rlkey=xkbmtzb1v3ozoogkfqp2ajhj1&dl=1" className='absolute top-0 left-0 w-full h-full' alt="" />
+                        <h1 className={`text-2xl lg:text-4xl mb-5 text-white z-20 text-center ${styles.pang}`}>
+                        Harmony
+                        </h1>
+                    </div>
+                    <div className="flex flex-col items-center justify-center relative px-2 py-24 cursor-pointer transition-all hover:-translate-y-5">
+                        <img src="https://www.dropbox.com/scl/fi/u9p5ve92n1p4rn1i7hrpl/Group-7.png?rlkey=xkbmtzb1v3ozoogkfqp2ajhj1&dl=1" className='absolute top-0 left-0 w-full h-full' alt="" />
+                        <h1 className={`text-2xl lg:text-4xl mb-5 text-white z-20 text-center ${styles.pang}`}>
+                        LeadSync
+                        </h1>
+                    </div>
+                    <div className="flex flex-col items-center justify-center relative px-2 py-24 cursor-pointer transition-all hover:-translate-y-5">
+                        <img src="https://www.dropbox.com/scl/fi/u9p5ve92n1p4rn1i7hrpl/Group-7.png?rlkey=xkbmtzb1v3ozoogkfqp2ajhj1&dl=1" className='absolute top-0 left-0 w-full h-full' alt="" />
+                        <h1 className={`text-2xl lg:text-4xl mb-5 text-white z-20 text-center ${styles.pang}`}>
+                        ClientCare
+                        </h1>
+                    </div>
+                    <div className="flex flex-col items-center justify-center relative px-2 py-24 cursor-pointer transition-all hover:-translate-y-5">
+                        <img src="https://www.dropbox.com/scl/fi/u9p5ve92n1p4rn1i7hrpl/Group-7.png?rlkey=xkbmtzb1v3ozoogkfqp2ajhj1&dl=1" className='absolute top-0 left-0 w-full h-full' alt="" />
+                        <h1 className={`text-2xl lg:text-4xl mb-5 text-white z-20 text-center ${styles.pang}`}>
+                        TimeCraft
+                        </h1>
+                    </div>
+                    <div className="flex flex-col items-center justify-center relative px-2 py-24 cursor-pointer transition-all hover:-translate-y-5">
+                        <img src="https://www.dropbox.com/scl/fi/u9p5ve92n1p4rn1i7hrpl/Group-7.png?rlkey=xkbmtzb1v3ozoogkfqp2ajhj1&dl=1" className='absolute top-0 left-0 w-full h-full' alt="" />
+                        <h1 className={`text-2xl lg:text-4xl mb-5 text-white z-20 text-center ${styles.pang}`}>
+                        InnoMind
+                        </h1>
+                    </div>
+                    <div className="flex flex-col items-center justify-center relative px-2 py-24 cursor-pointer transition-all hover:-translate-y-5">
+                        <img src="https://www.dropbox.com/scl/fi/u9p5ve92n1p4rn1i7hrpl/Group-7.png?rlkey=xkbmtzb1v3ozoogkfqp2ajhj1&dl=1" className='absolute top-0 left-0 w-full h-full' alt="" />
+                        <h1 className={`text-2xl lg:text-4xl mb-5 text-white z-20 text-center ${styles.pang}`}>
+                        ResolvePro
+                        </h1>
+                    </div>
+                    <div className="flex flex-col items-center justify-center relative px-2 py-24 cursor-pointer transition-all hover:-translate-y-5">
+                        <img src="https://www.dropbox.com/scl/fi/u9p5ve92n1p4rn1i7hrpl/Group-7.png?rlkey=xkbmtzb1v3ozoogkfqp2ajhj1&dl=1" className='absolute top-0 left-0 w-full h-full' alt="" />
+                        <h1 className={`text-2xl lg:text-4xl mb-5 text-white z-20 text-center ${styles.pang}`}>
+                        Qualify
+                        </h1>
+                    </div>
+                    <div className="flex flex-col items-center justify-center relative px-2 py-24 cursor-pointer transition-all hover:-translate-y-5">
+                        <img src="https://www.dropbox.com/scl/fi/u9p5ve92n1p4rn1i7hrpl/Group-7.png?rlkey=xkbmtzb1v3ozoogkfqp2ajhj1&dl=1" className='absolute top-0 left-0 w-full h-full' alt="" />
+                        <h1 className={`text-2xl lg:text-4xl mb-5 text-white z-20 text-center ${styles.pang}`}>
+                        CreateEase
+                        </h1>
+                    </div>
                 </div>
             </div>
         </>
