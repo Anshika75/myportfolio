@@ -45,7 +45,7 @@ const commands = {
     - <b style='color:var(--primary-text-color);'>education-advance</b>: Embark on a journey through my educational milestones, witnessing the growth and insights gained at each phase.
     - <b style='color:var(--primary-text-color);'>social:</b> Establish a data connection and dive into the network of possibilities`
     },
-    
+
     {
       'id': 2,
       'command': 'about',
@@ -244,6 +244,10 @@ Explore the ingenuity and code behind each project! 💻🎨`,
       'command': 'projects-intermediate',
       'description': `\nEmbrace the boundless possibilities of code and witness the transformative power of creativity.
 
+      <b style='color:var(--primary-text-color);'>DevLove</b> <a href='https://github.com/Anshika75/DevLove' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>:
+      - <b style='color:var(--secondary-text-color);'>Description:</b>  Code your romance this Valentine's Week with personalized coding love stories, whether single or coupled.
+      - <b style='color:var(--secondary-text-color);'>Tech Stack:</b> React, Tailwind
+
 <b style='color:var(--primary-text-color);'>Blood Donation</b> <a href='https://github.com/Anshika75/Blood-Donation' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>:
   - <b style='color:var(--secondary-text-color);'>Description:</b> Extend a helping hand with a visually striking blood donation website, seamlessly blending HTML, SASS, and JS.
   - <b style='color:var(--secondary-text-color);'>Tech Stack:</b> HTML, SASS, JS
@@ -331,6 +335,10 @@ Welcome to a showcase of creative wonders! ✨🎨
       'id': 7,
       'command': 'projects-advance',
       'description': `\nWelcome to the advanced corner of my coding world! 🚀 Uncover the sophistication and innovation behind these projects:\n
+
+      <b style='color:var(--primary-text-color);'>DetoxDash</b> <a href='https://github.com/Anshika75/DetoxDash' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>:
+        - <b style='color:var(--secondary-text-color);'>Description:</b> DetoxDash empowers teens to resist drugs with an Anti-Drug RPG, Peer-to-Peer Storytelling, Challenges, and a holistic approach through a Community Hub and Drug Level Indicator.
+        - <b style='color:var(--secondary-text-color);'>Tech Stack:</b> NExtjs, Tailwind, Firebase Auth, API
 
       <b style='color:var(--primary-text-color);'>Web Mindz</b> <a href='https://github.com/Anshika75/WebMindz' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>:
         - <b style='color:var(--secondary-text-color);'>Description:</b> Empowering the visually impaired, our AI chatbot offers conversion, gaming, and translation, envisioning a user-friendly world without sight.
