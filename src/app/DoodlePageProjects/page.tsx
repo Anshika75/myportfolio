@@ -1,13 +1,13 @@
 "use client";
 import React from 'react';
-import Landing from '@/components/DoodlePage/Home/landing';
+import ProjectLanding from '@/components/DoodlePage/Home/projectlanding';
 
 
 const DoodlePage: React.FC = () => {
         return (
             <>
             <div className="main w-full min-h-screen bg-white">
-                <Landing/>
+                <ProjectLanding/>
             </div>
             </>
     );
