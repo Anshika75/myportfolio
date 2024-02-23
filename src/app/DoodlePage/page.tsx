@@ -14,6 +14,7 @@ import Languages from '@/components/DoodlePage/Home/languages';
 import Contact from '@/components/DoodlePage/Home/contact';
 import Loader from '@/components/DoodlePage/Home/loader';
 import Badges from '@/components/DoodlePage/Home/badges';
+import Events from '@/components/DoodlePage/Home/event';
 
 const DoodlePage: React.FC = () => {
   const [contentLoaded, setContentLoaded] = useState(false);
@@ -45,6 +46,7 @@ const DoodlePage: React.FC = () => {
           <Projects />
           <Badges />
           <Volunteer />
+          <Events/>
           <Stats />
           <Testimonial />
           <Hobbies />
