@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useRef, useState } from 'react';
 import styles from '../../../styles/DoodlePage/style.module.css';
-
+import Link from 'next/link';
 const Certificates: React.FC = () => {
     return (
         <>
@@ -13,7 +13,7 @@ const Certificates: React.FC = () => {
                 </div>
                 <h1 className={`text-6xl lg:text-[120px] text-black ${styles.lond} ${styles.anim2} font-black`}>Repository</h1>
                 <div
-                    className={`grid w-full pb-16 lg:pb-16 lg:pt-8 mt-8 grid-cols-1 gap-4`}
+                    className={`grid w-full pb-4 lg:pt-8 mt-8 grid-cols-1 gap-4`}
                 >
                     <a href='https://coursera.org/share/7831a6f569d246d15db51baefef79cbb' className="flex flex-row items-center justify-between relative transition-all hover:scale-[0.92] scale-[0.9] cursor-pointer py-4 px-4 w-full border-4 border-black rounded-[75px]">
                         <div className="rounded-full lg:h-5 h-4 w-4 lg:w-5 bg-black relative before:absolute before:top-1/2 before:left-1/2 before:h-32 before:w-1 lg:before:w-2 before:-translate-x-1/2 before:rounded-3xl before:-translate-y-1/2 before:bg-black"></div>
@@ -37,6 +37,11 @@ const Certificates: React.FC = () => {
                         <div className="rounded-full lg:h-5 h-4 w-4 lg:w-5 bg-black relative before:absolute before:top-1/2 before:left-1/2 before:h-32 before:w-1 lg:before:w-2 before:-translate-x-1/2 before:rounded-3xl before:-translate-y-1/2 before:bg-black"></div>
                     </a>
                 </div>
+                
+                <Link href={'/DoodlePageProjects'} className={`flex flex-col relative w-full mt-12 items-center transition-all opacity-80 hover:opacity-100 hover:scale-95`}>
+                <img src="https://www.dropbox.com/scl/fi/ezi8w9x1a9ro2drli15hf/Group-5.png?rlkey=j19qmjvz2gjd6d5b62ifh6phg&dl=1" className="absolute top-[50%] left-[50%] h-[4rem] w-[12rem] -translate-x-1/2 -translate-y-1/2" />
+                    <p className={`text-white text-2xl z-20 ${styles.pang}`}>Dig More</p>
+                </Link>
             </div>
         </>
     );
