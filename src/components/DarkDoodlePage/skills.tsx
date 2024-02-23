@@ -1,16 +1,16 @@
 "use client";
 import React from 'react';
-import styles from '../../styles/DoodlePage/style.module.css';
+import styles from '../../styles/DarkDoodlePage/style.module.css';
 
 const Skills: React.FC = () => {
     return (
         <>
-            <div className="mt-8 flex flex-col items-center justify-start pb-20 px-[20px] lg:px-[60px]">
+            <div className="mt-8 flex flex-col items-center justify-start py-20 px-[20px] lg:px-[60px]">
                 <div className={`flex flex-col relative w-full items-center scale-50 lg:scale-100 ${styles.anim7}`}>
-                    <img src="https://www.dropbox.com/scl/fi/jtt76wbmdsdp5tekwuoep/Group.png?rlkey=bn0nvhih0n4gkugd9zfennda1&dl=1" className="absolute top-[70%] left-[50%] h-[7rem] w-[10rem] -translate-x-1/2 -translate-y-1/2" />
+                    <img src="https://www.dropbox.com/scl/fi/8p6arxem0tnep1hzt6yp6/Group-13-1.png?rlkey=pq3b7rsvjh6jyjsom5cc9gq2l&dl=1" className="absolute top-[70%] left-[50%] h-[7rem] w-[10rem] -translate-x-1/2 -translate-y-1/2" />
                     <p className={`text-white text-5xl z-20 mt-12 ${styles.pang}`}>Skills</p>
                 </div>
-                <h1 className={`text-5xl lg:text-[120px] lg:-mt-4 text-black ${styles.lond} ${styles.anim2} font-black`}>Extravaganza</h1>
+                <h1 className={`text-5xl lg:text-[120px] lg:-mt-4 text-[#4F66FF] ${styles.lond} ${styles.anim2} font-black`}>Extravaganza</h1>
                 <div className="flex flex-col lg:flex-row w-full justify-around items-center mt-20 text-justify">
                     <div className={`text-black text-lg lg:text-3xl w-[100%] text-justify flex flex-col items-center lg:w-[45%] ${styles.indi}`}>
                         <div className="flex flex-row">
