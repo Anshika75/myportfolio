@@ -89,7 +89,7 @@ const Contact: React.FC = () => {
                             <a href="https://discordapp.com/users/1054336973197811742" className='text-black text-2xl transition-all hover:bg-[#231f20] hover:text-white w-full text-center py-2'><i className="fa-brands fa-discord"></i></a>
                             <a href="https://open.spotify.com/user/ejaxcu4gm4x4f94czuyzn0ip6/" className='text-black text-2xl transition-all hover:bg-[#231f20] hover:text-white w-full text-center py-2'><i className="fa-brands fa-spotify"></i></a>
                             <a href="https://maps.app.goo.gl/Vq4HigC8zHNDQAYHA" className='text-black text-2xl transition-all hover:bg-[#231f20] hover:text-white w-full text-center py-2'><i className="fa-solid fa-location-dot"></i></a>
-                            <a href="https://drive.google.com/file/d/1YfgLCN97dEkGeCYgry7KndRtFsy9cQtP/view?usp=sharing" className='text-black text-2xl transition-all hover:bg-[#231f20] hover:text-white w-full text-center py-2'><i className="fa-solid fa-download"></i></a>                    
+                            <a href="https://drive.google.com/file/d/1c6Wx-MEUuZakBMDD_tPztfzPBQLaEgT7/view?usp=drive_link" className='text-black text-2xl transition-all hover:bg-[#231f20] hover:text-white w-full text-center py-2'><i className="fa-solid fa-download"></i></a>                    
                         </div>
                     </div>
                     <div className="flex lg:hidden flex-row items-center justify-evenly py-4 bg-white absolute h-14 w-full bottom-0 left-1/2 -translate-x-1/2 rounded-t-2xl shadow-2xl shadow-black">
@@ -100,7 +100,7 @@ const Contact: React.FC = () => {
                             <a href="https://discordapp.com/users/1054336973197811742" className='text-black text-2xl transition-all hover:bg-[#231f20] hover:text-white w-full text-center py-2'><i className="fa-brands fa-discord"></i></a>
                             <a href="https://open.spotify.com/user/ejaxcu4gm4x4f94czuyzn0ip6/" className='text-black text-2xl transition-all hover:bg-[#231f20] hover:text-white w-full text-center py-2'><i className="fa-brands fa-spotify"></i></a>
                             <a href="https://maps.app.goo.gl/Vq4HigC8zHNDQAYHA" className='text-black text-2xl transition-all hover:bg-[#231f20] hover:text-white w-full text-center py-2'><i className="fa-solid fa-location-dot"></i></a>
-                            <a href="https://drive.google.com/file/d/1c6Wx-MEUuZakBMDD_tPztfzPBQLaEgT7/view?usp=sharing" className='text-black text-2xl transition-all hover:bg-[#231f20] hover:text-white w-full text-center py-2'><i className="fa-solid fa-download"></i></a>                            
+                            <a href="https://drive.google.com/file/d/1c6Wx-MEUuZakBMDD_tPztfzPBQLaEgT7/view?usp=drive_link" className='text-black text-2xl transition-all hover:bg-[#231f20] hover:text-white w-full text-center py-2'><i className="fa-solid fa-download"></i></a>                            
                         </div>
                 </div>
             </div>
