@@ -58,6 +58,16 @@ const badgeData = [
       "badgeLink": "https://www.cloudskillsboost.google/public_profiles/b42300dc-0e54-4781-8cfc-4ee5dd8442f0/badges/3105263",
       "badgeImageLink": "https://cdn.qwiklabs.com/t1rieoUO9jW60M3eNwC4cWIxxbPmc9uhgEUUJLbySf8%3D",
         "badgeTitle": "New Year, New Skills: Green Challenge (A)"
+    },
+    {
+      "badgeLink": "https://github.com/users/Anshika75/achievements/quickdraw",
+      "badgeImageLink": "https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png",
+        "badgeTitle": "Quickdraw"
+    },
+    {
+      "badgeLink": "https://github.com/users/Anshika75/achievements/pull-shark",  
+      "badgeImageLink": "https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png",
+      "badgeTitle": "Pull Shark"
     }
   ]
 
