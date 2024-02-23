@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from 'react';
-import styles from '../../../styles/DoodlePage/style.module.css';
+import styles from '../../styles/DoodlePage/style.module.css';
 
 const Contact: React.FC = () => {
     const [formData, setFormData] = useState({

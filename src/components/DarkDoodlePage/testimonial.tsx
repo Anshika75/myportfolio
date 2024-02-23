@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from 'react';
-import styles from '../../../styles/DoodlePage/style.module.css';
+import styles from '../../styles/DoodlePage/style.module.css';
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css";
-import testimonials from '../../../helpers/testimonial'; // Import the external data
+import testimonials from '../../helpers/testimonial'; // Import the external data
 import Link from 'next/link';
 
 const Testimonial: React.FC = () => {

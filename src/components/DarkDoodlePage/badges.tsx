@@ -1,8 +1,8 @@
 "use client";
 import React, { useEffect, useRef, useState } from 'react';
-import styles from '../../../styles/DoodlePage/style.module.css';
+import styles from '../../styles/DoodlePage/style.module.css';
 import Link from 'next/link';
-import badgeData from "../../../helpers/badges"
+import badgeData from "../../helpers/badges"
 
 
 const Badges: React.FC = () => {

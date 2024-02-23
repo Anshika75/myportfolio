@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from 'react';
-import styles from '../../../styles/DoodlePage/style.module.css';
+import styles from '../../styles/DoodlePage/style.module.css';
 
 const Languages: React.FC = () => {
 

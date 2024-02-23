@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../../../styles/DoodlePage/style.module.css';
+import styles from '../../styles/DoodlePage/style.module.css';
 
 export default function Loader() {
     

@@ -1,21 +1,21 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import Landing from '@/components/DoodlePage/Home/landing';
-import About from '@/components/DoodlePage/Home/aboutme';
-import Skills from '@/components/DoodlePage/Home/skills';
-import Experience from '@/components/DoodlePage/Home/experience';
-import Projects from '@/components/DoodlePage/Home/projects';
-import Volunteer from '@/components/DoodlePage/Home/volunteer';
-import Testimonial from '@/components/DoodlePage/Home/testimonial';
-import Stats from '@/components/DoodlePage/Home/stats';
-import Hobbies from '@/components/DoodlePage/Home/hobbies';
-import Achievements from '@/components/DoodlePage/Home/achievments';
-import Languages from '@/components/DoodlePage/Home/languages';
-import Contact from '@/components/DoodlePage/Home/contact';
-import Loader from '@/components/DoodlePage/Home/loader';
-import Badges from '@/components/DoodlePage/Home/badges';
-import Events from '@/components/DoodlePage/Home/event';
-import Certificates from '@/components/DoodlePage/Home/certificates';
+import Landing from '@/components/DoodlePage/landing';
+import About from '@/components/DoodlePage/aboutme';
+import Skills from '@/components/DoodlePage/skills';
+import Experience from '@/components/DoodlePage/experience';
+import Projects from '@/components/DoodlePage/projects';
+import Volunteer from '@/components/DoodlePage/volunteer';
+import Testimonial from '@/components/DoodlePage/testimonial';
+import Stats from '@/components/DoodlePage/stats';
+import Hobbies from '@/components/DoodlePage/hobbies';
+import Achievements from '@/components/DoodlePage/achievments';
+import Languages from '@/components/DoodlePage/languages';
+import Contact from '@/components/DoodlePage/contact';
+import Loader from '@/components/DoodlePage/loader';
+import Badges from '@/components/DoodlePage/badges';
+import Events from '@/components/DoodlePage/event';
+import Certificates from '@/components/DoodlePage/certificates';
 
 const DoodlePage: React.FC = () => {
   const [contentLoaded, setContentLoaded] = useState(false);

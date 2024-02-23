@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useRef, useState } from 'react';
-import styles from '../../../styles/DoodlePage/style.module.css';
-import certificateData from "../../../helpers/certificate";
+import styles from '../../styles/DoodlePage/style.module.css';
+import certificateData from "../../helpers/certificate";
 import Link from 'next/link';
 const MoreCertificates: React.FC = () => {
     return (

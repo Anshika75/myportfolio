@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import styles from '../../../styles/DoodlePage/style.module.css';
+import styles from '../../styles/DoodlePage/style.module.css';
 
 const CertficateLanding: React.FC = () => {
     const style: Record<string, React.CSSProperties> = {

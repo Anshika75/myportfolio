@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import styles from '../../../styles/DoodlePage/style.module.css';
+import styles from '../../styles/DoodlePage/style.module.css';
 import Link from 'next/link';
-import shuffledProjects from "../../../helpers/projects"; // Import the projects data
+import shuffledProjects from "../../helpers/projects"; // Import the projects data
 
 const MoreProjects: React.FC = () => {
     const [activeFilter, setActiveFilter] = useState("All");

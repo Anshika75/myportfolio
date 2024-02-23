@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import styles from '../../../styles/DoodlePage/style.module.css';
+import styles from '../../styles/DoodlePage/style.module.css';
 import {
     useKeenSlider,
     KeenSliderPlugin,
@@ -8,7 +8,7 @@ import {
 } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 import { MutableRefObject } from 'react';
-import experiences from "../../../helpers/experience";
+import experiences from "../../helpers/experience";
 function ThumbnailPlugin(
     mainRef: MutableRefObject<KeenSliderInstance | null>
 ): KeenSliderPlugin {
