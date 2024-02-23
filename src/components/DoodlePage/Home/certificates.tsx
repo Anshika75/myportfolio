@@ -38,7 +38,7 @@ const Certificates: React.FC = () => {
                     </a>
                 </div>
                 
-                <Link href={'/DoodlePageProjects'} className={`flex flex-col relative w-full mt-12 items-center transition-all opacity-80 hover:opacity-100 hover:scale-95`}>
+                <Link href={'/DoodlePageCertificates'} className={`flex flex-col relative w-full my-12 items-center transition-all opacity-80 hover:opacity-100 hover:scale-95`}>
                 <img src="https://www.dropbox.com/scl/fi/ezi8w9x1a9ro2drli15hf/Group-5.png?rlkey=j19qmjvz2gjd6d5b62ifh6phg&dl=1" className="absolute top-[50%] left-[50%] h-[4rem] w-[12rem] -translate-x-1/2 -translate-y-1/2" />
                     <p className={`text-white text-2xl z-20 ${styles.pang}`}>Dig More</p>
                 </Link>
