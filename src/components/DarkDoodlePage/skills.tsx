@@ -31,205 +31,205 @@ const Skills: React.FC = () => {
                     <div className={`w-full mt-16 lg:mt-0 lg:w-[45%] ${styles.skillGrid} px-4`}>
                         {/* firstrow */}
                         <div className="w-full flex flex-col items-center py-2">
-                            <img src="https://cdn.icon-icons.com/icons2/1/PNG/256/social_html5_html_71.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>95%</p>
+                            <img src="https://www.dropbox.com/scl/fi/433s0oywc3zd6uy7yqaeb/Group-85-1.png?rlkey=3363jt4u9ci66vuo4u4hq561u&dl=1" className='h-32' alt="" />
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>95%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/j3gr17tkdmqtddmi2o2qh/Vector-4.png?rlkey=g8ukmf2jlrobmthg1izwks9ht&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/s4i91v81hw5cfbofdy8hv/Vector-14-1.png?rlkey=ogrbm4killorwv3r9n4rptjr6&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/512/PNG/512/css3-01_icon-icons.com_50918.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>93%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>93%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/j3gr17tkdmqtddmi2o2qh/Vector-4.png?rlkey=g8ukmf2jlrobmthg1izwks9ht&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/s4i91v81hw5cfbofdy8hv/Vector-14-1.png?rlkey=ogrbm4killorwv3r9n4rptjr6&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/3375/PNG/512/javascript_brand_icon_211798.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>85%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>85%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/j3gr17tkdmqtddmi2o2qh/Vector-4.png?rlkey=g8ukmf2jlrobmthg1izwks9ht&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/s4i91v81hw5cfbofdy8hv/Vector-14-1.png?rlkey=ogrbm4killorwv3r9n4rptjr6&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/2248/PNG/512/react_icon_135264.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>80%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>80%</p>
                         </div>
                         {/* First row end */}
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" className='hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" className='hidden lg:block' alt="" />
                         <div className='hidden lg:block'></div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" className='hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" className='hidden lg:block' alt="" />
                         <div className='hidden lg:block'></div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" className='hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" className='hidden lg:block' alt="" />
                         <div className='hidden lg:block'></div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" className='hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" className='hidden lg:block' alt="" />
                         {/* Second row */}
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/2148/PNG/512/nextjs_icon_132160.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>65%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>65%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/j3gr17tkdmqtddmi2o2qh/Vector-4.png?rlkey=g8ukmf2jlrobmthg1izwks9ht&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/s4i91v81hw5cfbofdy8hv/Vector-14-1.png?rlkey=ogrbm4killorwv3r9n4rptjr6&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/3206/PNG/512/bootstrap_icon_195906.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>90%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>90%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/j3gr17tkdmqtddmi2o2qh/Vector-4.png?rlkey=g8ukmf2jlrobmthg1izwks9ht&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/s4i91v81hw5cfbofdy8hv/Vector-14-1.png?rlkey=ogrbm4killorwv3r9n4rptjr6&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/2389/PNG/512/sass_alt_logo_icon_144910.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>97%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>97%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/j3gr17tkdmqtddmi2o2qh/Vector-4.png?rlkey=g8ukmf2jlrobmthg1izwks9ht&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/s4i91v81hw5cfbofdy8hv/Vector-14-1.png?rlkey=ogrbm4killorwv3r9n4rptjr6&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/jquery_original_wordmark_logo_icon_146447.png" className='h-32 grayscale' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>80%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>80%</p>
                         </div>
                         {/* Second row end */}
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" className='hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" className='hidden lg:block' alt="" />
                         <div className='hidden lg:block'></div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" className='hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" className='hidden lg:block' alt="" />
                         <div className='hidden lg:block'></div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" className='hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" className='hidden lg:block' alt="" />
                         <div className='hidden lg:block'></div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" className='hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" className='hidden lg:block' alt="" />
                         {/* Third row */}
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/2148/PNG/512/tailwind_icon_131947.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>97%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>97%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/j3gr17tkdmqtddmi2o2qh/Vector-4.png?rlkey=g8ukmf2jlrobmthg1izwks9ht&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/s4i91v81hw5cfbofdy8hv/Vector-14-1.png?rlkey=ogrbm4killorwv3r9n4rptjr6&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/pocoo_flask_src_logo_icon_168043.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>55%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>55%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/j3gr17tkdmqtddmi2o2qh/Vector-4.png?rlkey=g8ukmf2jlrobmthg1izwks9ht&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/s4i91v81hw5cfbofdy8hv/Vector-14-1.png?rlkey=ogrbm4killorwv3r9n4rptjr6&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/3915/PNG/512/vite_logo_icon_249258.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>83%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>83%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/j3gr17tkdmqtddmi2o2qh/Vector-4.png?rlkey=g8ukmf2jlrobmthg1izwks9ht&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/s4i91v81hw5cfbofdy8hv/Vector-14-1.png?rlkey=ogrbm4killorwv3r9n4rptjr6&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/2389/PNG/512/canva_logo_icon_145428.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>45%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>45%</p>
                         </div>
                         {/* Third row end */}
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" className='hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" className='hidden lg:block' alt="" />
                         <div className='hidden lg:block'></div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" className='hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" className='hidden lg:block' alt="" />
                         <div className='hidden lg:block'></div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" className='hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" className='hidden lg:block' alt="" />
                         <div className='hidden lg:block'></div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" className='hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" className='hidden lg:block' alt="" />
                         {/* Fourth row */}
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/1298/PNG/512/2333386-code-linux-os_85584.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>47%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>47%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/j3gr17tkdmqtddmi2o2qh/Vector-4.png?rlkey=g8ukmf2jlrobmthg1izwks9ht&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/s4i91v81hw5cfbofdy8hv/Vector-14-1.png?rlkey=ogrbm4killorwv3r9n4rptjr6&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/2148/PNG/512/firebase_icon_132390.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>52%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>52%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/j3gr17tkdmqtddmi2o2qh/Vector-4.png?rlkey=g8ukmf2jlrobmthg1izwks9ht&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/s4i91v81hw5cfbofdy8hv/Vector-14-1.png?rlkey=ogrbm4killorwv3r9n4rptjr6&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/628/PNG/512/sql-document_icon-icons.com_57634.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>47%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>47%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/j3gr17tkdmqtddmi2o2qh/Vector-4.png?rlkey=g8ukmf2jlrobmthg1izwks9ht&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/s4i91v81hw5cfbofdy8hv/Vector-14-1.png?rlkey=ogrbm4killorwv3r9n4rptjr6&dl=1" className='h-44 w-4 hidden lg:block' alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/2389/PNG/512/typescript_logo_icon_144782.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>37%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>37%</p>
                         </div>
                     </div>
                     <div className={`w-[90%] mt-12 ${styles.skillGridMob} px-4`}>
                         <div className="w-full flex flex-col items-center py-2">
-                            <img src="https://cdn.icon-icons.com/icons2/1/PNG/256/social_html5_html_71.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>95%</p>
+                            <img src="https://www.dropbox.com/scl/fi/433s0oywc3zd6uy7yqaeb/Group-85-1.png?rlkey=3363jt4u9ci66vuo4u4hq561u&dl=1" className='h-32' alt="" />
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>95%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/j3gr17tkdmqtddmi2o2qh/Vector-4.png?rlkey=g8ukmf2jlrobmthg1izwks9ht&dl=1" className='h-44 w-4' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/s4i91v81hw5cfbofdy8hv/Vector-14-1.png?rlkey=ogrbm4killorwv3r9n4rptjr6&dl=1" className='h-44 w-4' alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/512/PNG/512/css3-01_icon-icons.com_50918.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>93%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>93%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" alt="" />
                         <div className=''></div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/3915/PNG/512/vite_logo_icon_249258.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>83%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>83%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/j3gr17tkdmqtddmi2o2qh/Vector-4.png?rlkey=g8ukmf2jlrobmthg1izwks9ht&dl=1" className='h-44 w-4' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/s4i91v81hw5cfbofdy8hv/Vector-14-1.png?rlkey=ogrbm4killorwv3r9n4rptjr6&dl=1" className='h-44 w-4' alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/2389/PNG/512/canva_logo_icon_145428.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>45%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>45%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" alt="" />
                         <div className=''></div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" alt="" />
                         {/* Second row */}
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/2148/PNG/512/nextjs_icon_132160.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>65%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>65%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/j3gr17tkdmqtddmi2o2qh/Vector-4.png?rlkey=g8ukmf2jlrobmthg1izwks9ht&dl=1" className='h-44 w-4' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/s4i91v81hw5cfbofdy8hv/Vector-14-1.png?rlkey=ogrbm4killorwv3r9n4rptjr6&dl=1" className='h-44 w-4' alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/3206/PNG/512/bootstrap_icon_195906.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>90%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>90%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" alt="" />
                         <div className=''></div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/3915/PNG/512/vite_logo_icon_249258.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>83%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>83%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/j3gr17tkdmqtddmi2o2qh/Vector-4.png?rlkey=g8ukmf2jlrobmthg1izwks9ht&dl=1" className='h-44 w-4' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/s4i91v81hw5cfbofdy8hv/Vector-14-1.png?rlkey=ogrbm4killorwv3r9n4rptjr6&dl=1" className='h-44 w-4' alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/2389/PNG/512/canva_logo_icon_145428.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>45%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>45%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" alt="" />
                         <div className=''></div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" alt="" />
                         {/* Third row */}
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/2148/PNG/512/tailwind_icon_131947.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>97%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>97%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/j3gr17tkdmqtddmi2o2qh/Vector-4.png?rlkey=g8ukmf2jlrobmthg1izwks9ht&dl=1" className='h-44 w-4' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/s4i91v81hw5cfbofdy8hv/Vector-14-1.png?rlkey=ogrbm4killorwv3r9n4rptjr6&dl=1" className='h-44 w-4' alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/pocoo_flask_src_logo_icon_168043.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>55%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>55%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" alt="" />
                         <div className=''></div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/3915/PNG/512/vite_logo_icon_249258.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>83%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>83%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/j3gr17tkdmqtddmi2o2qh/Vector-4.png?rlkey=g8ukmf2jlrobmthg1izwks9ht&dl=1" className='h-44 w-4' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/s4i91v81hw5cfbofdy8hv/Vector-14-1.png?rlkey=ogrbm4killorwv3r9n4rptjr6&dl=1" className='h-44 w-4' alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/2389/PNG/512/canva_logo_icon_145428.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>45%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>45%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" alt="" />
                         <div className=''></div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" alt="" />
                         {/* Fourt row */}
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/1298/PNG/512/2333386-code-linux-os_85584.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>47%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>47%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/j3gr17tkdmqtddmi2o2qh/Vector-4.png?rlkey=g8ukmf2jlrobmthg1izwks9ht&dl=1" className='h-44 w-4' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/s4i91v81hw5cfbofdy8hv/Vector-14-1.png?rlkey=ogrbm4killorwv3r9n4rptjr6&dl=1" className='h-44 w-4' alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/2148/PNG/512/firebase_icon_132390.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>52%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>52%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" alt="" />
                         <div className=''></div>
-                        <img src="https://www.dropbox.com/scl/fi/igs33pzicu92xeypdmzz3/Vector-5.png?rlkey=h2heia3xmz7mk45bbpfeex8pm&dl=1" alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/zjs4kzs0jeg03wtxdmik3/Vector-15-1.png?rlkey=79vve4u7dpilh9nmpjr46h2ly&dl=1" alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/628/PNG/512/sql-document_icon-icons.com_57634.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>47%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>47%</p>
                         </div>
-                        <img src="https://www.dropbox.com/scl/fi/j3gr17tkdmqtddmi2o2qh/Vector-4.png?rlkey=g8ukmf2jlrobmthg1izwks9ht&dl=1" className='h-44 w-4' alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/s4i91v81hw5cfbofdy8hv/Vector-14-1.png?rlkey=ogrbm4killorwv3r9n4rptjr6&dl=1" className='h-44 w-4' alt="" />
                         <div className="w-full flex flex-col items-center py-2">
                             <img src="https://cdn.icon-icons.com/icons2/2389/PNG/512/typescript_logo_icon_144782.png" className='h-32' alt="" />
-                            <p className={`text-3xl text-black ${styles.perm} mt-2`}>37%</p>
+                            <p className={`text-3xl text-[#4F66FF] ${styles.perm} mt-2`}>37%</p>
                         </div>
                     </div>
                 </div><div className={`grid w-full pt-16 lg:pt-20 place-items-center lg:grid-cols-4 grid-cols-1 gap-12`}>
