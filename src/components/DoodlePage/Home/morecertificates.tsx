@@ -7,7 +7,7 @@ const MoreCertificates: React.FC = () => {
     return (
         <>
 
-            <div className="flex flex-col items-center justify-start lg:mt-16 px-[25px] lg:px-[60px]">
+            <div className="flex flex-col items-center justify-start mt-10 pb-20 lg:mt-16 px-[25px] lg:px-[60px]">
                 <div className={`flex flex-col relative w-full items-center scale-50 lg:scale-100 ${styles.anim1}`}>
                     <img src="https://www.dropbox.com/scl/fi/4xkn7jw7do3oik1qkfhr5/Vector-13.png?rlkey=53uezgn1xwt7bv1ogi16yunzp&dl=1" className="absolute top-[30%] left-[50%] h-[7rem] w-[18rem] -translate-x-1/2 -translate-y-1/2" />
                     <p className={`text-white text-4xl z-20 ${styles.pang}`}>Certification</p>

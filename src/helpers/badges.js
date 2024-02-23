@@ -1,5 +1,10 @@
 const badgeData = [
     {
+      "badgeLink": "https://www.credly.com/badges/9e042fea-48fb-4826-8dad-c1be81c1986e/public_url",
+      "badgeImageLink": "https://images.credly.com/size/220x220/images/054913b2-e271-49a2-a1a4-9bf1c1f9a404/CyberEssentials.png",
+      "badgeTitle": "Cybersecurity Essentials"
+    },
+    {
       "badgeLink": "https://www.credly.com/badges/c2f4847f-0ff4-45df-acbe-f5e2fefc8abe/public_url",
       "badgeImageLink": "https://images.credly.com/images/ac4daa48-1924-4dc5-80cf-ede5a08bac51/Data_Science_Foundations_Specialization.png",
       "badgeTitle": "Data Science Foundations"
