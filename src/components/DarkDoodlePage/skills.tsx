@@ -12,17 +12,17 @@ const Skills: React.FC = () => {
                 </div>
                 <h1 className={`text-5xl lg:text-[120px] lg:-mt-4 text-[#4F66FF] ${styles.lond} ${styles.anim2} font-black`}>Extravaganza</h1>
                 <div className="flex flex-col lg:flex-row w-full justify-around items-center mt-20 text-justify">
-                    <div className={`text-black text-lg lg:text-3xl w-[100%] text-justify flex flex-col items-center lg:w-[45%] ${styles.indi}`}>
-                        <div className="flex flex-row">
-                            <img src="https://static.wixstatic.com/media/49aa46_37ea75b07fa24b5d9ad05e122dc76d56~mv2.gif" className='h-32' alt="" />
-                            <img src="https://static.wixstatic.com/media/49aa46_37ea75b07fa24b5d9ad05e122dc76d56~mv2.gif" className='h-32' alt="" />
-                            <img src="https://static.wixstatic.com/media/49aa46_37ea75b07fa24b5d9ad05e122dc76d56~mv2.gif" className='h-32 hidden lg:block' alt="" />
+                    <div className={`text-[#d4d4d4] text-lg lg:text-3xl w-[100%] text-justify flex flex-col items-center lg:w-[45%] ${styles.balsamiq}`}>
+                        <div className="flex flex-row mb-8">
+                            <img src="https://www.dropbox.com/scl/fi/3esa82rqqqwgxz9vsgt2s/Group-16-1.png?rlkey=ij8kk3iop2r1u8no2c55avsqs&dl=1" className='h-32' alt="" />
+                            <img src="https://www.dropbox.com/scl/fi/3esa82rqqqwgxz9vsgt2s/Group-16-1.png?rlkey=ij8kk3iop2r1u8no2c55avsqs&dl=1" className='h-32' alt="" />
+                            <img src="https://www.dropbox.com/scl/fi/3esa82rqqqwgxz9vsgt2s/Group-16-1.png?rlkey=ij8kk3iop2r1u8no2c55avsqs&dl=1" className='h-32 hidden lg:block' alt="" />
                         </div>
                         Embark on a journey through the enchanted kingdom of my coding palette! I am the Doodle Developer, and I invite you to witness the symphony of skills, where every percentage is a stroke of genius, and every language is a color in the tapestry of digital artistry. <br /><br />
                         In this realm where innovation dances with precision, my skills are the magical incantations that bring digital dreams to life. From HTML to NextJS, each percentage is a pixel of passion etched into the canvas of creativity. Let's navigate the binary seas, turning code into a masterpiece and pixels into unforgettable experiences! 💻✨
                         <div className="flex flex-row">
-                            <img src="https://static.wixstatic.com/media/49aa46_37ea75b07fa24b5d9ad05e122dc76d56~mv2.gif" className='h-32 lg:hidden' alt="" />
-                            <img src="https://static.wixstatic.com/media/49aa46_37ea75b07fa24b5d9ad05e122dc76d56~mv2.gif" className='h-32 lg:hidden' alt="" />
+                            <img src="https://www.dropbox.com/scl/fi/3esa82rqqqwgxz9vsgt2s/Group-16-1.png?rlkey=ij8kk3iop2r1u8no2c55avsqs&dl=1" className='h-32 lg:hidden' alt="" />
+                            <img src="https://www.dropbox.com/scl/fi/3esa82rqqqwgxz9vsgt2s/Group-16-1.png?rlkey=ij8kk3iop2r1u8no2c55avsqs&dl=1" className='h-32 lg:hidden' alt="" />
                             <img src="https://monophy.com/media/RMSo4o1bGSuDPULWIZ/monophy.gif" className='h-32 hidden lg:block' alt="" />
                             <img src="https://monophy.com/media/RMSo4o1bGSuDPULWIZ/monophy.gif" className='h-32 hidden lg:block' alt="" />
                             <img src="https://monophy.com/media/RMSo4o1bGSuDPULWIZ/monophy.gif" className='h-32 hidden lg:block' alt="" />
