@@ -593,6 +593,16 @@ Terminal Connection Established. Let's Stay Linked! 🚀🌟`,
       - <b style='color:var(--primary-text-color);'>Pull Shark</b> <a href='https://github.com/users/Anshika75/achievements/pull-shark' target='_blank' style='text-decoration: none; color:var(--secondary-text-color);'><i class='fa-solid fa-up-right-from-square' style='font-size: 12px; color:var(--secondary-text-color);'></i></a>
 
       Embark on a journey through my badges collection, witnessing the skills and values demonstrated with each earned badge! 💼🔑"`
+    },
+    {
+      'id': 17,
+      'command': 'events',
+      'description': `\nExplore the events I've organized or coordinated! 🎉📅 Delve into the exciting experiences and impactful moments created through my event management efforts:\n
+      - <b style='color:var(--primary-text-color);'>HashCode 2022</b>
+      - <b style='color:var(--primary-text-color);'>Hack-The-Fest 2022</b>
+      - <b style='color:var(--primary-text-color);'>HS Day</b>
+
+     Embark on a journey through the events I've organized or coordinated, witnessing the impact created and the memories forged with each successful endeavor! 🌟🎈"`
     }
 
   ]
