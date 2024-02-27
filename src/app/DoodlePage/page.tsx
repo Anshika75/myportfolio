@@ -41,7 +41,7 @@ const DoodlePage: React.FC = () => {
       {contentLoaded && (
         <div className="main w-full flex flex-col min-h-screen bg-white">
           <Landing/>
-          <About id="doodleabout"/>
+          <About/>
           <Skills />
           <Experience />
           <Projects />
