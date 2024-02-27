@@ -5,7 +5,7 @@ import styles from '../../styles/DoodlePage/style.module.css';
 const Skills: React.FC = () => {
     return (
         <>
-            <div className="mt-8 flex flex-col items-center justify-start pb-20 px-[20px] lg:px-[60px]">
+            <div id={'skills'} className="mt-8 flex flex-col items-center justify-start pb-20 px-[20px] lg:px-[60px]">
                 <div className={`flex flex-col relative w-full items-center scale-50 lg:scale-100 ${styles.anim7}`}>
                     <img src="https://www.dropbox.com/scl/fi/jtt76wbmdsdp5tekwuoep/Group.png?rlkey=bn0nvhih0n4gkugd9zfennda1&dl=1" className="absolute top-[70%] left-[50%] h-[7rem] w-[10rem] -translate-x-1/2 -translate-y-1/2" />
                     <p className={`text-white text-5xl z-20 mt-12 ${styles.pang}`}>Skills</p>
