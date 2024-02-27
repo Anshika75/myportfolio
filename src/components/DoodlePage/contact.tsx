@@ -20,7 +20,7 @@ const Contact: React.FC = () => {
 
     return (
         <>
-            <div className="flex flex-col items-center justify-start h-full">
+            <div id="doodlecontact" className="flex flex-col items-center justify-start h-full">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#231f20" fillOpacity="1" d="M0,128L48,149.3C96,171,192,213,288,202.7C384,192,480,128,576,106.7C672,85,768,107,864,138.7C960,171,1056,213,1152,197.3C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
                 <div className="flex flex-col justify-center items-center -mt-2 lg:-mt-20 h-full w-full bg-[#231f20] pb-32 lg:pb-20 relative">
                     <div className={`flex flex-col relative w-full items-center scale-50 lg:scale-100 ${styles.anim1}`}>
