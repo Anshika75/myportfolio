@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Projects: React.FC = () => {
     return (
         <>
-            <div className="mt-8 flex flex-col items-center justify-start pb-20 px-[20px] lg:px-[60px]">
+            <div id="doodleprojects" className="mt-8 flex flex-col items-center justify-start pb-20 px-[20px] lg:px-[60px]">
                 <div className={`flex flex-col relative w-full items-center scale-50 lg:scale-100 ${styles.anim1}`}>
                     <img src="https://www.dropbox.com/scl/fi/b21fen5gwrdcuf3h57a2b/Group-1.png?rlkey=tu5pfc4w48fnepr2dszosbayl&dl=1" className="absolute top-[40%] left-[50%] h-[5rem] w-[7rem] -translate-x-1/2 -translate-y-1/2" />
                     <p className={`text-white text-5xl z-20 ${styles.pang}`}>My</p>
