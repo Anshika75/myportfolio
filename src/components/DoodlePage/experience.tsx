@@ -98,7 +98,7 @@ const Experience: React.FC = () => {
                     }
                 `}
             </style>
-            <div className="mt-8 flex flex-col items-center justify-start pb-20 px-[20px] lg:px-[60px]">
+            <div id="doodleexperience" className="mt-8 flex flex-col items-center justify-start pb-20 px-[20px] lg:px-[60px]">
                 <div className={`flex flex-col relative w-full items-center scale-50 lg:scale-100 ${styles.anim1}`}>
                     <img src="https://www.dropbox.com/scl/fi/qp30gepl98pdihzjo3h4f/Group-1.png?rlkey=l0qe1jjslbrieiiqhdra900ih&dl=1" className="absolute top-[50%] left-[50%] h-[6rem] w-[9rem] -translate-x-1/2 -translate-y-1/2" />
                     <div className={`text-white text-5xl z-20 ${styles.pang}`}>Work</div>
