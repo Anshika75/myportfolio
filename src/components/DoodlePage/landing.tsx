@@ -37,7 +37,7 @@ const Landing: React.FC = () => {
                         <div className="hidden lg:flex flex-col items-center w-[30%]">
                             <Link href="#doodleprojects" className={`cursor-pointer hover:animate-none animate-pulse z-20 bg-[#231F20] w-32 text-center rounded-full my-6 text-white py-4 px-2 rotate-[-12deg] ${styles.pang}`}>Projects</Link>
                             <Link href="#doodletestimonial" className={`cursor-pointer hover:animate-none animate-pulse z-20 bg-[#231F20] w-32 text-center rounded-full my-6 text-white py-4 px-2 ${styles.pang}`}>Testimonials</Link>
-                            <a href="" className={`cursor-pointer hover:animate-none animate-pulse z-20 bg-[#231F20] w-32 text-center rounded-full my-6 text-white py-4 px-2 rotate-[12deg] ${styles.pang}`}>Contact</a>
+                            <Link href="#doodlecontact" className={`cursor-pointer hover:animate-none animate-pulse z-20 bg-[#231F20] w-32 text-center rounded-full my-6 text-white py-4 px-2 rotate-[12deg] ${styles.pang}`}>Contact</Link>
                         </div>
                     </div>
                 </div>
