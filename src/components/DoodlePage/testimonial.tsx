@@ -109,7 +109,7 @@ const Testimonial: React.FC = () => {
             }
             `}
             </style>
-            <div className="flex flex-col items-center justify-start pb-20 mt-6 px-[20px] lg:px-[60px]">
+            <div id="doodletestimonial" className="flex flex-col items-center justify-start pb-20 mt-6 px-[20px] lg:px-[60px]">
                 <div className={`flex flex-col relative w-full items-center scale-50 lg:scale-100 ${styles.anim1}`}>
                     <img src="https://www.dropbox.com/scl/fi/g8gdn5g524kzl0wsq84w9/Group-3.png?rlkey=jew9qok0w0aqi7yu6e6z3ls4n&dl=1" className="absolute top-[60%] left-[50%] h-[7rem] w-[13rem] -translate-x-1/2 -translate-y-1/2 -rotate-12" />
                     <p className={`text-white text-5xl z-20 ${styles.pang}`}>Others</p>
