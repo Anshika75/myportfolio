@@ -18,8 +18,7 @@ const ThemeSelector: React.FC = () => {
   const closeAlert = () => {
     setShowAlert(false);
   };
-
-  const isTerminalModeAvailable = false;
+x
 
   return (
     <main className={`p-[20px] lg:p-[50px] ${styles.bg}`}>
