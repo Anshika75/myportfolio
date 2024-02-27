@@ -38,10 +38,10 @@ const ThemeSelector: React.FC = () => {
           </div>
         )}
         <div className={styles.head}>
-          <p className='text-[25px] lg:text-[90px] opacity-75'>Enter the Enclave</p>
+          <p className='text-[25px] lg:text-[90px] opacity-75 text-white'>Enter the Enclave</p>
         </div>
         <h2 className={styles.sub}>
-          <p className='text-[15px] lg:text-[35px] lg:-mt-[20px] opacity-75'>Plunge into Creative Realms</p>
+          <p className='text-[15px] lg:text-[35px] lg:-mt-[20px] opacity-75 text-white'>Plunge into Creative Realms</p>
         </h2>
         <div className='grid grid-cols-1 lg:grid-cols-4 gap-12 place-items-center mt-12 px-4'>
           {themes.map((theme: Theme) => (
