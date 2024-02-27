@@ -26,7 +26,7 @@ const Landing: React.FC = () => {
                     <div className="flex w-full mt-2 lg:mt-20 justify-center">
                         <div className="hidden lg:flex flex-col items-center w-[30%]">
                             <Link href="#doodleabout" className={`cursor-pointer hover:animate-none animate-pulse z-20 bg-[#231F20] w-32 text-center rounded-full my-6 text-white py-4 px-2 rotate-12 ${styles.pang}`}>About</Link>
-                            <a href="" className={`cursor-pointer hover:animate-none animate-pulse z-20 bg-[#231F20] w-32 text-center rounded-full my-6 text-white py-4 px-2 ${styles.pang}`}>Skills</a>
+                            <Link href="#skills" className={`cursor-pointer hover:animate-none animate-pulse z-20 bg-[#231F20] w-32 text-center rounded-full my-6 text-white py-4 px-2 ${styles.pang}`}>Skills</Link>
                             <a href="" className={`cursor-pointer hover:animate-none animate-pulse z-20 bg-[#231F20] w-32 text-center rounded-full my-6 text-white py-4 px-2 rotate-[-12deg] ${styles.pang}`}>Experience</a>
                         </div>
                     <div className="relative w-full flex flex-col justify-center items-center">
