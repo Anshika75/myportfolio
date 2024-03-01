@@ -20,6 +20,11 @@ const badgeData = [
         "badgeTitle": "Software Engineering Essentials"
     },
     {
+      "badgeLink": "https://developers.google.com/profile/badges/activity/android/install-android-studio",
+      "badgeImageLink": "https://developers.google.com/static/profile/badges/activity/android/install-android-studio/badge.svg",
+        "badgeTitle": "Android Studio User Badge"
+    },
+    {
       "badgeLink": "https://www.holopin.io/userbadge/cla2g6tq01036609jnkubeooik",
       "badgeImageLink": "https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbDlmczZqdWgxNjI1ODA5bWkyNXAyNjRtbiIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbH19",
         "badgeTitle": "Surfer Moby Dock"
