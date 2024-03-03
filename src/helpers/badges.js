@@ -1,5 +1,10 @@
 const badgeData = [
     {
+      "badgeLink": "https://www.credly.com/badges/a432492a-8918-4c55-a390-bd32d242d73b/public_url",
+      "badgeImageLink": "https://images.credly.com/images/2f7b0627-48a0-4894-8d46-3245bdfe0463/image.png",
+      "badgeTitle": "AWS Academy Graduate - AWS Academy Cloud Architecting"
+    },
+    {
       "badgeLink": "https://www.credly.com/badges/9e042fea-48fb-4826-8dad-c1be81c1986e/public_url",
       "badgeImageLink": "https://images.credly.com/size/220x220/images/054913b2-e271-49a2-a1a4-9bf1c1f9a404/CyberEssentials.png",
       "badgeTitle": "Cybersecurity Essentials"
