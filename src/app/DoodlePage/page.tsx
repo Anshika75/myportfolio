@@ -17,7 +17,7 @@ import Badges from '@/components/DoodlePage/badges';
 import Events from '@/components/DoodlePage/event';
 import Certificates from '@/components/DoodlePage/certificates';
 
-const DoodlePage: React.FC = () => {
+const DoodlePageDark: React.FC = () => {
   const [contentLoaded, setContentLoaded] = useState(false);
 
   useEffect(() => {
@@ -61,4 +61,4 @@ const DoodlePage: React.FC = () => {
   );
 };
 
-export default DoodlePage;
+export default DoodlePageDark;
