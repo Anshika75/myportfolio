@@ -1,32 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Indie+Flower&family=Londrina+Shadow&family=Pangolin&family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nanum+Pen+Script&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-.balsamiq{
-    font-family: "Balsamiq Sans", sans-serif;
+.nanum {
+    font-family: "Nanum Pen Script", cursive;
 }
 
-.caveat {
-    font-family: "Caveat Brush", cursive;
+.dm {
+    font-family: "DM Sans", sans-serif;
 }
 
-.fred {
-    font-family: 'Fredericka the Great', serif;
-}
-
-.indi {
-    font-family: 'Indie Flower', cursive;
-}
-
-.pang {
-    font-family: 'Pangolin', cursive;
-}
-
-.perm {
-    font-family: 'Permanent Marker', cursive;
-}
-
-.lond {
-    font-family: 'Londrina Shadow', cursive;
+.space {
+    font-family: "Space Mono", monospace;
 }
 
 .anim7 {
