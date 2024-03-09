@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import styles from '../../styles/DoodlePage/style.module.css';
+import styles from '../../styles/DoodlePageDark/style.module.css';
 import Link from 'next/link';
 
 const Landing: React.FC = () => {
@@ -22,6 +22,7 @@ const Landing: React.FC = () => {
             <div style={style.container} className='h-[50vh] lg:min-h-[100vh] bg-black'>
                 <div className="flex flex-col justify-center items-center">
                     <img className='w-60 h-60' src="https://www.dropbox.com/scl/fi/scbldisgtdfuidy9ddiwp/Avatar.png?rlkey=irkfu0c7lgoylyhorqpnztpm2&dl=1" alt="" />
+                    <h1 className={`${styles.space}`}>Bonjour! Je suis Anshika. <br /> A Web Developer</h1>
                 </div>
             </div>
         </>
