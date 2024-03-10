@@ -7,39 +7,71 @@
 .dm {
     font-family: "DM Sans", sans-serif;
 }
-.purplegradbg{
+
+.space {
+    font-family: "Space Mono", monospace;
+}
+
+.purplegradbg {
     background: linear-gradient(270deg, #F703F7 0%, #a981fe 100%);
 }
-.purplegradtext{
+
+.purplegradtext {
     background: linear-gradient(270deg, #F703F7 0%, #a981fe 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.purplegradborder{
+
+.purplegradborder {
     border: 2px solid;
     border-image-slice: 1;
     border-width: 2px;
     border-image-source: linear-gradient(270deg, #F703F7 0%, #a981fe 100%);
 }
-.greengradtext{
+
+.greengradtext {
     background: linear-gradient(270deg, #ffe597 0%, #aaff82 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.space {
-    font-family: "Space Mono", monospace;
+
+.limegradtext {
+    background: linear-gradient(270deg, #ffe597 0%, #aaff82 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.limeglow {
+    animation: limeglow 1s infinite alternate;
+}
+.purpleglow{
+    animation: purpleglow 1s infinite alternate;
 }
 @keyframes spin {
     to {
         transform: rotate(360deg);
     }
 }
-.animatespin {
-    animation: spin 1s linear infinite;
+
+@keyframes limeglow {
+    from {
+        text-shadow: 0 0 20px #aaff82;
+    }
+
+    to {
+        text-shadow: 0 0 30px #ffe597;
+    }
 }
-.animateantispin {
-    transform-origin: center;
-    animation: spin 1s linear infinite reverse;
+@keyframes purpleglow {
+    from {
+        text-shadow: 0 0 20px #a981fe;
+    }
+
+    to {
+        text-shadow: 0 0 30px #F703F7;
+    }
+    
 }
