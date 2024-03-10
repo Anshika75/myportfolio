@@ -68,7 +68,7 @@ const DoodlePageDark: React.FC = () => {
               </div>
             ))}
           </div>
-          <img className='h-32 w-32 lg:h-52 lg:w-52 mt-8 lg:mt-20 animate-bounce' src="https://www.dropbox.com/scl/fi/k3ys09sjvm2txps50qspa/Group-313-1.png?rlkey=z9me9z1ghwak7jmp7z6rx268g&dl=1" alt="" />
+          <img className='h-32 w-32 lg:h-52 lg:w-52 mt-8 lg:mt-20 animate-bounce z-20' src="https://www.dropbox.com/scl/fi/9yyu9t3r30mnd7ha3lqkv/Group-313-3-2.png?rlkey=uqc4kifrn1te6dkc98zh6znrb&dl=1" alt="" />
           {tags.map(({ name, component }) => (
             activeTag === name && (
               <div key={name} className="selected-component">

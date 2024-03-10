@@ -16,24 +16,32 @@ const About: React.FC = () => {
         },
         bg: {
             position: 'absolute',
-            top: 0,
+            top: '-50%',
             left: 0,
             width: '100%',
-            height: '100%',
-            backgroundImage: "url('https://i.gifer.com/QON.gif')",
+            height: '150%',
+            backgroundImage: "url('https://i.gifer.com/origin/79/79d54f97aa5e1b0681f3039ab5439aed_w200.gif')",
             backgroundSize: 'cover',
-            filter: 'blur(5px)',
+            filter: 'blur(40px)',
             overflow: 'hidden',
+            transform: 'rotate(180deg)',
         },
     };
 
     return (
         <>
-            <div className="flex flex-col items-center pb-4 mt-4">
-                <div className="flex flex-row justify-center items-center">
-                        <h1 className={`${styles.limegradtext} ${styles.space} ${styles.limeglow} text-3xl lg:text-5xl font-bold`}>Sorceress Tale</h1>
-                        <img className='w-16 -mt-8 animate-pulse' src="https://www.dropbox.com/scl/fi/4pxokcpu1tff65h4jqmyy/Frame-819-1.png?rlkey=k5p33faaub42j042m0ku608hn&dl=1" alt="" />
+            <div className="flex flex-col items-center pb-20 mt-4 relative">
+                <div style={style.bg} className="absolute top-0 left-0 w-full h-full bg-black opacity-80"></div>
+                <div className="flex flex-row justify-center items-center z-20">
+                    <h1 className={`${styles.limegradtext} ${styles.space} ${styles.limeglow} text-3xl lg:text-5xl font-bold`}>Sorceress Tale</h1>
+                    <img className='w-16 -mt-8 animate-pulse' src="https://www.dropbox.com/scl/fi/4pxokcpu1tff65h4jqmyy/Frame-819-1.png?rlkey=k5p33faaub42j042m0ku608hn&dl=1" alt="" />
                 </div>
+                <p className={`text-[#faf0d1] px-20 text-center opacity-80 ${styles.space} mt-12 lg:text-2xl`}>Welcome to my digital wonderland! I'm <span className={`${styles.limegradtext} ${styles.limeglow} font-semibold`}>Anshika</span>, your sorceress of <span className={`${styles.limegradtext} ${styles.limeglow} font-semibold`}>Web Development</span>, weaving spells with code and color. With over <span className={`${styles.limegradtext} ${styles.limeglow} font-semibold`}>4 years</span> of enchanting experience, I specialize in conjuring seamless and interactive experiences using <span className={`${styles.limegradtext} ${styles.limeglow} font-semibold`}>HTML, CSS, JavaScript,</span> and the mystical powers of <span className={`${styles.limegradtext} ${styles.limeglow} font-semibold`}>React.js</span> and <span>Next.js</span>.
+
+                    But here's where the magic truly begins – I infuse each pixel with a touch of <span className={`${styles.limegradtext} ${styles.limeglow} font-semibold`}>gradient</span> alchemy, transforming mere designs into mesmerizing vistas that captivate the senses. As we journey together through the realms of technology and creativity, I believe in the power of <span className={`${styles.limegradtext} ${styles.limeglow} font-semibold`}>collaboration</span>, where every team member adds their unique hue to our palette of possibilities.
+
+                    In our realm, every line of code is a whisper of incantation, and every project is a <span className={`${styles.limegradtext} ${styles.limeglow} font-semibold`}>spellbinding</span> tale waiting to be told. Join me, and let's craft the future with a brush dipped in the colors of imagination and <span className={`${styles.limegradtext} ${styles.limeglow} font-semibold`}>innovation</span>. 🌈🔮</p>
+                    <img className='mt-20 animate-pulse' src="https://www.dropbox.com/scl/fi/1iggijpl69ek8f90rwp2v/Vector-392-1.png?rlkey=5va19dot71mchwj3yzixoh62r&dl=1" alt="" />
             </div>
         </>
     );

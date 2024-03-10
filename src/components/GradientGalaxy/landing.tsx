@@ -38,7 +38,7 @@ const Landing: React.FC = () => {
                         <div className={`rounded-full p-6 w-36 h-36 lg:w-60 lg:h-60 ${styles.purplegradbg} animate-spin`}></div>
                     </div>
                     <h1 className={`${styles.space} ${styles.purplegradtext} ${styles.purpleglow} text-center text-xl lg:text-5xl lg:leading-[3.8rem] font-bold`}>Bonjour! Je suis Anshika. <br /> A Web Developer</h1>
-                    <img className='w-full h-40 animate-pulse' src="https://www.dropbox.com/scl/fi/qrj152k7yunzw1zjm9ont/Frame-824.png?rlkey=gynlyleap4ryk6hwgwa708ak7&dl=1" alt="" />
+                    <img className='w-full h-52 animate-pulse' src="https://www.dropbox.com/scl/fi/qrj152k7yunzw1zjm9ont/Frame-824.png?rlkey=gynlyleap4ryk6hwgwa708ak7&dl=1" alt="" />
                 </div>
             </div>
         </>
