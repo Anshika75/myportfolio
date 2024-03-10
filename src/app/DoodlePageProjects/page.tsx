@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
-import ProjectLanding from '@/components/DoodlePage/Home/projectlanding';
-import MoreProjects from '@/components/DoodlePage/Home/moreprojects';
+import ProjectLanding from '@/components/DoodlePage/projectlanding';
+import MoreProjects from '@/components/DoodlePage/moreprojects';
 
 
 const DoodlePage: React.FC = () => {
