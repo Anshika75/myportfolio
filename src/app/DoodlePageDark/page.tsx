@@ -45,7 +45,7 @@ const DoodlePageDark: React.FC = () => {
   };
 
   const getTagClassName = (tagName: any) => {
-    return `${styles.dm} text-2xl z-30 px-4 py-2 transition-all cursor-pointer hover:scale-95 ${
+    return `${styles.dm} text-[0.65rem] lg:text-2xl z-30 px-4 py-2 transition-all cursor-pointer hover:scale-95 ${
       activeTag === tagName ? styles.purplegradtext : styles.greengradtext
     } ${styles.purplegradborder}`;
   };
@@ -55,9 +55,9 @@ const DoodlePageDark: React.FC = () => {
       {!contentLoaded && <Loader />}
 
       {contentLoaded && (
-        <div className="main w-full flex flex-col min-h-screen h-full bg-black">
+        <div className="main w-full flex flex-col items-center min-h-screen h-full bg-black">
           <Landing />
-          <div className="flex flex-row justify-center gap-4 w-full px-20 pb-60 items-center flex-wrap">
+          <div className="flex flex-row justify-center gap-4 w-full px-4 lg:px-20 items-center flex-wrap">
             {tags.map(({ name }) => (
               <div
                 key={name}
@@ -68,9 +68,10 @@ const DoodlePageDark: React.FC = () => {
               </div>
             ))}
           </div>
+          <img className='h-32 w-32 lg:h-52 lg:w-52 mt-8 lg:mt-12' src="https://www.dropbox.com/scl/fi/k3ys09sjvm2txps50qspa/Group-313-1.png?rlkey=z9me9z1ghwak7jmp7z6rx268g&dl=1" alt="" />
           {tags.map(({ name, component }) => (
             activeTag === name && (
-              <div key={name} className="selected-component">
+              <div key={name} className="selected-component mt-40">
                 {component}
               </div>
             )
