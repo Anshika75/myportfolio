@@ -1,9 +1,9 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import Landing from '@/components/DoodlePageDark/landing';
-import Loader from '@/components/DoodlePageDark/loader';
+import Landing from '@/components/GradientGalaxy/landing';
+import Loader from '@/components/GradientGalaxy/loader';
 import styles from "../../styles/DoodlePageDark/style.module.css"
-import About from '@/components/DoodlePage/aboutme';
+import About from '@/components/GradientGalaxy/about';
 import Skills from '@/components/DoodlePage/skills';
 import Experience from '@/components/DoodlePage/experience';
 import Projects from '@/components/DoodlePage/projects';
