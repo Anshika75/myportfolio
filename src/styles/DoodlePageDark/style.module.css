@@ -16,6 +16,18 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+.purplegradborder{
+    border: 2px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(270deg, #F703F7 0%, #a981fe 100%);
+}
+.greengradtext{
+    background: linear-gradient(270deg, #ffe597 0%, #aaff82 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
 .space {
     font-family: "Space Mono", monospace;
 }
