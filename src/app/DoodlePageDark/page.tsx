@@ -13,7 +13,7 @@ import Testimonial from '@/components/DoodlePage/testimonial';
 
 const DoodlePageDark: React.FC = () => {
   const [contentLoaded, setContentLoaded] = useState(false);
-  const [activeTag, setActiveTag] = useState("My Narrative");
+  const [activeTag, setActiveTag] = useState("About Me");
 
   useEffect(() => {
     const handleLoad = () => {
@@ -30,7 +30,7 @@ const DoodlePageDark: React.FC = () => {
   }, []);
 
   const tags = [
-    { name: "My Narrative", component: <About /> },
+    { name: "About Me", component: <About /> },
     { name: "Skills Extravaganza", component: <Skills /> },
     { name: "Work Voyage", component: <Experience /> },
     { name: "My Creations", component: <Projects /> },
