@@ -1,7 +1,6 @@
 "use client";
 import React from 'react';
-import styles from '../../styles/DoodlePageDark/style.module.css';
-import Link from 'next/link';
+import styles from '../../styles/GradientGalaxy/style.module.css';
 
 const Landing: React.FC = () => {
     const style: Record<string, React.CSSProperties> = {

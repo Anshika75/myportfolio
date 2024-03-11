@@ -44,12 +44,25 @@
     -webkit-text-fill-color: transparent;
 }
 
+.skygradtext {
+    background: linear-gradient(270deg, #82b4ff 0%, #BFF0FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .limeglow {
     animation: limeglow 1s infinite alternate;
 }
-.purpleglow{
+
+.purpleglow {
     animation: purpleglow 1s infinite alternate;
 }
+
+.skyglow {
+    animation: limeglow 1s infinite alternate;
+}
+
 @keyframes spin {
     to {
         transform: rotate(360deg);
@@ -65,6 +78,7 @@
         text-shadow: 0 0 30px #ffe597;
     }
 }
+
 @keyframes purpleglow {
     from {
         text-shadow: 0 0 20px #a981fe;
@@ -73,5 +87,14 @@
     to {
         text-shadow: 0 0 30px #F703F7;
     }
-    
+
+}
+@keyframes skyglow {
+    from {
+        text-shadow: 0 0 20px #BFF0FF;
+    }
+
+    to {
+        text-shadow: 0 0 30px #82b4ff;
+    }
 }
