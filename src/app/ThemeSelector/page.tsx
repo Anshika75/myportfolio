@@ -28,7 +28,7 @@ const ThemeSelector: React.FC = () => {
           <div className={styles.overlay}>
             <div className={`z-20 ${styles.alert}`}>
               <div className={styles.alertContent}>
-                <p>Only Terminal Mode Available for Now</p>
+                <p>Only Terminal Mode and Doodle Mode Available for Now</p>
                 <button className={styles.btn} onClick={closeAlert}>
                   Close
                 </button>
