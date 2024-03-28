@@ -24,6 +24,10 @@ const certificateData = [
         "link":"https://coursera.org/share/dddf97d70d80b23cb35443ab19c8e8bb"
     },
     {
+        "name": "Innovation Through Design: Think, Make, Break, Repeat",
+        "link": "https://coursera.org/share/db280dcaa554a83a92d26c5a31aacf22"
+    },
+    {
         "name": "Foundations of Business Strategy",
         "link":"https://coursera.org/share/b321ca02635b115597c95e3d3ea8db5a"
     },

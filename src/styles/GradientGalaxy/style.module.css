@@ -62,6 +62,9 @@
 .skyglow {
     animation: limeglow 1s infinite alternate;
 }
+.htmlshadow{
+    filter: drop-shadow(0px 0px 10px rgba(228, 77, 38, 0.75)) drop-shadow(0px 1px 6px rgba(241, 101, 41, 0.53));
+}
 
 @keyframes spin {
     to {

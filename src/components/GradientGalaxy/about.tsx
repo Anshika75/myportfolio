@@ -40,9 +40,6 @@ const About: React.FC = () => {
                     But here's where the magic truly begins – I infuse each pixel with a touch of <span className={`${styles.limegradtext} ${styles.limeglow} font-semibold`}>gradient</span> alchemy, transforming mere designs into mesmerizing vistas that captivate the senses. As we journey together through the realms of technology and creativity, I believe in the power of <span className={`${styles.limegradtext} ${styles.limeglow} font-semibold`}>collaboration</span>, where every team member adds their unique essence to our concoction of possibilities.
 
                     In our realm, every line of code is a whisper of incantation, and every project is a <span className={`${styles.limegradtext} ${styles.limeglow} font-semibold`}>spellbinding</span> tale waiting to be told. Join me, and let's forge the future with a blend crafted from the essences of imagination and <span className={`${styles.limegradtext} ${styles.limeglow} font-semibold`}>innovation</span>.🔮</p>
-                    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8">
-                        
-                    </div>
 
                 <img className='mt-20 animate-pulse h-16 lg:h-32' src="https://www.dropbox.com/scl/fi/1iggijpl69ek8f90rwp2v/Vector-392-1.png?rlkey=5va19dot71mchwj3yzixoh62r&dl=1" alt="" />
             </div>
