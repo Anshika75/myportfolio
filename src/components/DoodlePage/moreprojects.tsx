@@ -26,11 +26,11 @@ const MoreProjects: React.FC = () => {
                 </div>
                 <h1 className={`text-6xl -mt-2 lg:mt-0 lg:text-[120px] text-black ${styles.lond} ${styles.anim2} font-black`}>Creations</h1>
                 {/* Filter Buttons */}
-                <div className="grid grid-cols-3 lg:grid-cols-5 gap-5 place-items-center my-8 w-full lg:w-[75%] justify-center align-center">
+                <div className="grid grid-cols-3 lg:grid-cols-6 gap-y-2 gap-x-1 lg:gap-5 place-items-center my-8 w-full lg:w-[75%] justify-center align-center">
                     {["All", "CSS Art", "Basic", "Intermediate", "Advanced", "Design"].map((tag, index) => (
                         <div
                             key={index}
-                            className={`cursor-pointer hover:animate-none hover:bg-opacity-100 z-20 bg-[#231F20] w-full text-center rounded-full text-white py-4 text-sm lg:text-xl ${styles.pang} ${activeFilter === tag ? 'bg-opacity-100' : 'bg-opacity-50'}`}
+                            className={`cursor-pointer hover:animate-none hover:bg-opacity-100 z-20 bg-[#231F20] w-full text-center rounded-full text-white py-2 lg:py-4 text-xs lg:text-xl ${styles.pang} ${activeFilter === tag ? 'bg-opacity-100' : 'bg-opacity-50'}`}
                             onClick={() => handleFilterChange(tag)}
                         >
                             {tag}
