@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
-import CertficateLanding from '@/components/DoodlePage/Home/certificatelanding';
-import MoreCertificates from '@/components/DoodlePage/Home/morecertificates';
+import CertficateLanding from '@/components/DoodlePage/certificatelanding';
+import MoreCertificates from '@/components/DoodlePage/morecertificates';
 
 
 const DoodlePage: React.FC = () => {
