@@ -432,6 +432,13 @@ const projectsData = [
             "description": "Revamped the Curry Pizza UI to enhance user experience and engagement.",
             "techStack": "Figma",
             "tag": "Design"
+          },
+          {
+            "name": "Khetfoods",
+            "githubLink": "https://www.figma.com/design/SUaOY6K6OzvyXI1DsgMb0R/Khetfoods?node-id=1-6091&t=1Bdv6nU50nq4WWUB-1",
+            "description": "Designed the Khetfoods app ui, a farm to table product, to offer a seamless user experience.",
+            "techStack": "Figma",
+            "tag": "Design"
           }
       
 ];
