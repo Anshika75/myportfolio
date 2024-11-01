@@ -418,6 +418,13 @@ const projectsData = [
             "description": "Indulge in a culinary journey with 'Maggi Hub,' a food website serving a diverse range of delicacies to elevate your new year celebrations.",
             "techStack": "React Tailwind",
             "tag": "Advanced"
+          },
+          {
+            "name": "Epic Eats",
+            "githubLink": "https://github.com/Anshika75/Epic-Eats",
+            "description": "Epic Eats is a recipe book web app that offers a wide range of cuisines to satisfy your cravings. Enjoy a delightful food experience with Epic Eats!",
+            "techStack": "Angular",
+            "tag": "Advanced"
           }
       
 ];
