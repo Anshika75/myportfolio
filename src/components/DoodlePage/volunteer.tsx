@@ -12,12 +12,20 @@ const Volunteer: React.FC = () => {
                 </div>
                 <h1 className={`text-6xl lg:text-[120px] -mt-4 text-black ${styles.lond} ${styles.anim2} font-black`}>Engagement</h1>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4 w-full mt-12">
-                    <div className="relative flex flex-col justify-center items-center py-5 px-3 lg:h-[150%] w-full border-4 border-black rounded-lg">
-                        <p className={`text-black z-20 ${styles.perm} text-3xl lg:text-4xl`}>Google Cloud Community India</p>
+                    <div className="relative flex flex-col justify-center items-center py-5 px-3 w-full border-4 border-black rounded-lg">
+                        <p className={`text-black z-20 ${styles.perm} text-3xl lg:text-4xl text-center`}>Peer tO Peer Bootcamp Series</p>
+                        <p className={`text-black z-20 ${styles.pang} text-lg mt-3`}>Frontend Developement Speaker | 6-8 Aug, 24 · 3 days</p>
+                    </div>
+                    <div className="relative flex flex-col justify-center items-center py-5 px-3 w-full border-4 border-black rounded-lg">
+                        <p className={`text-black z-20 ${styles.perm} text-3xl lg:text-4xl text-center`}>Insights of Corporate</p>
+                        <p className={`text-black z-20 ${styles.pang} text-lg mt-3`}>Session Speaker | 25 Jul, 24 · 1 day</p>
+                    </div>
+                    <div className="relative flex flex-col justify-center items-center py-5 px-3 w-full border-4 border-black rounded-lg">
+                        <p className={`text-black z-20 ${styles.perm} text-3xl lg:text-4xl text-center`}>Google Cloud Community India</p>
                         <p className={`text-black z-20 ${styles.pang} text-lg mt-3`}>Google Cloud Arcade Facilitator | Jun 2023 - Aug 2023 · 3 mos</p>
                     </div>
-                    <div className="relative flex flex-col justify-center items-center py-5 lg:py-0 px-3 lg:h-[150%] w-full border-4 border-black rounded-lg">
-                        <p className={`text-black z-20 ${styles.perm} text-3xl lg:text-4xl`}>Jeevan Pradata Foundation - NGO</p>
+                    <div className="relative flex flex-col justify-center items-center py-5 px-3 w-full border-4 border-black rounded-lg">
+                        <p className={`text-black z-20 ${styles.perm} text-3xl lg:text-4xl text-center`}>Jeevan Pradata Foundation - NGO</p>
                         <p className={`text-black z-20 ${styles.pang} text-lg mt-3`}>Frontend Developer | Jun 2023 - Oct 2023 · 5 mos</p>
                     </div>
                 </div>
