@@ -389,35 +389,35 @@ const projectsData = [
             "githubLink": "https://github.com/Anshika75/DetoxDash",
             "description": "DetoxDash empowers teens to resist drugs with an Anti-Drug RPG, Peer-to-Peer Storytelling, Challenges, and a holistic approach through a Community Hub and Drug Level Indicator.",
             "techStack": "Nextjs Tailwind Firebase API",
-            "tag": "Advance"
+            "tag": "Advanced"
           },
           {
             "name": "Web Mindz",
             "githubLink": "https://github.com/Anshika75/WebMindz",
             "description": "Empowering the visually impaired, our AI chatbot offers conversion, gaming, and translation, envisioning a user-friendly world without sight.",
             "techStack": "Nextjs Tailwind Firebase API",
-            "tag": "Advance"
+            "tag": "Advanced"
           },
           {
             "name": "Maggi Album",
             "githubLink": "https://github.com/Anshika75/Maggi-Album",
             "description": "An open platform to cherish and save your precious moments. Try it out!",
             "techStack": "React Tailwind Firebase",
-            "tag": "Advance"
+            "tag": "Advanced"
           },
           {
             "name": "Maggi Weather",
             "githubLink": "https://github.com/Anshika75/Maggi-Weather",
             "description": "Dive into the realm of UI design innovation with 'Maggi Weather,' a web app offering hourly and weekly weather updates for different cities. Enjoy distinct UI experiences throughout the day!",
             "techStack": "React Tailwind API",
-            "tag": "Advance"
+            "tag": "Advanced"
           },
           {
             "name": "Maggi Hub",
             "githubLink": "https://github.com/Anshika75/Maggi-Hub",
             "description": "Indulge in a culinary journey with 'Maggi Hub,' a food website serving a diverse range of delicacies to elevate your new year celebrations.",
             "techStack": "React Tailwind",
-            "tag": "Advance"
+            "tag": "Advanced"
           }
       
 ];
