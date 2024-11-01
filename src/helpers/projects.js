@@ -425,6 +425,13 @@ const projectsData = [
             "description": "Epic Eats is a recipe book web app that offers a wide range of cuisines to satisfy your cravings. Enjoy a delightful food experience with Epic Eats!",
             "techStack": "Angular",
             "tag": "Advanced"
+          },
+          {
+            "name": "Curry Pizza UI Revamp",
+            "githubLink": "https://www.figma.com/design/6I6gJ9epFTJomxonVKziQI/Curry-Pizza-UI-Revamp?node-id=0-1&t=KW5BY1ApkLavt45P-1",
+            "description": "Revamped the Curry Pizza UI to enhance user experience and engagement.",
+            "techStack": "Figma",
+            "tag": "Design"
           }
       
 ];
