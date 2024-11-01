@@ -11,12 +11,12 @@ const badgeData = [
     },
     {
       "badgeLink": "https://www.credly.com/badges/c2f4847f-0ff4-45df-acbe-f5e2fefc8abe/public_url",
-      "badgeImageLink": "https://images.credly.com/images/ac4daa48-1924-4dc5-80cf-ede5a08bac51/Data_Science_Foundations_Specialization.png",
+      "badgeImageLink": "https://www.dropbox.com/scl/fi/fts4p2vgg69ypvc42fs0d/image.png?rlkey=rtdl1iatjkkkkajejkpnoqxsh&st=k19q53ew&dl=1",
       "badgeTitle": "Data Science Foundations"
     },
     {
       "badgeLink": "https://www.credly.com/badges/77d7f6cf-77c4-40d9-bc9d-8a295a27d6e1/public_url",
-      "badgeImageLink": "https://images.credly.com/images/594e0ab7-c864-4d9a-9987-3a903ec3f06a/Cognitive_Class_-_DB_and_SQL_for_Data_Sci.png",
+      "badgeImageLink": "https://www.dropbox.com/scl/fi/22r4rrxp8yvxszt4aprxn/image-1.png?rlkey=y7hx94sbyt9ofjpq0db1qxyf9&st=94hwuxkl&dl=1",
         "badgeTitle": "Databases and SQL for Data Science"
     },
     {
