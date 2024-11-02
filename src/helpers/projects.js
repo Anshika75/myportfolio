@@ -439,6 +439,20 @@ const projectsData = [
             "description": "Designed the Khetfoods app ui, a farm to table product, to offer a seamless user experience.",
             "techStack": "Figma",
             "tag": "Design"
+          },
+          {
+            "name": "Nodex",
+            "githubLink": "https://www.figma.com/design/CXSrJILBbPfORGF5KGG4x4/Nodex-%3A-Hospital-Product-UI?node-id=0-1&t=GDi1KiRMD3SL47Q1-1",
+            "description": "Designed the Nodex app that was a hospital based startup product app ui.",
+            "techStack": "Figma",
+            "tag": "Design"
+          },
+          {
+            "name": "KCare App",
+            "githubLink": "https://www.figma.com/design/aaQ8HaGdZgMXGJVMxKgQfQ/KCare?node-id=0-1&t=GDi1KiRMD3SL47Q1-1",
+            "description": "Designed the KCare hospital management app ui to offer a seamless user experience.",
+            "techStack": "Figma",
+            "tag": "Design"
           }
       
 ];
