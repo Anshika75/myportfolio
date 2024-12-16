@@ -453,7 +453,32 @@ const projectsData = [
             "description": "Designed the KCare hospital management app ui to offer a seamless user experience.",
             "techStack": "Figma",
             "tag": "Design"
-          }
+          },
+          {
+            "name": "Linkedin Cover Photo",
+            "githubLink": "https://www.dropbox.com/scl/fi/kjuuv2yh4cehmdhtc7lah/Linkedin-Cover-Photot.png?rlkey=xu3fbbbav3g5uy74bi8hl7xhz&st=gqier3g3&dl=1",
+            "description": "Created a professional and visually appealing LinkedIn cover photo tailored to enhance personal branding",
+            "techStack": "Figma",
+            "tag": "Design"
+          },
+          {
+            "name": "Imperial Den - Gaming Pitch Deck",
+            "githubLink": "https://www.canva.com/design/DAE94U8IXhY/AXfo7WbeJG9EnN-zt5msNw/view?utm_content=DAE94U8IXhY&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel",
+            "description": "Designed an engaging pitch deck for a game room concept, highlighting the space's immersive atmosphere, unique gaming experiences, and interactive features. ",
+            "techStack": "Figma",
+            "tag": "Design"
+          },
+          {
+            "name": "Maggi Hub Logo",
+            "githubLink": "https://www.dropbox.com/scl/fi/fck7nfuvffp8kmq1cy0bu/MaggiHub-Logo.png?rlkey=ha3nes9ktdi9go2mzjuvtbtrs&st=f1dwj8cp&dl=1",
+            "description": "Designed a vibrant and playful logo for Maggi Hub, capturing the essence of creative Maggi dishes with a dynamic noodle motif and inviting visuals. ",
+            "techStack": "Figma",
+            "tag": "Design"
+          },
+
+          // Event proposal ppt: https://www.canva.com/design/DAGVRtZDtkY/K9VE-bhvyW-YtHEY1gYH9Q/view?utm_content=DAGVRtZDtkY&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel
+          // Insights on corportate life : https://www.canva.com/design/DAGL1NPhsrk/gOf2BWD88NtFx2ui7wC-qw/view?utm_content=DAGL1NPhsrk&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel
+          // Event proposal pdf: https://www.canva.com/design/DAGVRn2if1Y/U9vgjF-hLEk_mg3erpn0jQ/view?utm_content=DAGVRn2if1Y&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel
       
 ];
 
