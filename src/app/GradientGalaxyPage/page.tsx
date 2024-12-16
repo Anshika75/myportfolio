@@ -5,7 +5,7 @@ import Loader from '@/components/GradientGalaxy/loader';
 import styles from "../../styles/GradientGalaxy/style.module.css"
 import About from '@/components/GradientGalaxy/about';
 import Skills from '@/components/GradientGalaxy/skills';
-import Experience from '@/components/DoodlePage/experience';
+import Experience from '@/components/GradientGalaxy/experience';
 import Projects from '@/components/DoodlePage/projects';
 import Badges from '@/components/DoodlePage/badges';
 import Certificates from '@/components/DoodlePage/certificates';
@@ -42,7 +42,7 @@ const GradientGalaxyPage: React.FC = () => {
   const tags = [
     { name: "About Me", component: <About />, imageSrc: "https://www.dropbox.com/scl/fi/9yyu9t3r30mnd7ha3lqkv/Group-313-3-2.png?rlkey=uqc4kifrn1te6dkc98zh6znrb&dl=1" },
     { name: "Skills Extravaganza", component: <Skills />, imageSrc: "https://www.dropbox.com/scl/fi/fikrj2nbqjhxotwoj7ew7/Group-313-4-1.png?rlkey=tujo411n2hi0qr8bwnzx28gny&dl=1"},
-    { name: "Work Voyage", component: <Experience /> },
+    { name: "Work Voyage", component: <Experience />, imageSrc: "https://www.dropbox.com/scl/fi/fikrj2nbqjhxotwoj7ew7/Group-313-4-1.png?rlkey=tujo411n2hi0qr8bwnzx28gny&dl=1" },
     { name: "My Creations", component: <Projects /> },
     { name: "My Repository", component: <Badges /> },
     { name: "My Token", component: <Certificates /> },
