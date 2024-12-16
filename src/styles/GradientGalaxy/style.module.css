@@ -65,6 +65,66 @@
 .htmlshadow{
     filter: drop-shadow(0px 0px 10px rgba(228, 77, 38, 0.75)) drop-shadow(0px 1px 6px rgba(241, 101, 41, 0.53));
 }
+.cssshadow{
+    filter: drop-shadow(0px 0px 10px rgba(38, 77, 228, 0.75)) drop-shadow(0px 1px 6px rgba(41, 101, 241, 0.53));
+}
+.jsshadow{
+    filter: drop-shadow(0px 0px 10px rgba(247, 223, 30, 0.75)) drop-shadow(0px 1px 6px rgba(247, 223, 30, 0.53));
+}
+.reactshadow{
+    filter: drop-shadow(0px 0px 10px rgba(97, 218, 251, 0.75)) drop-shadow(0px 1px 6px rgba(97, 218, 251, 0.53));
+}
+.nextshadow{
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.75)) drop-shadow(0px 1px 6px rgba(255, 255, 255, 0.53));
+}
+.sassshadow{
+    filter: drop-shadow(0px 0px 10px rgba(205, 103, 153, 0.75)) drop-shadow(0px 1px 6px rgba(205, 103, 153, 0.53));
+}
+.jqueryshadow{
+    filter: drop-shadow(0px 0px 10px rgba(18, 102, 169, 0.75)) drop-shadow(0px 1px 6px rgba(18, 102, 169, 0.53));
+}
+.tailwindshadow{
+    filter: drop-shadow(0px 0px 10px rgba(6, 182, 212, 0.75)) drop-shadow(0px 1px 6px rgba(6, 182, 212, 0.53));
+}
+.flaskshadow{
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.75)) drop-shadow(0px 1px 6px rgba(255, 255, 255, 0.53));
+}
+.viteshadow{
+    filter: drop-shadow(0px 0px 10px rgba(65, 209, 255, 0.75)) drop-shadow(0px 1px 6px rgba(189, 52, 254, 0.53));
+}
+.canvashadow{
+    filter: drop-shadow(0px 0px 10px rgba(0, 196, 204, 0.75)) drop-shadow(0px 1px 6px rgba(125, 42, 231, 0.53));
+}
+.linuxshadow{
+    filter: drop-shadow(0px 0px 10px rgba(77, 82, 82, 0.75)) drop-shadow(0px 1px 6px rgba(255, 255, 255, 0.53));
+}
+.firebaseshadow{
+    filter: drop-shadow(0px 0px 10px rgba(255, 160, 0, 0.75)) drop-shadow(0px 1px 6px rgba(255, 202, 40, 0.53));
+}
+.sqlshadow{
+    filter: drop-shadow(0px 0px 10px rgba(0, 84, 107, 0.75)) drop-shadow(0px 1px 6px rgba(0, 84, 107, 0.53));
+}
+.typescriptshadow{
+    filter: drop-shadow(0px 0px 10px rgba(1, 122, 203, 0.75)) drop-shadow(0px 1px 6px rgba(1, 122, 203, 0.53));
+}
+.angularshadow{
+    filter: drop-shadow(0px 0px 10px rgba(226, 50, 55, 0.75)) drop-shadow(0px 1px 6px rgba(226, 50, 55, 0.53));
+}
+.javashadow{
+    filter: drop-shadow(0px 0px 10px rgba(83, 130, 161, 0.75)) drop-shadow(0px 1px 6px rgba(83, 130, 161, 0.53));
+}
+.springshadow{
+    filter: drop-shadow(0px 0px 10px rgba(108, 181, 45, 0.75)) drop-shadow(0px 1px 6px rgba(108, 181, 45, 0.53));
+}
+.vscodeshadow{
+    filter: drop-shadow(0px 0px 10px rgba(16, 112, 179, 0.75)) drop-shadow(0px 1px 6px rgba(16, 112, 179, 0.53));
+}
+.wordpressshadow{
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.75)) drop-shadow(0px 1px 6px rgba(255, 255, 255, 0.53));
+}
+.figmashadow{
+    filter: drop-shadow(0px 0px 10px rgba(255, 114, 98, 0.75)) drop-shadow(0px 1px 6px rgba(26, 188, 254, 0.53));
+}
 
 @keyframes spin {
     to {
