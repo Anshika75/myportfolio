@@ -33,13 +33,13 @@ const Skills: React.FC = () => {
             <div className="flex flex-col px-4 lg:px-20 items-center pb-20 mt-4 relative">
                 <div style={style.bg} className="absolute top-0 left-0 w-full h-full bg-black opacity-80"></div>
                 <div className="flex flex-row justify-center items-center z-20">
-                    <h1 className={`${styles.skygradtext} ${styles.space} ${styles.skyglow} text-2xl lg:text-5xl font-bold`}>Alchemist Abilities</h1>
+                    <h1 className={`${styles.skygradtext} ${styles.space} ${styles.skyglow} w-full text-center text-2xl md:text-4xl lg:text-5xl font-bold`}>Alchemist Abilities</h1>
                     <img className='w-8 lg:w-16 -mt-8 animate-pulse' src="https://www.dropbox.com/scl/fi/ew2mm9nptl7ftvjgr3vz3/Frame-819-2-1.png?rlkey=9wc4rp6de1j4w502nd8l8m8wf&dl=1" alt="" />
                 </div>
-                <p className={`text-[#f0fbff] text-justify opacity-80 ${styles.space} mt-12 text-sm lg:text-2xl lg:leading-[2.5rem]`}>Embark on a voyage through the mystical realm of my <span className={`${styles.skygradtext} ${styles.skyglow} font-semibold`}>coding canvas!</span> I am the <span className={`${styles.skygradtext} ${styles.skyglow} font-semibold`}>Script Alchemist</span>, beckoning you to behold the harmonious convergence of skills, where every line is a stroke of brilliance, and every language is a hue in the tapestry of digital enchantment.
+                <p className={`text-[#f0fbff] text-justify opacity-80 ${styles.space} mt-12 text-sm md:text-lg lg:text-2xl lg:leading-[2.5rem]`}>Embark on a voyage through the mystical realm of my <span className={`${styles.skygradtext} ${styles.skyglow} font-semibold`}>coding canvas!</span> I am the <span className={`${styles.skygradtext} ${styles.skyglow} font-semibold`}>Script Alchemist</span>, beckoning you to behold the harmonious convergence of skills, where every line is a stroke of brilliance, and every language is a hue in the tapestry of digital enchantment.
 
                     In this domain where invention waltzes with accuracy, my talents are the arcane elixirs that animate digital fantasies. From <span  className={`${styles.skygradtext} ${styles.skyglow} font-semibold`}>HTML</span> to <span  className={`${styles.skygradtext} ${styles.skyglow} font-semibold`}>Next.js</span>, each line is a pixel of fervor inscribed onto the parchment of imagination. Let us traverse the binary horizons, transmuting code into a magnum opus and pixels into <span  className={`${styles.skygradtext} ${styles.skyglow} font-semibold`}>indelible adventures</span>! 💻✨ </p>
-                    <div className="grid grid-cols-12 place-items-center gap-4 gap-y-8 z-20 w-full mt-12">
+                    <div className="grid grid-cols-6 md:grid-cols-10 lg:grid-cols-12 place-items-center gap-4 gap-y-8 z-20 w-full mt-12">
                         <img src="https://www.dropbox.com/scl/fi/bpnbmr5dkfmexxwyv0j29/html5.png?rlkey=m707h09sn1afvc3adfhss1zvz&dl=1" className={`w-full ${styles.htmlshadow} transition-all hover:scale-105 cursor-pointer`} alt="" />
                         <img src="https://www.dropbox.com/scl/fi/jx9bnzfjwwqprrqdqfdy3/css3-1.png?rlkey=a8c9rbb247f77ita9mz8jegb9&st=i3fi0c6j&dl=1" className={`w-full ${styles.cssshadow} transition-all hover:scale-105 cursor-pointer`}  alt="" />
                         <img src="https://www.dropbox.com/scl/fi/qizb4tak9oj1o3ghnqtgw/js-1.png?rlkey=jo8chkzkz6qq20dwysijwbs7v&st=nyo5sqqn&dl=1" className={`w-full ${styles.jsshadow} transition-all hover:scale-105 cursor-pointer`}  alt="" />
@@ -63,7 +63,7 @@ const Skills: React.FC = () => {
                         <img src="https://www.dropbox.com/scl/fi/qrvqrnpc34j8fwhmouelw/wordpress-1.png?rlkey=g4lepx0y8jwuhnkoau17wk260&st=c3lu9sjq&dl=1" className={`w-full ${styles.wordpressshadow} transition-all hover:scale-105 cursor-pointer`}  alt="" />
                         <img src="https://www.dropbox.com/scl/fi/uawwfp5n71m9dpqd3i68p/github-1.png?rlkey=mw8nt3p7dye0k74tb4eza79pz&st=d40sdknm&dl=1" className={`w-full ${styles.wordpressshadow} transition-all hover:scale-105 cursor-pointer`}  alt="" />
                         <img src="https://www.dropbox.com/scl/fi/sp3l6z7165htcj24o03ky/figma-1.png?rlkey=v768zt0ca2sgf6bguu6f8ysd2&st=r3plobsq&dl=1" className={`w-full ${styles.figmashadow} transition-all hover:scale-105 cursor-pointer`}  alt="" />
-                        <img src="https://www.dropbox.com/scl/fi/sp3l6z7165htcj24o03ky/figma-1.png?rlkey=v768zt0ca2sgf6bguu6f8ysd2&st=r3plobsq&dl=1" className={`w-full ${styles.wordpressshadow} transition-all hover:scale-105 cursor-pointer`}  alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/b3y3g75h89l0ts5eyxlg6/openai.png?rlkey=1a59x97yha2j0sll01qcei76u&st=xyvuocez&dl=1" className={`w-full ${styles.wordpressshadow} transition-all hover:scale-105 cursor-pointer`}  alt="" />
                     </div>
                 <img className='mt-20 animate-pulse h-16 lg:h-32' src="https://www.dropbox.com/scl/fi/tjj8t13ytjrzira6piosy/Vector-392-2-1.png?rlkey=9zhvxurkpceap4amj8hfwnasu&dl=1" alt="" />
             </div>
