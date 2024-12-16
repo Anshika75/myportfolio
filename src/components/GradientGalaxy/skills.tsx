@@ -59,10 +59,11 @@ const Skills: React.FC = () => {
                         <img src="https://www.dropbox.com/scl/fi/gm3rtepk3zr1a2i1ndmxx/angular-1.png?rlkey=lrn8gk7z16vgneb7htlgn2mri&st=01gg9xz7&dl=1" className={`w-full ${styles.angularshadow} transition-all hover:scale-105 cursor-pointer`}  alt="" />
                         <img src="https://www.dropbox.com/scl/fi/fbtehjxdsdknar2meuuv8/java-1.png?rlkey=db51uclsz19kbj1eknobkk70v&st=sm6anc8d&dl=1" className={`w-full ${styles.javashadow} transition-all hover:scale-105 cursor-pointer`}  alt="" />
                         <img src="https://www.dropbox.com/scl/fi/3eyi445pwwzdp8v3c5ak1/spring-1.png?rlkey=7he17cbhzpky3gnlpzmkw9vpb&st=f3jgymto&dl=1" className={`w-full ${styles.springshadow} transition-all hover:scale-105 cursor-pointer`}  alt="" />
-                        <img src="https://www.dropbox.com/scl/fi/zgyfyblyg7w20lmwtobxf/vscode-1.png?rlkey=ewty55bpolt8k00x51bg6ox86&st=enakzri1&dl=1" className={`w-full ${styles.vscodeshadow} transition-all hover:scale-105 cursor-pointer`}  alt="" />
+                     <img src="https://www.dropbox.com/scl/fi/zgyfyblyg7w20lmwtobxf/vscode-1.png?rlkey=ewty55bpolt8k00x51bg6ox86&st=enakzri1&dl=1" className={`w-full ${styles.vscodeshadow} transition-all hover:scale-105 cursor-pointer`}  alt="" />
                         <img src="https://www.dropbox.com/scl/fi/qrvqrnpc34j8fwhmouelw/wordpress-1.png?rlkey=g4lepx0y8jwuhnkoau17wk260&st=c3lu9sjq&dl=1" className={`w-full ${styles.wordpressshadow} transition-all hover:scale-105 cursor-pointer`}  alt="" />
                         <img src="https://www.dropbox.com/scl/fi/uawwfp5n71m9dpqd3i68p/github-1.png?rlkey=mw8nt3p7dye0k74tb4eza79pz&st=d40sdknm&dl=1" className={`w-full ${styles.wordpressshadow} transition-all hover:scale-105 cursor-pointer`}  alt="" />
                         <img src="https://www.dropbox.com/scl/fi/sp3l6z7165htcj24o03ky/figma-1.png?rlkey=v768zt0ca2sgf6bguu6f8ysd2&st=r3plobsq&dl=1" className={`w-full ${styles.figmashadow} transition-all hover:scale-105 cursor-pointer`}  alt="" />
+                        <img src="https://www.dropbox.com/scl/fi/sp3l6z7165htcj24o03ky/figma-1.png?rlkey=v768zt0ca2sgf6bguu6f8ysd2&st=r3plobsq&dl=1" className={`w-full ${styles.wordpressshadow} transition-all hover:scale-105 cursor-pointer`}  alt="" />
                     </div>
                 <img className='mt-20 animate-pulse h-16 lg:h-32' src="https://www.dropbox.com/scl/fi/tjj8t13ytjrzira6piosy/Vector-392-2-1.png?rlkey=9zhvxurkpceap4amj8hfwnasu&dl=1" alt="" />
             </div>
